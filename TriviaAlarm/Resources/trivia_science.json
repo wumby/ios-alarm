@@ -1,0 +1,6840 @@
+[
+  {
+    "id": "science_0001",
+    "question": "What planet is known as the Red Planet?",
+    "answers": [
+      "Venus",
+      "Mars",
+      "Jupiter",
+      "Mercury"
+    ],
+    "correctIndex": 1,
+    "category": "Science",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "science_0002",
+    "question": "What gas do plants absorb from the atmosphere?",
+    "answers": [
+      "Oxygen",
+      "Nitrogen",
+      "Carbon dioxide",
+      "Helium"
+    ],
+    "correctIndex": 2,
+    "category": "Science",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "science_0003",
+    "question": "What is the chemical symbol for gold?",
+    "answers": [
+      "Ag",
+      "Au",
+      "Gd",
+      "Go"
+    ],
+    "correctIndex": 1,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_0004",
+    "question": "What part of the cell contains most of its DNA?",
+    "answers": [
+      "Ribosome",
+      "Nucleus",
+      "Mitochondrion",
+      "Golgi apparatus"
+    ],
+    "correctIndex": 1,
+    "category": "Science",
+    "difficulty": "Hard"
+  },
+  {
+    "id": "science_wd_0110536b5a",
+    "question": "What is the chemical symbol for unbiseptium?",
+    "answers": [
+      "Ubs",
+      "Si",
+      "S",
+      "Bi"
+    ],
+    "correctIndex": 0,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_012aea6d46",
+    "question": "Which element has the chemical symbol Utb?",
+    "answers": [
+      "unquadennium",
+      "chlorine",
+      "untribium",
+      "barium"
+    ],
+    "correctIndex": 2,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_02f3fa982f",
+    "question": "Which element has the chemical symbol Os?",
+    "answers": [
+      "osmium",
+      "niobium",
+      "hydrogen",
+      "yttrium"
+    ],
+    "correctIndex": 0,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_0322edcb5b",
+    "question": "Which element has the chemical symbol Usb?",
+    "answers": [
+      "osmium",
+      "europium",
+      "unseptbium",
+      "unpentseptium"
+    ],
+    "correctIndex": 2,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_035c3f0fc9",
+    "question": "What is the atomic number of neodymium?",
+    "answers": [
+      "60",
+      "160",
+      "86",
+      "43"
+    ],
+    "correctIndex": 0,
+    "category": "Science",
+    "difficulty": "Hard"
+  },
+  {
+    "id": "science_wd_036acf79f9",
+    "question": "Which element has the chemical symbol O?",
+    "answers": [
+      "thallium",
+      "unbihexium",
+      "oxygen",
+      "moscovium"
+    ],
+    "correctIndex": 2,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_03ceebe623",
+    "question": "Which element has the chemical symbol Kr?",
+    "answers": [
+      "krypton",
+      "unseptunium",
+      "nobelium",
+      "unbiunium"
+    ],
+    "correctIndex": 0,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_03df4c7932",
+    "question": "What is the atomic number of thorium?",
+    "answers": [
+      "90",
+      "73",
+      "168",
+      "159"
+    ],
+    "correctIndex": 0,
+    "category": "Science",
+    "difficulty": "Hard"
+  },
+  {
+    "id": "science_wd_04011070f9",
+    "question": "What is the chemical symbol for moscovium?",
+    "answers": [
+      "Mc",
+      "H",
+      "Kr",
+      "Uhb"
+    ],
+    "correctIndex": 0,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_04346fce71",
+    "question": "What is the atomic number of roentgenium?",
+    "answers": [
+      "7",
+      "54",
+      "111",
+      "60"
+    ],
+    "correctIndex": 2,
+    "category": "Science",
+    "difficulty": "Hard"
+  },
+  {
+    "id": "science_wd_057dcc4728",
+    "question": "What is the chemical symbol for unpentoctium?",
+    "answers": [
+      "Upo",
+      "Ubs",
+      "Tl",
+      "Uhs"
+    ],
+    "correctIndex": 0,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_061cb8d761",
+    "question": "Which element has the chemical symbol Ute?",
+    "answers": [
+      "moscovium",
+      "unbinilium",
+      "indium",
+      "untriennium"
+    ],
+    "correctIndex": 3,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_073cc4c15d",
+    "question": "Which element has the chemical symbol Rf?",
+    "answers": [
+      "fluorine",
+      "unquadpentium",
+      "dubnium",
+      "rutherfordium"
+    ],
+    "correctIndex": 3,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_080379ae42",
+    "question": "Which element has the chemical symbol Uqs?",
+    "answers": [
+      "unpentquadium",
+      "chromium",
+      "unquadseptium",
+      "oganesson"
+    ],
+    "correctIndex": 2,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_09270db73f",
+    "question": "Which element has the chemical symbol Ta?",
+    "answers": [
+      "tantalum",
+      "xenon",
+      "nickel",
+      "argon"
+    ],
+    "correctIndex": 0,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_092cf5ce0a",
+    "question": "What is the atomic number of radium?",
+    "answers": [
+      "119",
+      "61",
+      "88",
+      "41"
+    ],
+    "correctIndex": 2,
+    "category": "Science",
+    "difficulty": "Hard"
+  },
+  {
+    "id": "science_wd_0935ffb7a1",
+    "question": "What is the chemical symbol for platinum?",
+    "answers": [
+      "Uho",
+      "Pt",
+      "W",
+      "Uph"
+    ],
+    "correctIndex": 1,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_09c73d2d14",
+    "question": "Which element has the chemical symbol Ts?",
+    "answers": [
+      "tennessine",
+      "iodine",
+      "molybdenum",
+      "actinium"
+    ],
+    "correctIndex": 0,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_0a06b82b74",
+    "question": "What is the atomic number of dubnium?",
+    "answers": [
+      "105",
+      "38",
+      "123",
+      "92"
+    ],
+    "correctIndex": 0,
+    "category": "Science",
+    "difficulty": "Hard"
+  },
+  {
+    "id": "science_wd_0a46643cf1",
+    "question": "What is the chemical symbol for ytterbium?",
+    "answers": [
+      "Es",
+      "Lv",
+      "Yb",
+      "Nd"
+    ],
+    "correctIndex": 2,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_0a513bde3a",
+    "question": "What is the atomic number of promethium?",
+    "answers": [
+      "112",
+      "61",
+      "146",
+      "161"
+    ],
+    "correctIndex": 1,
+    "category": "Science",
+    "difficulty": "Hard"
+  },
+  {
+    "id": "science_wd_0ac7dfc32c",
+    "question": "What is the chemical symbol for unquadpentium?",
+    "answers": [
+      "Uhu",
+      "Po",
+      "Uqp",
+      "Li"
+    ],
+    "correctIndex": 2,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_0b06302c66",
+    "question": "What is the chemical symbol for fluorine?",
+    "answers": [
+      "Hf",
+      "Tb",
+      "F",
+      "Sm"
+    ],
+    "correctIndex": 2,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_0b7b6d846e",
+    "question": "What is the chemical symbol for sulfur?",
+    "answers": [
+      "V",
+      "Upt",
+      "S",
+      "La"
+    ],
+    "correctIndex": 2,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_0bb4460419",
+    "question": "What is the atomic number of actinium?",
+    "answers": [
+      "70",
+      "92",
+      "89",
+      "170"
+    ],
+    "correctIndex": 2,
+    "category": "Science",
+    "difficulty": "Hard"
+  },
+  {
+    "id": "science_wd_0c1f19ae16",
+    "question": "What is the chemical symbol for untrinilium?",
+    "answers": [
+      "La",
+      "Bi",
+      "Utn",
+      "Pm"
+    ],
+    "correctIndex": 2,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_0cdca00b51",
+    "question": "What is the atomic number of unhexnilium?",
+    "answers": [
+      "64",
+      "28",
+      "55",
+      "160"
+    ],
+    "correctIndex": 3,
+    "category": "Science",
+    "difficulty": "Hard"
+  },
+  {
+    "id": "science_wd_0e57bc3a7f",
+    "question": "What is the chemical symbol for unbitrium?",
+    "answers": [
+      "Ubt",
+      "O",
+      "Ba",
+      "In"
+    ],
+    "correctIndex": 0,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_0f8a0288e1",
+    "question": "What is the chemical symbol for dubnium?",
+    "answers": [
+      "Bi",
+      "Er",
+      "Db",
+      "Upt"
+    ],
+    "correctIndex": 2,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_10282df1f7",
+    "question": "Which element has the chemical symbol F?",
+    "answers": [
+      "palladium",
+      "francium",
+      "thallium",
+      "fluorine"
+    ],
+    "correctIndex": 3,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_1046a6a996",
+    "question": "What is the chemical symbol for nickel?",
+    "answers": [
+      "Ubo",
+      "Li",
+      "Kr",
+      "Ni"
+    ],
+    "correctIndex": 3,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_104cee991d",
+    "question": "What is the chemical symbol for nitrogen?",
+    "answers": [
+      "N",
+      "Nd",
+      "Ubp",
+      "Au"
+    ],
+    "correctIndex": 0,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_105ce70bf5",
+    "question": "What is the chemical symbol for rhodium?",
+    "answers": [
+      "Usn",
+      "Upe",
+      "Rh",
+      "As"
+    ],
+    "correctIndex": 2,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_1089efcbe2",
+    "question": "What is the atomic number of mendelevium?",
+    "answers": [
+      "8",
+      "101",
+      "67",
+      "5"
+    ],
+    "correctIndex": 1,
+    "category": "Science",
+    "difficulty": "Hard"
+  },
+  {
+    "id": "science_wd_109a5481ab",
+    "question": "What is the atomic number of unpentunium?",
+    "answers": [
+      "151",
+      "184",
+      "161",
+      "109"
+    ],
+    "correctIndex": 0,
+    "category": "Science",
+    "difficulty": "Hard"
+  },
+  {
+    "id": "science_wd_10f30947bd",
+    "question": "Which element has the chemical symbol Eu?",
+    "answers": [
+      "uranium",
+      "europium",
+      "thulium",
+      "argon"
+    ],
+    "correctIndex": 1,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_1105fd29d3",
+    "question": "What is the chemical symbol for holmium?",
+    "answers": [
+      "Md",
+      "Ho",
+      "Tl",
+      "Cm"
+    ],
+    "correctIndex": 1,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_1186476c5f",
+    "question": "What is the atomic number of zirconium?",
+    "answers": [
+      "36",
+      "129",
+      "41",
+      "40"
+    ],
+    "correctIndex": 3,
+    "category": "Science",
+    "difficulty": "Hard"
+  },
+  {
+    "id": "science_wd_125b89c525",
+    "question": "What is the chemical symbol for unpentpentium?",
+    "answers": [
+      "Upp",
+      "Ube",
+      "Uqs",
+      "Tl"
+    ],
+    "correctIndex": 0,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_12d41ff70f",
+    "question": "Which element has the chemical symbol C?",
+    "answers": [
+      "aluminium",
+      "carbon",
+      "berkelium",
+      "bohrium"
+    ],
+    "correctIndex": 1,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_132e9a4043",
+    "question": "What is the atomic number of berkelium?",
+    "answers": [
+      "149",
+      "97",
+      "172",
+      "108"
+    ],
+    "correctIndex": 1,
+    "category": "Science",
+    "difficulty": "Hard"
+  },
+  {
+    "id": "science_wd_1334bc31f1",
+    "question": "What is the atomic number of samarium?",
+    "answers": [
+      "33",
+      "62",
+      "54",
+      "45"
+    ],
+    "correctIndex": 1,
+    "category": "Science",
+    "difficulty": "Hard"
+  },
+  {
+    "id": "science_wd_134faa2e0a",
+    "question": "What is the chemical symbol for zinc?",
+    "answers": [
+      "Ube",
+      "Cl",
+      "Zn",
+      "Dy"
+    ],
+    "correctIndex": 2,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_1352bd1398",
+    "question": "What is the chemical symbol for actinium?",
+    "answers": [
+      "Nd",
+      "Uhb",
+      "Pr",
+      "Ac"
+    ],
+    "correctIndex": 3,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_136511aa9f",
+    "question": "What is the atomic number of untriquadium?",
+    "answers": [
+      "134",
+      "114",
+      "56",
+      "18"
+    ],
+    "correctIndex": 0,
+    "category": "Science",
+    "difficulty": "Hard"
+  },
+  {
+    "id": "science_wd_13a21a142c",
+    "question": "What is the atomic number of phosphorus?",
+    "answers": [
+      "15",
+      "128",
+      "141",
+      "9"
+    ],
+    "correctIndex": 0,
+    "category": "Science",
+    "difficulty": "Hard"
+  },
+  {
+    "id": "science_wd_1411b5f06f",
+    "question": "Which element has the chemical symbol Zn?",
+    "answers": [
+      "zinc",
+      "xenon",
+      "unseptnilium",
+      "untriunium"
+    ],
+    "correctIndex": 0,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_1467770602",
+    "question": "Which element has the chemical symbol Sg?",
+    "answers": [
+      "lanthanum",
+      "seaborgium",
+      "niobium",
+      "livermorium"
+    ],
+    "correctIndex": 1,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_14db1d8a27",
+    "question": "What is the chemical symbol for tin?",
+    "answers": [
+      "Pa",
+      "Sn",
+      "Uho",
+      "Y"
+    ],
+    "correctIndex": 1,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_15da54d8b8",
+    "question": "What is the atomic number of tennessine?",
+    "answers": [
+      "117",
+      "133",
+      "21",
+      "79"
+    ],
+    "correctIndex": 0,
+    "category": "Science",
+    "difficulty": "Hard"
+  },
+  {
+    "id": "science_wd_1654219474",
+    "question": "Which element has the chemical symbol Upb?",
+    "answers": [
+      "unhexnilium",
+      "unhexennium",
+      "bismuth",
+      "unpentbium"
+    ],
+    "correctIndex": 3,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_18aade9d16",
+    "question": "Which element has the chemical symbol Rh?",
+    "answers": [
+      "unseptbium",
+      "silicon",
+      "rhodium",
+      "berkelium"
+    ],
+    "correctIndex": 2,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_19a08e08be",
+    "question": "Which element has the chemical symbol Ru?",
+    "answers": [
+      "chlorine",
+      "indium",
+      "untrioctium",
+      "ruthenium"
+    ],
+    "correctIndex": 3,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_19bd90d5ba",
+    "question": "What is the atomic number of untriseptium?",
+    "answers": [
+      "11",
+      "137",
+      "144",
+      "72"
+    ],
+    "correctIndex": 1,
+    "category": "Science",
+    "difficulty": "Hard"
+  },
+  {
+    "id": "science_wd_1a45c1c72e",
+    "question": "What is the chemical symbol for europium?",
+    "answers": [
+      "Uht",
+      "Os",
+      "Ge",
+      "Eu"
+    ],
+    "correctIndex": 3,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_1a7bbfbfd1",
+    "question": "What is the chemical symbol for helium?",
+    "answers": [
+      "Uoq",
+      "Os",
+      "Fl",
+      "He"
+    ],
+    "correctIndex": 3,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_1ae989318c",
+    "question": "What is the chemical symbol for manganese?",
+    "answers": [
+      "B",
+      "Mn",
+      "Nb",
+      "Pa"
+    ],
+    "correctIndex": 1,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_1b68f4cabd",
+    "question": "Which element has the chemical symbol Uhh?",
+    "answers": [
+      "zirconium",
+      "cerium",
+      "unhexhexium",
+      "selenium"
+    ],
+    "correctIndex": 2,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_1b776d37ec",
+    "question": "What is the atomic number of unpentquadium?",
+    "answers": [
+      "154",
+      "11",
+      "144",
+      "76"
+    ],
+    "correctIndex": 0,
+    "category": "Science",
+    "difficulty": "Hard"
+  },
+  {
+    "id": "science_wd_1c4ee84e12",
+    "question": "What is the atomic number of unpentseptium?",
+    "answers": [
+      "129",
+      "81",
+      "157",
+      "43"
+    ],
+    "correctIndex": 2,
+    "category": "Science",
+    "difficulty": "Hard"
+  },
+  {
+    "id": "science_wd_1c6e5be4ed",
+    "question": "What is the chemical symbol for uranium?",
+    "answers": [
+      "Te",
+      "Usb",
+      "U",
+      "Nd"
+    ],
+    "correctIndex": 2,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_1caccb95ef",
+    "question": "What is the atomic number of nitrogen?",
+    "answers": [
+      "7",
+      "127",
+      "155",
+      "25"
+    ],
+    "correctIndex": 0,
+    "category": "Science",
+    "difficulty": "Hard"
+  },
+  {
+    "id": "science_wd_1cf0870820",
+    "question": "What is the atomic number of iodine?",
+    "answers": [
+      "53",
+      "59",
+      "109",
+      "15"
+    ],
+    "correctIndex": 0,
+    "category": "Science",
+    "difficulty": "Hard"
+  },
+  {
+    "id": "science_wd_1d011f7681",
+    "question": "What is the atomic number of unquadoctium?",
+    "answers": [
+      "142",
+      "52",
+      "148",
+      "82"
+    ],
+    "correctIndex": 2,
+    "category": "Science",
+    "difficulty": "Hard"
+  },
+  {
+    "id": "science_wd_1da40a2b5a",
+    "question": "What is the chemical symbol for untriennium?",
+    "answers": [
+      "Cr",
+      "Ru",
+      "Ute",
+      "Ce"
+    ],
+    "correctIndex": 2,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_203f95047b",
+    "question": "What is the atomic number of unquadbium?",
+    "answers": [
+      "70",
+      "41",
+      "142",
+      "165"
+    ],
+    "correctIndex": 2,
+    "category": "Science",
+    "difficulty": "Hard"
+  },
+  {
+    "id": "science_wd_20a008ff29",
+    "question": "Which element has the chemical symbol Utt?",
+    "answers": [
+      "untriquadium",
+      "thallium",
+      "neodymium",
+      "untritrium"
+    ],
+    "correctIndex": 3,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_20bc8ddd38",
+    "question": "What is the atomic number of untriennium?",
+    "answers": [
+      "140",
+      "130",
+      "139",
+      "57"
+    ],
+    "correctIndex": 2,
+    "category": "Science",
+    "difficulty": "Hard"
+  },
+  {
+    "id": "science_wd_20c89f7a53",
+    "question": "Which element has the chemical symbol Gd?",
+    "answers": [
+      "unpentennium",
+      "unquadseptium",
+      "gadolinium",
+      "unhextrium"
+    ],
+    "correctIndex": 2,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_20e7d5b622",
+    "question": "What is the chemical symbol for barium?",
+    "answers": [
+      "B",
+      "In",
+      "Re",
+      "Ba"
+    ],
+    "correctIndex": 3,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_21212bd95f",
+    "question": "What is the chemical symbol for sodium?",
+    "answers": [
+      "Ds",
+      "Na",
+      "Uho",
+      "Yb"
+    ],
+    "correctIndex": 1,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_21c94be828",
+    "question": "What is the chemical symbol for untrioctium?",
+    "answers": [
+      "Re",
+      "Mn",
+      "Uto",
+      "Cu"
+    ],
+    "correctIndex": 2,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_21fceaff27",
+    "question": "What is the chemical symbol for meitnerium?",
+    "answers": [
+      "Ubq",
+      "Mt",
+      "Nb",
+      "Sb"
+    ],
+    "correctIndex": 1,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_22046ae0e4",
+    "question": "What is the atomic number of francium?",
+    "answers": [
+      "56",
+      "158",
+      "87",
+      "34"
+    ],
+    "correctIndex": 2,
+    "category": "Science",
+    "difficulty": "Hard"
+  },
+  {
+    "id": "science_wd_2221e14f4a",
+    "question": "Which element has the chemical symbol Hg?",
+    "answers": [
+      "mercury",
+      "thulium",
+      "gadolinium",
+      "unpentbium"
+    ],
+    "correctIndex": 0,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_22801d0507",
+    "question": "What is the atomic number of rutherfordium?",
+    "answers": [
+      "82",
+      "104",
+      "163",
+      "37"
+    ],
+    "correctIndex": 1,
+    "category": "Science",
+    "difficulty": "Hard"
+  },
+  {
+    "id": "science_wd_22a022d321",
+    "question": "What is the atomic number of hafnium?",
+    "answers": [
+      "12",
+      "48",
+      "72",
+      "166"
+    ],
+    "correctIndex": 2,
+    "category": "Science",
+    "difficulty": "Hard"
+  },
+  {
+    "id": "science_wd_23528eb828",
+    "question": "What is the chemical symbol for neptunium?",
+    "answers": [
+      "He",
+      "Np",
+      "Upb",
+      "Si"
+    ],
+    "correctIndex": 1,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_24513f1bc2",
+    "question": "What is the chemical symbol for samarium?",
+    "answers": [
+      "Sm",
+      "Xe",
+      "Ubs",
+      "Uhh"
+    ],
+    "correctIndex": 0,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_27a54c2c60",
+    "question": "What is the atomic number of rhodium?",
+    "answers": [
+      "117",
+      "124",
+      "45",
+      "88"
+    ],
+    "correctIndex": 2,
+    "category": "Science",
+    "difficulty": "Hard"
+  },
+  {
+    "id": "science_wd_281a521dbe",
+    "question": "What is the chemical symbol for untritrium?",
+    "answers": [
+      "Nd",
+      "Rf",
+      "Nh",
+      "Utt"
+    ],
+    "correctIndex": 3,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_28206d68c2",
+    "question": "What is the chemical symbol for unquadtrium?",
+    "answers": [
+      "Upn",
+      "Uqt",
+      "Ubt",
+      "Ubs"
+    ],
+    "correctIndex": 1,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_282ec12aba",
+    "question": "What is the atomic number of selenium?",
+    "answers": [
+      "56",
+      "145",
+      "75",
+      "34"
+    ],
+    "correctIndex": 3,
+    "category": "Science",
+    "difficulty": "Hard"
+  },
+  {
+    "id": "science_wd_2881efc600",
+    "question": "Which element has the chemical symbol At?",
+    "answers": [
+      "molybdenum",
+      "antimony",
+      "astatine",
+      "unhexnilium"
+    ],
+    "correctIndex": 2,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_28f4359dca",
+    "question": "Which element has the chemical symbol Upe?",
+    "answers": [
+      "copper",
+      "yttrium",
+      "bismuth",
+      "unpentennium"
+    ],
+    "correctIndex": 3,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_2a6f4cb3e6",
+    "question": "What is the chemical symbol for silicon?",
+    "answers": [
+      "Tl",
+      "I",
+      "Md",
+      "Si"
+    ],
+    "correctIndex": 3,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_2b30eaffb7",
+    "question": "What is the atomic number of unbibium?",
+    "answers": [
+      "58",
+      "122",
+      "172",
+      "43"
+    ],
+    "correctIndex": 1,
+    "category": "Science",
+    "difficulty": "Hard"
+  },
+  {
+    "id": "science_wd_2b5577af32",
+    "question": "Which element has the chemical symbol Ubb?",
+    "answers": [
+      "unbibium",
+      "unhexoctium",
+      "unpenthexium",
+      "tennessine"
+    ],
+    "correctIndex": 0,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_2c70002c21",
+    "question": "What is the atomic number of ytterbium?",
+    "answers": [
+      "70",
+      "85",
+      "88",
+      "126"
+    ],
+    "correctIndex": 0,
+    "category": "Science",
+    "difficulty": "Hard"
+  },
+  {
+    "id": "science_wd_2d98549370",
+    "question": "What is the atomic number of osmium?",
+    "answers": [
+      "53",
+      "161",
+      "76",
+      "60"
+    ],
+    "correctIndex": 2,
+    "category": "Science",
+    "difficulty": "Hard"
+  },
+  {
+    "id": "science_wd_2dbb34af23",
+    "question": "What is the chemical symbol for unbioctium?",
+    "answers": [
+      "Ubo",
+      "Lu",
+      "Uth",
+      "Br"
+    ],
+    "correctIndex": 0,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_2e1d632be8",
+    "question": "What is the chemical symbol for untrihexium?",
+    "answers": [
+      "B",
+      "Uth",
+      "Upe",
+      "Mt"
+    ],
+    "correctIndex": 1,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_2e8b37993a",
+    "question": "What is the chemical symbol for carbon?",
+    "answers": [
+      "Po",
+      "N",
+      "C",
+      "Uqn"
+    ],
+    "correctIndex": 2,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_2ec2c573e3",
+    "question": "What is the chemical symbol for unbiquadium?",
+    "answers": [
+      "Y",
+      "Nd",
+      "No",
+      "Ubq"
+    ],
+    "correctIndex": 3,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_2f7ee04ca3",
+    "question": "Which element has the chemical symbol Utn?",
+    "answers": [
+      "untrinilium",
+      "unquadoctium",
+      "unhexoctium",
+      "strontium"
+    ],
+    "correctIndex": 0,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_2fc0273583",
+    "question": "Which element has the chemical symbol Ar?",
+    "answers": [
+      "unhexbium",
+      "untriunium",
+      "rutherfordium",
+      "argon"
+    ],
+    "correctIndex": 3,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_307e1949c4",
+    "question": "What is the chemical symbol for phosphorus?",
+    "answers": [
+      "Pd",
+      "P",
+      "Sc",
+      "Au"
+    ],
+    "correctIndex": 1,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_30b3a26922",
+    "question": "Which element has the chemical symbol Rn?",
+    "answers": [
+      "europium",
+      "carbon",
+      "radon",
+      "praseodymium"
+    ],
+    "correctIndex": 2,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_30cf8a1352",
+    "question": "What is the chemical symbol for strontium?",
+    "answers": [
+      "Np",
+      "Rh",
+      "Sr",
+      "Au"
+    ],
+    "correctIndex": 2,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_325f12d087",
+    "question": "What is the chemical symbol for unseptbium?",
+    "answers": [
+      "Usb",
+      "Pa",
+      "Ubu",
+      "Po"
+    ],
+    "correctIndex": 0,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_3350b0f86c",
+    "question": "Which element has the chemical symbol Al?",
+    "answers": [
+      "aluminium",
+      "protactinium",
+      "unbioctium",
+      "mendelevium"
+    ],
+    "correctIndex": 0,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_33fbf06a6b",
+    "question": "What is the chemical symbol for tennessine?",
+    "answers": [
+      "Ni",
+      "Ga",
+      "Uhu",
+      "Ts"
+    ],
+    "correctIndex": 3,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_3416557527",
+    "question": "Which element has the chemical symbol Sb?",
+    "answers": [
+      "untritrium",
+      "antimony",
+      "unquadquadium",
+      "bismuth"
+    ],
+    "correctIndex": 1,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_3445048729",
+    "question": "What is the atomic number of gallium?",
+    "answers": [
+      "156",
+      "31",
+      "98",
+      "117"
+    ],
+    "correctIndex": 1,
+    "category": "Science",
+    "difficulty": "Hard"
+  },
+  {
+    "id": "science_wd_3455f3e817",
+    "question": "Which element has the chemical symbol Ag?",
+    "answers": [
+      "fermium",
+      "silver",
+      "fluorine",
+      "unbihexium"
+    ],
+    "correctIndex": 1,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_348eb1ffe3",
+    "question": "What is the atomic number of copper?",
+    "answers": [
+      "34",
+      "29",
+      "122",
+      "120"
+    ],
+    "correctIndex": 1,
+    "category": "Science",
+    "difficulty": "Hard"
+  },
+  {
+    "id": "science_wd_348eefaa36",
+    "question": "What is the chemical symbol for unquadnilium?",
+    "answers": [
+      "Uqn",
+      "Uhh",
+      "Co",
+      "Utu"
+    ],
+    "correctIndex": 0,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_34b612505f",
+    "question": "Which element has the chemical symbol Fl?",
+    "answers": [
+      "unbiquadium",
+      "thulium",
+      "curium",
+      "flerovium"
+    ],
+    "correctIndex": 3,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_34f73f2cd6",
+    "question": "Which element has the chemical symbol Br?",
+    "answers": [
+      "iron",
+      "bromine",
+      "rhodium",
+      "unseptunium"
+    ],
+    "correctIndex": 1,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_3541dabf65",
+    "question": "What is the chemical symbol for thallium?",
+    "answers": [
+      "Ubu",
+      "Cu",
+      "Tl",
+      "Nb"
+    ],
+    "correctIndex": 2,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_35a1593849",
+    "question": "Which element has the chemical symbol Ho?",
+    "answers": [
+      "unbibium",
+      "copernicium",
+      "nickel",
+      "holmium"
+    ],
+    "correctIndex": 3,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_35d91abe7d",
+    "question": "What is the chemical symbol for einsteinium?",
+    "answers": [
+      "V",
+      "Uhs",
+      "Pa",
+      "Es"
+    ],
+    "correctIndex": 3,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_35e5633ba9",
+    "question": "What is the chemical symbol for argon?",
+    "answers": [
+      "Ubt",
+      "Uqo",
+      "Eu",
+      "Ar"
+    ],
+    "correctIndex": 3,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_360286140c",
+    "question": "What is the chemical symbol for hafnium?",
+    "answers": [
+      "He",
+      "Hf",
+      "Ce",
+      "Rh"
+    ],
+    "correctIndex": 1,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_361ff6037c",
+    "question": "Which element has the chemical symbol Sr?",
+    "answers": [
+      "untritrium",
+      "bismuth",
+      "unpentbium",
+      "strontium"
+    ],
+    "correctIndex": 3,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_36d7a4b74c",
+    "question": "Which element has the chemical symbol Lu?",
+    "answers": [
+      "lutetium",
+      "unquadoctium",
+      "protactinium",
+      "chromium"
+    ],
+    "correctIndex": 0,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_3727d36b31",
+    "question": "What is the atomic number of flerovium?",
+    "answers": [
+      "171",
+      "146",
+      "114",
+      "4"
+    ],
+    "correctIndex": 2,
+    "category": "Science",
+    "difficulty": "Hard"
+  },
+  {
+    "id": "science_wd_37b9a41b3e",
+    "question": "Which element has the chemical symbol B?",
+    "answers": [
+      "untriseptium",
+      "erbium",
+      "boron",
+      "untribium"
+    ],
+    "correctIndex": 2,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_3950d394c3",
+    "question": "What is the chemical symbol for oxygen?",
+    "answers": [
+      "Uqn",
+      "Uoq",
+      "Ru",
+      "O"
+    ],
+    "correctIndex": 3,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_3988e0e551",
+    "question": "Which element has the chemical symbol Uto?",
+    "answers": [
+      "untrioctium",
+      "zirconium",
+      "unbiunium",
+      "praseodymium"
+    ],
+    "correctIndex": 0,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_398c6ab71f",
+    "question": "Which element has the chemical symbol Be?",
+    "answers": [
+      "lithium",
+      "germanium",
+      "beryllium",
+      "manganese"
+    ],
+    "correctIndex": 2,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_398dbcb373",
+    "question": "Which element has the chemical symbol Upp?",
+    "answers": [
+      "lanthanum",
+      "manganese",
+      "thallium",
+      "unpentpentium"
+    ],
+    "correctIndex": 3,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_39b112fe08",
+    "question": "What is the atomic number of oxygen?",
+    "answers": [
+      "143",
+      "8",
+      "56",
+      "117"
+    ],
+    "correctIndex": 1,
+    "category": "Science",
+    "difficulty": "Hard"
+  },
+  {
+    "id": "science_wd_3a3c74bf22",
+    "question": "What is the chemical symbol for ruthenium?",
+    "answers": [
+      "Bh",
+      "Cr",
+      "Ubq",
+      "Ru"
+    ],
+    "correctIndex": 3,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_3ab0d0fa82",
+    "question": "Which element has the chemical symbol Ds?",
+    "answers": [
+      "unbinilium",
+      "unpentseptium",
+      "praseodymium",
+      "darmstadtium"
+    ],
+    "correctIndex": 3,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_3ac3d23caa",
+    "question": "What is the atomic number of bromine?",
+    "answers": [
+      "171",
+      "35",
+      "138",
+      "28"
+    ],
+    "correctIndex": 1,
+    "category": "Science",
+    "difficulty": "Hard"
+  },
+  {
+    "id": "science_wd_3dbd85d8e7",
+    "question": "What is the chemical symbol for unhexseptium?",
+    "answers": [
+      "Uhs",
+      "Pa",
+      "Ga",
+      "Lr"
+    ],
+    "correctIndex": 0,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_3e086f0335",
+    "question": "What is the chemical symbol for lanthanum?",
+    "answers": [
+      "La",
+      "Utt",
+      "Y",
+      "Ds"
+    ],
+    "correctIndex": 0,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_3e422b2320",
+    "question": "What is the chemical symbol for unpentseptium?",
+    "answers": [
+      "Ute",
+      "Er",
+      "Ups",
+      "Y"
+    ],
+    "correctIndex": 2,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_3f4a1847cf",
+    "question": "What is the chemical symbol for unquadoctium?",
+    "answers": [
+      "Uhb",
+      "H",
+      "Uqo",
+      "Se"
+    ],
+    "correctIndex": 2,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_3f7ee7d64b",
+    "question": "What is the chemical symbol for hydrogen?",
+    "answers": [
+      "H",
+      "Mg",
+      "Es",
+      "Uqb"
+    ],
+    "correctIndex": 0,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_40703b67e3",
+    "question": "Which element has the chemical symbol Utq?",
+    "answers": [
+      "beryllium",
+      "fermium",
+      "untriquadium",
+      "selenium"
+    ],
+    "correctIndex": 2,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_415adff19a",
+    "question": "Which element has the chemical symbol No?",
+    "answers": [
+      "terbium",
+      "unoctquadium",
+      "gold",
+      "nobelium"
+    ],
+    "correctIndex": 3,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_41f423d53f",
+    "question": "What is the chemical symbol for unpentennium?",
+    "answers": [
+      "Pm",
+      "Upe",
+      "Uhs",
+      "K"
+    ],
+    "correctIndex": 1,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_41fae735d9",
+    "question": "What is the chemical symbol for untriseptium?",
+    "answers": [
+      "Uqt",
+      "Ups",
+      "Uts",
+      "Bk"
+    ],
+    "correctIndex": 2,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_422249322b",
+    "question": "What is the chemical symbol for unhexquadium?",
+    "answers": [
+      "Uhq",
+      "V",
+      "Bh",
+      "Fl"
+    ],
+    "correctIndex": 0,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_4228d981c9",
+    "question": "What is the chemical symbol for terbium?",
+    "answers": [
+      "Uhq",
+      "Uhb",
+      "Tb",
+      "Te"
+    ],
+    "correctIndex": 2,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_42b05e0937",
+    "question": "Which element has the chemical symbol Au?",
+    "answers": [
+      "gold",
+      "erbium",
+      "untriquadium",
+      "germanium"
+    ],
+    "correctIndex": 0,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_4383f35f2e",
+    "question": "What is the chemical symbol for unhextrium?",
+    "answers": [
+      "Ubb",
+      "Usn",
+      "Uht",
+      "Br"
+    ],
+    "correctIndex": 2,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_439cb159bc",
+    "question": "Which element has the chemical symbol Ga?",
+    "answers": [
+      "radium",
+      "lanthanum",
+      "fermium",
+      "gallium"
+    ],
+    "correctIndex": 3,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_442808cc6e",
+    "question": "What is the atomic number of bohrium?",
+    "answers": [
+      "16",
+      "107",
+      "153",
+      "20"
+    ],
+    "correctIndex": 1,
+    "category": "Science",
+    "difficulty": "Hard"
+  },
+  {
+    "id": "science_wd_44351691f5",
+    "question": "What is the atomic number of unhexhexium?",
+    "answers": [
+      "147",
+      "155",
+      "77",
+      "166"
+    ],
+    "correctIndex": 3,
+    "category": "Science",
+    "difficulty": "Hard"
+  },
+  {
+    "id": "science_wd_44c0db94c0",
+    "question": "What is the atomic number of bismuth?",
+    "answers": [
+      "21",
+      "159",
+      "72",
+      "83"
+    ],
+    "correctIndex": 3,
+    "category": "Science",
+    "difficulty": "Hard"
+  },
+  {
+    "id": "science_wd_4528aa2e68",
+    "question": "Which element has the chemical symbol Ti?",
+    "answers": [
+      "titanium",
+      "cerium",
+      "zirconium",
+      "antimony"
+    ],
+    "correctIndex": 0,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_466d72f887",
+    "question": "What is the chemical symbol for unbiennium?",
+    "answers": [
+      "Nd",
+      "Es",
+      "Md",
+      "Ube"
+    ],
+    "correctIndex": 3,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_46bee6f806",
+    "question": "What is the atomic number of livermorium?",
+    "answers": [
+      "159",
+      "123",
+      "58",
+      "116"
+    ],
+    "correctIndex": 3,
+    "category": "Science",
+    "difficulty": "Hard"
+  },
+  {
+    "id": "science_wd_4749b7bbc1",
+    "question": "What is the atomic number of unbiennium?",
+    "answers": [
+      "129",
+      "86",
+      "118",
+      "88"
+    ],
+    "correctIndex": 0,
+    "category": "Science",
+    "difficulty": "Hard"
+  },
+  {
+    "id": "science_wd_4764e6a18c",
+    "question": "What is the atomic number of seaborgium?",
+    "answers": [
+      "106",
+      "50",
+      "17",
+      "43"
+    ],
+    "correctIndex": 0,
+    "category": "Science",
+    "difficulty": "Hard"
+  },
+  {
+    "id": "science_wd_484644e0d4",
+    "question": "Which element has the chemical symbol Cl?",
+    "answers": [
+      "unpenttrium",
+      "chlorine",
+      "unbinilium",
+      "arsenic"
+    ],
+    "correctIndex": 1,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_49122d2e12",
+    "question": "Which element has the chemical symbol Rb?",
+    "answers": [
+      "rubidium",
+      "unquadpentium",
+      "unquadseptium",
+      "calcium"
+    ],
+    "correctIndex": 0,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_499f4bb8c4",
+    "question": "What is the atomic number of scandium?",
+    "answers": [
+      "154",
+      "21",
+      "150",
+      "84"
+    ],
+    "correctIndex": 1,
+    "category": "Science",
+    "difficulty": "Hard"
+  },
+  {
+    "id": "science_wd_49d0e93e3b",
+    "question": "What is the chemical symbol for unoctquadium?",
+    "answers": [
+      "Uoq",
+      "Uho",
+      "Ubq",
+      "Uqn"
+    ],
+    "correctIndex": 0,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_49d8c25de8",
+    "question": "What is the atomic number of unpentnilium?",
+    "answers": [
+      "78",
+      "128",
+      "150",
+      "32"
+    ],
+    "correctIndex": 2,
+    "category": "Science",
+    "difficulty": "Hard"
+  },
+  {
+    "id": "science_wd_49eb1a8ef8",
+    "question": "What is the atomic number of palladium?",
+    "answers": [
+      "88",
+      "46",
+      "30",
+      "43"
+    ],
+    "correctIndex": 1,
+    "category": "Science",
+    "difficulty": "Hard"
+  },
+  {
+    "id": "science_wd_4ac314af3e",
+    "question": "Which element has the chemical symbol Pa?",
+    "answers": [
+      "rutherfordium",
+      "protactinium",
+      "californium",
+      "unquadnilium"
+    ],
+    "correctIndex": 1,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_4adf0e9edf",
+    "question": "What is the chemical symbol for untriunium?",
+    "answers": [
+      "Nb",
+      "Utu",
+      "Ds",
+      "Fm"
+    ],
+    "correctIndex": 1,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_4c3c5f0d7f",
+    "question": "What is the chemical symbol for beryllium?",
+    "answers": [
+      "Fl",
+      "Be",
+      "Hf",
+      "Uhb"
+    ],
+    "correctIndex": 1,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_4caf46e271",
+    "question": "What is the chemical symbol for flerovium?",
+    "answers": [
+      "Utn",
+      "Rb",
+      "Fl",
+      "Re"
+    ],
+    "correctIndex": 2,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_4df9a12ebc",
+    "question": "What is the chemical symbol for nihonium?",
+    "answers": [
+      "Tb",
+      "Nh",
+      "Ubn",
+      "Rn"
+    ],
+    "correctIndex": 1,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_4e14c0c156",
+    "question": "Which element has the chemical symbol Fe?",
+    "answers": [
+      "manganese",
+      "unquadtrium",
+      "iron",
+      "unpentennium"
+    ],
+    "correctIndex": 2,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_4e15bc145f",
+    "question": "Which element has the chemical symbol Ubq?",
+    "answers": [
+      "phosphorus",
+      "unbiquadium",
+      "rubidium",
+      "unhexennium"
+    ],
+    "correctIndex": 1,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_5156f7a3e5",
+    "question": "What is the chemical symbol for unsepttrium?",
+    "answers": [
+      "Ust",
+      "Sm",
+      "Uhe",
+      "Be"
+    ],
+    "correctIndex": 0,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_515bbc4c37",
+    "question": "Which element has the chemical symbol Ba?",
+    "answers": [
+      "barium",
+      "sodium",
+      "indium",
+      "unbiunium"
+    ],
+    "correctIndex": 0,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_51a7d0029b",
+    "question": "Which element has the chemical symbol Ce?",
+    "answers": [
+      "sulfur",
+      "cerium",
+      "thulium",
+      "protactinium"
+    ],
+    "correctIndex": 1,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_51b2317378",
+    "question": "What is the chemical symbol for unpentnilium?",
+    "answers": [
+      "Upn",
+      "Be",
+      "Ubs",
+      "Utq"
+    ],
+    "correctIndex": 0,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_521b8e6c03",
+    "question": "What is the atomic number of unbinilium?",
+    "answers": [
+      "70",
+      "120",
+      "123",
+      "15"
+    ],
+    "correctIndex": 1,
+    "category": "Science",
+    "difficulty": "Hard"
+  },
+  {
+    "id": "science_wd_527b750c71",
+    "question": "Which element has the chemical symbol Fm?",
+    "answers": [
+      "meitnerium",
+      "fermium",
+      "erbium",
+      "unbihexium"
+    ],
+    "correctIndex": 1,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_5289725d45",
+    "question": "What is the atomic number of fluorine?",
+    "answers": [
+      "152",
+      "54",
+      "75",
+      "9"
+    ],
+    "correctIndex": 3,
+    "category": "Science",
+    "difficulty": "Hard"
+  },
+  {
+    "id": "science_wd_52b87fd2f4",
+    "question": "What is the chemical symbol for lithium?",
+    "answers": [
+      "Br",
+      "Li",
+      "Hs",
+      "Utu"
+    ],
+    "correctIndex": 1,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_52fd200553",
+    "question": "What is the chemical symbol for niobium?",
+    "answers": [
+      "Ca",
+      "Nb",
+      "Co",
+      "W"
+    ],
+    "correctIndex": 1,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_5329d39898",
+    "question": "What is the chemical symbol for caesium?",
+    "answers": [
+      "Po",
+      "Mg",
+      "Cs",
+      "O"
+    ],
+    "correctIndex": 2,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_53b5d99be4",
+    "question": "What is the atomic number of unhexbium?",
+    "answers": [
+      "162",
+      "37",
+      "168",
+      "97"
+    ],
+    "correctIndex": 0,
+    "category": "Science",
+    "difficulty": "Hard"
+  },
+  {
+    "id": "science_wd_55279a1b55",
+    "question": "What is the chemical symbol for titanium?",
+    "answers": [
+      "Mo",
+      "Ti",
+      "Utt",
+      "Uqe"
+    ],
+    "correctIndex": 1,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_556c6926bb",
+    "question": "What is the atomic number of ruthenium?",
+    "answers": [
+      "44",
+      "61",
+      "58",
+      "88"
+    ],
+    "correctIndex": 0,
+    "category": "Science",
+    "difficulty": "Hard"
+  },
+  {
+    "id": "science_wd_560fc3bd0e",
+    "question": "Which element has the chemical symbol Cm?",
+    "answers": [
+      "iridium",
+      "untrihexium",
+      "curium",
+      "untriennium"
+    ],
+    "correctIndex": 2,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_56156f1a5c",
+    "question": "What is the atomic number of unbiunium?",
+    "answers": [
+      "156",
+      "97",
+      "121",
+      "81"
+    ],
+    "correctIndex": 2,
+    "category": "Science",
+    "difficulty": "Hard"
+  },
+  {
+    "id": "science_wd_5622bdb93c",
+    "question": "Which element has the chemical symbol Ubt?",
+    "answers": [
+      "rubidium",
+      "gallium",
+      "xenon",
+      "unbitrium"
+    ],
+    "correctIndex": 3,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_566ab8b45b",
+    "question": "Which element has the chemical symbol Si?",
+    "answers": [
+      "silicon",
+      "tellurium",
+      "thulium",
+      "caesium"
+    ],
+    "correctIndex": 0,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_56843ae72e",
+    "question": "Which element has the chemical symbol Ubu?",
+    "answers": [
+      "tungsten",
+      "unbiunium",
+      "vanadium",
+      "chlorine"
+    ],
+    "correctIndex": 1,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_56d9d198c8",
+    "question": "What is the chemical symbol for iron?",
+    "answers": [
+      "Ru",
+      "Fe",
+      "As",
+      "Uhb"
+    ],
+    "correctIndex": 1,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_57233462bf",
+    "question": "Which element has the chemical symbol Upt?",
+    "answers": [
+      "oganesson",
+      "phosphorus",
+      "gallium",
+      "unpenttrium"
+    ],
+    "correctIndex": 3,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_580d078922",
+    "question": "Which element has the chemical symbol Lv?",
+    "answers": [
+      "livermorium",
+      "gadolinium",
+      "strontium",
+      "unpentbium"
+    ],
+    "correctIndex": 0,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_582a2bc25c",
+    "question": "What is the chemical symbol for lawrencium?",
+    "answers": [
+      "Lr",
+      "Lv",
+      "O",
+      "As"
+    ],
+    "correctIndex": 0,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_590a09c9ab",
+    "question": "Which element has the chemical symbol Mc?",
+    "answers": [
+      "untrioctium",
+      "moscovium",
+      "tennessine",
+      "osmium"
+    ],
+    "correctIndex": 1,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_5a551d3311",
+    "question": "What is the atomic number of plutonium?",
+    "answers": [
+      "114",
+      "31",
+      "78",
+      "94"
+    ],
+    "correctIndex": 3,
+    "category": "Science",
+    "difficulty": "Hard"
+  },
+  {
+    "id": "science_wd_5a6cc16abe",
+    "question": "What is the chemical symbol for copper?",
+    "answers": [
+      "Tb",
+      "Uho",
+      "Cu",
+      "W"
+    ],
+    "correctIndex": 2,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_5a75bfe3d2",
+    "question": "What is the atomic number of tellurium?",
+    "answers": [
+      "1",
+      "22",
+      "16",
+      "52"
+    ],
+    "correctIndex": 3,
+    "category": "Science",
+    "difficulty": "Hard"
+  },
+  {
+    "id": "science_wd_5ad2906939",
+    "question": "What is the atomic number of lead?",
+    "answers": [
+      "82",
+      "21",
+      "66",
+      "75"
+    ],
+    "correctIndex": 0,
+    "category": "Science",
+    "difficulty": "Hard"
+  },
+  {
+    "id": "science_wd_5ae43b6efc",
+    "question": "What is the chemical symbol for dysprosium?",
+    "answers": [
+      "Sb",
+      "Ti",
+      "Dy",
+      "Usb"
+    ],
+    "correctIndex": 2,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_5b09149eb1",
+    "question": "What is the atomic number of unseptnilium?",
+    "answers": [
+      "170",
+      "18",
+      "140",
+      "159"
+    ],
+    "correctIndex": 0,
+    "category": "Science",
+    "difficulty": "Hard"
+  },
+  {
+    "id": "science_wd_5b1eed84ac",
+    "question": "What is the atomic number of unseptunium?",
+    "answers": [
+      "71",
+      "171",
+      "59",
+      "120"
+    ],
+    "correctIndex": 1,
+    "category": "Science",
+    "difficulty": "Hard"
+  },
+  {
+    "id": "science_wd_5bf4b5761e",
+    "question": "What is the chemical symbol for vanadium?",
+    "answers": [
+      "Xe",
+      "Ts",
+      "V",
+      "Ba"
+    ],
+    "correctIndex": 2,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_5c320da5fc",
+    "question": "Which element has the chemical symbol Uts?",
+    "answers": [
+      "rhenium",
+      "untriseptium",
+      "polonium",
+      "yttrium"
+    ],
+    "correctIndex": 1,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_5c8d40bfd5",
+    "question": "Which element has the chemical symbol Uhn?",
+    "answers": [
+      "radon",
+      "unbiseptium",
+      "nickel",
+      "unhexnilium"
+    ],
+    "correctIndex": 3,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_5ce5d472e1",
+    "question": "What is the atomic number of unhexquadium?",
+    "answers": [
+      "16",
+      "138",
+      "163",
+      "164"
+    ],
+    "correctIndex": 3,
+    "category": "Science",
+    "difficulty": "Hard"
+  },
+  {
+    "id": "science_wd_5d3f2fe663",
+    "question": "Which element has the chemical symbol Cd?",
+    "answers": [
+      "rutherfordium",
+      "cadmium",
+      "aluminium",
+      "magnesium"
+    ],
+    "correctIndex": 1,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_5d8f4e9a4e",
+    "question": "What is the atomic number of radon?",
+    "answers": [
+      "86",
+      "35",
+      "54",
+      "69"
+    ],
+    "correctIndex": 0,
+    "category": "Science",
+    "difficulty": "Hard"
+  },
+  {
+    "id": "science_wd_5dd2f3a796",
+    "question": "Which element has the chemical symbol Uhe?",
+    "answers": [
+      "unhexennium",
+      "erbium",
+      "roentgenium",
+      "unquadennium"
+    ],
+    "correctIndex": 0,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_5ed7e47b52",
+    "question": "Which element has the chemical symbol U?",
+    "answers": [
+      "lutetium",
+      "unpentquadium",
+      "mendelevium",
+      "uranium"
+    ],
+    "correctIndex": 3,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_5fae6b291c",
+    "question": "What is the atomic number of cobalt?",
+    "answers": [
+      "40",
+      "45",
+      "42",
+      "27"
+    ],
+    "correctIndex": 3,
+    "category": "Science",
+    "difficulty": "Hard"
+  },
+  {
+    "id": "science_wd_600ac491be",
+    "question": "What is the atomic number of nihonium?",
+    "answers": [
+      "144",
+      "6",
+      "134",
+      "113"
+    ],
+    "correctIndex": 3,
+    "category": "Science",
+    "difficulty": "Hard"
+  },
+  {
+    "id": "science_wd_600b52ae19",
+    "question": "Which element has the chemical symbol Uho?",
+    "answers": [
+      "rutherfordium",
+      "europium",
+      "unhexoctium",
+      "thallium"
+    ],
+    "correctIndex": 2,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_609bce7eab",
+    "question": "What is the atomic number of unquadnilium?",
+    "answers": [
+      "155",
+      "71",
+      "140",
+      "138"
+    ],
+    "correctIndex": 2,
+    "category": "Science",
+    "difficulty": "Hard"
+  },
+  {
+    "id": "science_wd_60dbd5459d",
+    "question": "Which element has the chemical symbol Upq?",
+    "answers": [
+      "unhexunium",
+      "unbitrium",
+      "unpentquadium",
+      "flerovium"
+    ],
+    "correctIndex": 2,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_618d414bee",
+    "question": "What is the chemical symbol for plutonium?",
+    "answers": [
+      "Ho",
+      "Pu",
+      "Rn",
+      "Pa"
+    ],
+    "correctIndex": 1,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_625b775f3e",
+    "question": "What is the atomic number of nickel?",
+    "answers": [
+      "184",
+      "28",
+      "119",
+      "67"
+    ],
+    "correctIndex": 1,
+    "category": "Science",
+    "difficulty": "Hard"
+  },
+  {
+    "id": "science_wd_62e9df0985",
+    "question": "Which element has the chemical symbol W?",
+    "answers": [
+      "iodine",
+      "unquadhexium",
+      "tungsten",
+      "unquadquadium"
+    ],
+    "correctIndex": 2,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_62edd5e318",
+    "question": "What is the chemical symbol for cobalt?",
+    "answers": [
+      "Utu",
+      "Ge",
+      "Zr",
+      "Co"
+    ],
+    "correctIndex": 3,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_630865830a",
+    "question": "What is the chemical symbol for thulium?",
+    "answers": [
+      "Uqt",
+      "Og",
+      "Tm",
+      "Ga"
+    ],
+    "correctIndex": 2,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_630d6d8af7",
+    "question": "What is the chemical symbol for unpentbium?",
+    "answers": [
+      "Uqp",
+      "Ga",
+      "Upb",
+      "F"
+    ],
+    "correctIndex": 2,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_63e1deac65",
+    "question": "Which element has the chemical symbol Ubs?",
+    "answers": [
+      "magnesium",
+      "caesium",
+      "unbipentium",
+      "unbiseptium"
+    ],
+    "correctIndex": 3,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_6428d9f4bb",
+    "question": "What is the atomic number of helium?",
+    "answers": [
+      "110",
+      "147",
+      "99",
+      "2"
+    ],
+    "correctIndex": 3,
+    "category": "Science",
+    "difficulty": "Hard"
+  },
+  {
+    "id": "science_wd_668b26b1e2",
+    "question": "Which element has the chemical symbol V?",
+    "answers": [
+      "vanadium",
+      "technetium",
+      "unbihexium",
+      "tungsten"
+    ],
+    "correctIndex": 0,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_669016a741",
+    "question": "Which element has the chemical symbol Db?",
+    "answers": [
+      "neptunium",
+      "unquadhexium",
+      "dubnium",
+      "boron"
+    ],
+    "correctIndex": 2,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_67474d6be6",
+    "question": "What is the chemical symbol for unhexnilium?",
+    "answers": [
+      "Uhn",
+      "Tm",
+      "Rf",
+      "Ust"
+    ],
+    "correctIndex": 0,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_67ec4c7fe1",
+    "question": "What is the atomic number of einsteinium?",
+    "answers": [
+      "61",
+      "71",
+      "99",
+      "139"
+    ],
+    "correctIndex": 2,
+    "category": "Science",
+    "difficulty": "Hard"
+  },
+  {
+    "id": "science_wd_681d141935",
+    "question": "Which element has the chemical symbol Te?",
+    "answers": [
+      "zinc",
+      "polonium",
+      "strontium",
+      "tellurium"
+    ],
+    "correctIndex": 3,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_68f6525762",
+    "question": "What is the chemical symbol for tungsten?",
+    "answers": [
+      "W",
+      "Tc",
+      "Es",
+      "Uqp"
+    ],
+    "correctIndex": 0,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_6935e82731",
+    "question": "What is the atomic number of nobelium?",
+    "answers": [
+      "63",
+      "42",
+      "4",
+      "102"
+    ],
+    "correctIndex": 3,
+    "category": "Science",
+    "difficulty": "Hard"
+  },
+  {
+    "id": "science_wd_69873f51cb",
+    "question": "What is the atomic number of xenon?",
+    "answers": [
+      "145",
+      "65",
+      "86",
+      "54"
+    ],
+    "correctIndex": 3,
+    "category": "Science",
+    "difficulty": "Hard"
+  },
+  {
+    "id": "science_wd_69a41b8378",
+    "question": "Which element has the chemical symbol Mg?",
+    "answers": [
+      "magnesium",
+      "palladium",
+      "aluminium",
+      "untrihexium"
+    ],
+    "correctIndex": 0,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_69af45a3bf",
+    "question": "Which element has the chemical symbol Mo?",
+    "answers": [
+      "plutonium",
+      "unpenttrium",
+      "molybdenum",
+      "cerium"
+    ],
+    "correctIndex": 2,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_6a8e3a1721",
+    "question": "Which element has the chemical symbol Ubo?",
+    "answers": [
+      "xenon",
+      "unhexseptium",
+      "unbioctium",
+      "unquadhexium"
+    ],
+    "correctIndex": 2,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_6b4383ec15",
+    "question": "Which element has the chemical symbol Ubh?",
+    "answers": [
+      "lanthanum",
+      "moscovium",
+      "potassium",
+      "unbihexium"
+    ],
+    "correctIndex": 3,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_6b54a52144",
+    "question": "Which element has the chemical symbol Ac?",
+    "answers": [
+      "californium",
+      "actinium",
+      "samarium",
+      "iron"
+    ],
+    "correctIndex": 1,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_6c673545a5",
+    "question": "What is the chemical symbol for livermorium?",
+    "answers": [
+      "Lv",
+      "Ti",
+      "Dy",
+      "Upq"
+    ],
+    "correctIndex": 0,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_6db2fffdaf",
+    "question": "What is the atomic number of unbihexium?",
+    "answers": [
+      "126",
+      "23",
+      "34",
+      "128"
+    ],
+    "correctIndex": 0,
+    "category": "Science",
+    "difficulty": "Hard"
+  },
+  {
+    "id": "science_wd_6ee0cead85",
+    "question": "What is the chemical symbol for unquadhexium?",
+    "answers": [
+      "Uhe",
+      "Utu",
+      "Uqh",
+      "Rg"
+    ],
+    "correctIndex": 2,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_6f3e8aa7f1",
+    "question": "What is the chemical symbol for germanium?",
+    "answers": [
+      "Se",
+      "Ge",
+      "Ba",
+      "Sc"
+    ],
+    "correctIndex": 1,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_70194a3e6f",
+    "question": "What is the atomic number of caesium?",
+    "answers": [
+      "25",
+      "114",
+      "55",
+      "2"
+    ],
+    "correctIndex": 2,
+    "category": "Science",
+    "difficulty": "Hard"
+  },
+  {
+    "id": "science_wd_708da0338d",
+    "question": "Which element has the chemical symbol Uoq?",
+    "answers": [
+      "bismuth",
+      "unoctquadium",
+      "unhexoctium",
+      "nickel"
+    ],
+    "correctIndex": 1,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_70b3cbdfcc",
+    "question": "Which element has the chemical symbol Nh?",
+    "answers": [
+      "mercury",
+      "dubnium",
+      "cerium",
+      "nihonium"
+    ],
+    "correctIndex": 3,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_713014e3ed",
+    "question": "What is the chemical symbol for palladium?",
+    "answers": [
+      "Am",
+      "Uht",
+      "Pd",
+      "Ups"
+    ],
+    "correctIndex": 2,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_7168502652",
+    "question": "Which element has the chemical symbol Bh?",
+    "answers": [
+      "osmium",
+      "einsteinium",
+      "unpentseptium",
+      "bohrium"
+    ],
+    "correctIndex": 3,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_71e292eae1",
+    "question": "What is the chemical symbol for magnesium?",
+    "answers": [
+      "Mg",
+      "Ac",
+      "Bk",
+      "Utb"
+    ],
+    "correctIndex": 0,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_71f5170c8f",
+    "question": "What is the chemical symbol for unbihexium?",
+    "answers": [
+      "Uto",
+      "Cs",
+      "Ubh",
+      "Tm"
+    ],
+    "correctIndex": 2,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_72c8c6c8d2",
+    "question": "What is the atomic number of unbipentium?",
+    "answers": [
+      "164",
+      "125",
+      "114",
+      "3"
+    ],
+    "correctIndex": 1,
+    "category": "Science",
+    "difficulty": "Hard"
+  },
+  {
+    "id": "science_wd_73f06b016f",
+    "question": "What is the atomic number of krypton?",
+    "answers": [
+      "144",
+      "138",
+      "36",
+      "32"
+    ],
+    "correctIndex": 2,
+    "category": "Science",
+    "difficulty": "Hard"
+  },
+  {
+    "id": "science_wd_74ac45f5ff",
+    "question": "What is the chemical symbol for unhexoctium?",
+    "answers": [
+      "Pa",
+      "Uho",
+      "Uht",
+      "Uhu"
+    ],
+    "correctIndex": 1,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_74e00d965d",
+    "question": "Which element has the chemical symbol Y?",
+    "answers": [
+      "unquadtrium",
+      "yttrium",
+      "indium",
+      "carbon"
+    ],
+    "correctIndex": 1,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_75a48c5dd0",
+    "question": "What is the atomic number of untriunium?",
+    "answers": [
+      "165",
+      "79",
+      "121",
+      "131"
+    ],
+    "correctIndex": 3,
+    "category": "Science",
+    "difficulty": "Hard"
+  },
+  {
+    "id": "science_wd_767d876eea",
+    "question": "What is the atomic number of cerium?",
+    "answers": [
+      "58",
+      "94",
+      "157",
+      "99"
+    ],
+    "correctIndex": 0,
+    "category": "Science",
+    "difficulty": "Hard"
+  },
+  {
+    "id": "science_wd_78a3eb81f2",
+    "question": "What is the chemical symbol for technetium?",
+    "answers": [
+      "B",
+      "S",
+      "Mt",
+      "Tc"
+    ],
+    "correctIndex": 3,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_791143ec93",
+    "question": "Which element has the chemical symbol Sm?",
+    "answers": [
+      "unbiennium",
+      "unoctquadium",
+      "samarium",
+      "untriunium"
+    ],
+    "correctIndex": 2,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_79bc0fabe9",
+    "question": "Which element has the chemical symbol Upn?",
+    "answers": [
+      "unpentnilium",
+      "flerovium",
+      "bismuth",
+      "protactinium"
+    ],
+    "correctIndex": 0,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_7aa24dffa1",
+    "question": "What is the atomic number of lanthanum?",
+    "answers": [
+      "131",
+      "50",
+      "57",
+      "9"
+    ],
+    "correctIndex": 2,
+    "category": "Science",
+    "difficulty": "Hard"
+  },
+  {
+    "id": "science_wd_7ad544a148",
+    "question": "What is the atomic number of untritrium?",
+    "answers": [
+      "165",
+      "164",
+      "88",
+      "133"
+    ],
+    "correctIndex": 3,
+    "category": "Science",
+    "difficulty": "Hard"
+  },
+  {
+    "id": "science_wd_7ae69f4cac",
+    "question": "What is the chemical symbol for rubidium?",
+    "answers": [
+      "Mc",
+      "Pm",
+      "Rb",
+      "Th"
+    ],
+    "correctIndex": 2,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_7af7f55ada",
+    "question": "Which element has the chemical symbol Bk?",
+    "answers": [
+      "hydrogen",
+      "zirconium",
+      "berkelium",
+      "boron"
+    ],
+    "correctIndex": 2,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_7b21d2a9c2",
+    "question": "What is the chemical symbol for arsenic?",
+    "answers": [
+      "Tc",
+      "Cf",
+      "As",
+      "Ar"
+    ],
+    "correctIndex": 2,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_7b35839bef",
+    "question": "Which element has the chemical symbol Upo?",
+    "answers": [
+      "europium",
+      "unpentoctium",
+      "tantalum",
+      "francium"
+    ],
+    "correctIndex": 1,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_7c0537d543",
+    "question": "Which element has the chemical symbol Utu?",
+    "answers": [
+      "fermium",
+      "germanium",
+      "actinium",
+      "untriunium"
+    ],
+    "correctIndex": 3,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_7c065cf125",
+    "question": "Which element has the chemical symbol Uhs?",
+    "answers": [
+      "lithium",
+      "unhexseptium",
+      "tin",
+      "unquadbium"
+    ],
+    "correctIndex": 1,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_7c21910ccb",
+    "question": "What is the chemical symbol for roentgenium?",
+    "answers": [
+      "Ne",
+      "Tb",
+      "Ni",
+      "Rg"
+    ],
+    "correctIndex": 3,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_7cba6fdad1",
+    "question": "Which element has the chemical symbol Cn?",
+    "answers": [
+      "flerovium",
+      "unquadquadium",
+      "americium",
+      "copernicium"
+    ],
+    "correctIndex": 3,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_7e0394dff9",
+    "question": "Which element has the chemical symbol Po?",
+    "answers": [
+      "einsteinium",
+      "polonium",
+      "neptunium",
+      "unbiquadium"
+    ],
+    "correctIndex": 1,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_7e48c8430f",
+    "question": "What is the atomic number of beryllium?",
+    "answers": [
+      "22",
+      "87",
+      "60",
+      "4"
+    ],
+    "correctIndex": 3,
+    "category": "Science",
+    "difficulty": "Hard"
+  },
+  {
+    "id": "science_wd_7e6e1ef297",
+    "question": "What is the atomic number of mercury?",
+    "answers": [
+      "162",
+      "39",
+      "80",
+      "50"
+    ],
+    "correctIndex": 2,
+    "category": "Science",
+    "difficulty": "Hard"
+  },
+  {
+    "id": "science_wd_7ea3468113",
+    "question": "What is the atomic number of boron?",
+    "answers": [
+      "132",
+      "16",
+      "9",
+      "5"
+    ],
+    "correctIndex": 3,
+    "category": "Science",
+    "difficulty": "Hard"
+  },
+  {
+    "id": "science_wd_7fec4e52ec",
+    "question": "What is the atomic number of barium?",
+    "answers": [
+      "100",
+      "146",
+      "45",
+      "56"
+    ],
+    "correctIndex": 3,
+    "category": "Science",
+    "difficulty": "Hard"
+  },
+  {
+    "id": "science_wd_80a104acd7",
+    "question": "What is the chemical symbol for xenon?",
+    "answers": [
+      "Cl",
+      "Yb",
+      "Sn",
+      "Xe"
+    ],
+    "correctIndex": 3,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_8190916168",
+    "question": "What is the atomic number of silicon?",
+    "answers": [
+      "173",
+      "14",
+      "43",
+      "16"
+    ],
+    "correctIndex": 1,
+    "category": "Science",
+    "difficulty": "Hard"
+  },
+  {
+    "id": "science_wd_81924270ea",
+    "question": "What is the atomic number of aluminium?",
+    "answers": [
+      "86",
+      "128",
+      "140",
+      "13"
+    ],
+    "correctIndex": 3,
+    "category": "Science",
+    "difficulty": "Hard"
+  },
+  {
+    "id": "science_wd_81e1b46cc0",
+    "question": "Which element has the chemical symbol Usu?",
+    "answers": [
+      "nobelium",
+      "unsepttrium",
+      "unseptunium",
+      "bohrium"
+    ],
+    "correctIndex": 2,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_8385ceb000",
+    "question": "Which element has the chemical symbol Mn?",
+    "answers": [
+      "chlorine",
+      "manganese",
+      "xenon",
+      "unpenthexium"
+    ],
+    "correctIndex": 1,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_840cd2cf37",
+    "question": "Which element has the chemical symbol Tc?",
+    "answers": [
+      "technetium",
+      "unbipentium",
+      "hydrogen",
+      "rhodium"
+    ],
+    "correctIndex": 0,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_8462e13784",
+    "question": "What is the chemical symbol for praseodymium?",
+    "answers": [
+      "Pr",
+      "Upp",
+      "Ute",
+      "Ubn"
+    ],
+    "correctIndex": 0,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_84843a1737",
+    "question": "What is the chemical symbol for tantalum?",
+    "answers": [
+      "Tl",
+      "I",
+      "Ta",
+      "Ba"
+    ],
+    "correctIndex": 2,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_84ddb38977",
+    "question": "What is the atomic number of cadmium?",
+    "answers": [
+      "166",
+      "130",
+      "48",
+      "56"
+    ],
+    "correctIndex": 2,
+    "category": "Science",
+    "difficulty": "Hard"
+  },
+  {
+    "id": "science_wd_850b6e3569",
+    "question": "What is the chemical symbol for neodymium?",
+    "answers": [
+      "Zn",
+      "Ubt",
+      "Utu",
+      "Nd"
+    ],
+    "correctIndex": 3,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_85286bbfd9",
+    "question": "Which element has the chemical symbol Ne?",
+    "answers": [
+      "beryllium",
+      "cerium",
+      "unbioctium",
+      "neon"
+    ],
+    "correctIndex": 3,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_858759ec60",
+    "question": "What is the atomic number of protactinium?",
+    "answers": [
+      "150",
+      "91",
+      "32",
+      "58"
+    ],
+    "correctIndex": 1,
+    "category": "Science",
+    "difficulty": "Hard"
+  },
+  {
+    "id": "science_wd_864d4353db",
+    "question": "What is the atomic number of polonium?",
+    "answers": [
+      "28",
+      "104",
+      "84",
+      "3"
+    ],
+    "correctIndex": 2,
+    "category": "Science",
+    "difficulty": "Hard"
+  },
+  {
+    "id": "science_wd_86a184d020",
+    "question": "What is the atomic number of unpentoctium?",
+    "answers": [
+      "104",
+      "33",
+      "141",
+      "158"
+    ],
+    "correctIndex": 3,
+    "category": "Science",
+    "difficulty": "Hard"
+  },
+  {
+    "id": "science_wd_86d8bf3a5a",
+    "question": "What is the chemical symbol for bromine?",
+    "answers": [
+      "Br",
+      "Upo",
+      "Zr",
+      "S"
+    ],
+    "correctIndex": 0,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_86ff38301b",
+    "question": "What is the chemical symbol for astatine?",
+    "answers": [
+      "At",
+      "Upu",
+      "Ubb",
+      "Ir"
+    ],
+    "correctIndex": 0,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_8a7e498ff2",
+    "question": "Which element has the chemical symbol P?",
+    "answers": [
+      "unbiquadium",
+      "nickel",
+      "unpenthexium",
+      "phosphorus"
+    ],
+    "correctIndex": 3,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_8a9f0f5207",
+    "question": "What is the chemical symbol for neon?",
+    "answers": [
+      "Ne",
+      "At",
+      "Ga",
+      "Ubb"
+    ],
+    "correctIndex": 0,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_8b42c148d3",
+    "question": "What is the atomic number of untribium?",
+    "answers": [
+      "27",
+      "132",
+      "93",
+      "15"
+    ],
+    "correctIndex": 1,
+    "category": "Science",
+    "difficulty": "Hard"
+  },
+  {
+    "id": "science_wd_8b55f1b8e3",
+    "question": "Which element has the chemical symbol Na?",
+    "answers": [
+      "sodium",
+      "potassium",
+      "titanium",
+      "tin"
+    ],
+    "correctIndex": 0,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_8b645867d9",
+    "question": "What is the atomic number of untrihexium?",
+    "answers": [
+      "81",
+      "82",
+      "136",
+      "52"
+    ],
+    "correctIndex": 2,
+    "category": "Science",
+    "difficulty": "Hard"
+  },
+  {
+    "id": "science_wd_8b83184983",
+    "question": "Which element has the chemical symbol H?",
+    "answers": [
+      "unquadoctium",
+      "hydrogen",
+      "bismuth",
+      "unhexquadium"
+    ],
+    "correctIndex": 1,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_8bcaaefffd",
+    "question": "Which element has the chemical symbol Uqp?",
+    "answers": [
+      "untriquadium",
+      "unbiennium",
+      "unquadpentium",
+      "titanium"
+    ],
+    "correctIndex": 2,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_8beceb4be3",
+    "question": "What is the atomic number of unhexseptium?",
+    "answers": [
+      "55",
+      "167",
+      "28",
+      "26"
+    ],
+    "correctIndex": 1,
+    "category": "Science",
+    "difficulty": "Hard"
+  },
+  {
+    "id": "science_wd_8c84a359e1",
+    "question": "What is the atomic number of arsenic?",
+    "answers": [
+      "30",
+      "108",
+      "33",
+      "56"
+    ],
+    "correctIndex": 2,
+    "category": "Science",
+    "difficulty": "Hard"
+  },
+  {
+    "id": "science_wd_8cb342cdcb",
+    "question": "What is the atomic number of oganesson?",
+    "answers": [
+      "39",
+      "126",
+      "118",
+      "25"
+    ],
+    "correctIndex": 2,
+    "category": "Science",
+    "difficulty": "Hard"
+  },
+  {
+    "id": "science_wd_8cf5ea0497",
+    "question": "What is the chemical symbol for zirconium?",
+    "answers": [
+      "Pr",
+      "Th",
+      "Fm",
+      "Zr"
+    ],
+    "correctIndex": 3,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_8d069d8c34",
+    "question": "What is the atomic number of magnesium?",
+    "answers": [
+      "66",
+      "86",
+      "44",
+      "12"
+    ],
+    "correctIndex": 3,
+    "category": "Science",
+    "difficulty": "Hard"
+  },
+  {
+    "id": "science_wd_8d61c7b1cd",
+    "question": "Which element has the chemical symbol Ust?",
+    "answers": [
+      "unpentseptium",
+      "unsepttrium",
+      "silver",
+      "ruthenium"
+    ],
+    "correctIndex": 1,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_8d72589b52",
+    "question": "What is the chemical symbol for polonium?",
+    "answers": [
+      "Er",
+      "Hs",
+      "Po",
+      "Pm"
+    ],
+    "correctIndex": 2,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_8db09e171e",
+    "question": "Which element has the chemical symbol Uqo?",
+    "answers": [
+      "untripentium",
+      "neodymium",
+      "unquadoctium",
+      "niobium"
+    ],
+    "correctIndex": 2,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_8de08362fb",
+    "question": "What is the chemical symbol for unhexennium?",
+    "answers": [
+      "Uqp",
+      "Rb",
+      "Hs",
+      "Uhe"
+    ],
+    "correctIndex": 3,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_8eeb3fb995",
+    "question": "Which element has the chemical symbol Xe?",
+    "answers": [
+      "lawrencium",
+      "xenon",
+      "lutetium",
+      "terbium"
+    ],
+    "correctIndex": 1,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_8f1c07056e",
+    "question": "What is the atomic number of indium?",
+    "answers": [
+      "92",
+      "80",
+      "49",
+      "69"
+    ],
+    "correctIndex": 2,
+    "category": "Science",
+    "difficulty": "Hard"
+  },
+  {
+    "id": "science_wd_8f609a0e16",
+    "question": "Which element has the chemical symbol S?",
+    "answers": [
+      "unquadennium",
+      "astatine",
+      "sulfur",
+      "lead"
+    ],
+    "correctIndex": 2,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_8fc5b98c9a",
+    "question": "Which element has the chemical symbol Sn?",
+    "answers": [
+      "unquadhexium",
+      "plutonium",
+      "gold",
+      "tin"
+    ],
+    "correctIndex": 3,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_903da704fb",
+    "question": "Which element has the chemical symbol As?",
+    "answers": [
+      "antimony",
+      "radium",
+      "arsenic",
+      "magnesium"
+    ],
+    "correctIndex": 2,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_908b417cd6",
+    "question": "What is the chemical symbol for unpenthexium?",
+    "answers": [
+      "Uph",
+      "Ar",
+      "Usu",
+      "Rb"
+    ],
+    "correctIndex": 0,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_90d61ab4f7",
+    "question": "What is the chemical symbol for iodine?",
+    "answers": [
+      "P",
+      "I",
+      "Uhn",
+      "Ir"
+    ],
+    "correctIndex": 1,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_90d7876786",
+    "question": "What is the chemical symbol for gold?",
+    "answers": [
+      "Au",
+      "Se",
+      "Usn",
+      "Rn"
+    ],
+    "correctIndex": 0,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_910c3ef3d3",
+    "question": "What is the atomic number of unbiseptium?",
+    "answers": [
+      "67",
+      "131",
+      "113",
+      "127"
+    ],
+    "correctIndex": 3,
+    "category": "Science",
+    "difficulty": "Hard"
+  },
+  {
+    "id": "science_wd_9186e4a609",
+    "question": "What is the chemical symbol for rutherfordium?",
+    "answers": [
+      "Sn",
+      "Upb",
+      "Rf",
+      "Pr"
+    ],
+    "correctIndex": 2,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_91910e1496",
+    "question": "Which element has the chemical symbol Uph?",
+    "answers": [
+      "unpenthexium",
+      "lithium",
+      "nihonium",
+      "promethium"
+    ],
+    "correctIndex": 0,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_91a0a7f22b",
+    "question": "What is the chemical symbol for silver?",
+    "answers": [
+      "Ag",
+      "Upo",
+      "Hs",
+      "Fe"
+    ],
+    "correctIndex": 0,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_9383a87101",
+    "question": "What is the atomic number of terbium?",
+    "answers": [
+      "65",
+      "86",
+      "100",
+      "49"
+    ],
+    "correctIndex": 0,
+    "category": "Science",
+    "difficulty": "Hard"
+  },
+  {
+    "id": "science_wd_93d5bffa69",
+    "question": "What is the atomic number of unbioctium?",
+    "answers": [
+      "128",
+      "69",
+      "119",
+      "102"
+    ],
+    "correctIndex": 0,
+    "category": "Science",
+    "difficulty": "Hard"
+  },
+  {
+    "id": "science_wd_94256569ee",
+    "question": "What is the chemical symbol for oganesson?",
+    "answers": [
+      "S",
+      "Mg",
+      "Ho",
+      "Og"
+    ],
+    "correctIndex": 3,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_943ab87d9a",
+    "question": "What is the chemical symbol for unseptnilium?",
+    "answers": [
+      "Pm",
+      "Mo",
+      "Usn",
+      "Os"
+    ],
+    "correctIndex": 2,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_9557f1eea7",
+    "question": "What is the atomic number of darmstadtium?",
+    "answers": [
+      "126",
+      "110",
+      "171",
+      "170"
+    ],
+    "correctIndex": 1,
+    "category": "Science",
+    "difficulty": "Hard"
+  },
+  {
+    "id": "science_wd_9569fed29a",
+    "question": "What is the atomic number of praseodymium?",
+    "answers": [
+      "59",
+      "126",
+      "25",
+      "49"
+    ],
+    "correctIndex": 0,
+    "category": "Science",
+    "difficulty": "Hard"
+  },
+  {
+    "id": "science_wd_959e46fb13",
+    "question": "What is the chemical symbol for copernicium?",
+    "answers": [
+      "Br",
+      "Uqp",
+      "Pr",
+      "Cn"
+    ],
+    "correctIndex": 3,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_9654dfa808",
+    "question": "What is the chemical symbol for untribium?",
+    "answers": [
+      "C",
+      "Hg",
+      "Utb",
+      "Po"
+    ],
+    "correctIndex": 2,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_96643951d6",
+    "question": "What is the chemical symbol for rhenium?",
+    "answers": [
+      "Re",
+      "Rg",
+      "No",
+      "Ca"
+    ],
+    "correctIndex": 0,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_968a4643ae",
+    "question": "What is the chemical symbol for untriquadium?",
+    "answers": [
+      "Fm",
+      "Ust",
+      "Utq",
+      "Re"
+    ],
+    "correctIndex": 2,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_978857663e",
+    "question": "Which element has the chemical symbol Th?",
+    "answers": [
+      "unoctquadium",
+      "radon",
+      "lead",
+      "thorium"
+    ],
+    "correctIndex": 3,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_97dc2f29a7",
+    "question": "What is the atomic number of unseptbium?",
+    "answers": [
+      "76",
+      "172",
+      "26",
+      "120"
+    ],
+    "correctIndex": 1,
+    "category": "Science",
+    "difficulty": "Hard"
+  },
+  {
+    "id": "science_wd_97f82f734b",
+    "question": "Which element has the chemical symbol Nb?",
+    "answers": [
+      "nitrogen",
+      "niobium",
+      "praseodymium",
+      "thulium"
+    ],
+    "correctIndex": 1,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_984a0667e7",
+    "question": "Which element has the chemical symbol Ra?",
+    "answers": [
+      "radium",
+      "zinc",
+      "rhenium",
+      "phosphorus"
+    ],
+    "correctIndex": 0,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_98532657fb",
+    "question": "What is the chemical symbol for bismuth?",
+    "answers": [
+      "Bi",
+      "Ca",
+      "Tm",
+      "Pu"
+    ],
+    "correctIndex": 0,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_9891681d23",
+    "question": "Which element has the chemical symbol Uhq?",
+    "answers": [
+      "dubnium",
+      "gold",
+      "beryllium",
+      "unhexquadium"
+    ],
+    "correctIndex": 3,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_989ec6cad1",
+    "question": "What is the chemical symbol for mendelevium?",
+    "answers": [
+      "Uts",
+      "Md",
+      "Ga",
+      "V"
+    ],
+    "correctIndex": 1,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_98ab58440c",
+    "question": "Which element has the chemical symbol Tl?",
+    "answers": [
+      "germanium",
+      "thallium",
+      "curium",
+      "actinium"
+    ],
+    "correctIndex": 1,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_995a1ff581",
+    "question": "What is the atomic number of chromium?",
+    "answers": [
+      "90",
+      "24",
+      "16",
+      "63"
+    ],
+    "correctIndex": 1,
+    "category": "Science",
+    "difficulty": "Hard"
+  },
+  {
+    "id": "science_wd_99a16c1f20",
+    "question": "Which element has the chemical symbol Np?",
+    "answers": [
+      "silicon",
+      "unbiquadium",
+      "unquadoctium",
+      "neptunium"
+    ],
+    "correctIndex": 3,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_9cab8030a3",
+    "question": "What is the atomic number of unquadpentium?",
+    "answers": [
+      "145",
+      "119",
+      "69",
+      "48"
+    ],
+    "correctIndex": 0,
+    "category": "Science",
+    "difficulty": "Hard"
+  },
+  {
+    "id": "science_wd_9cbd109bfe",
+    "question": "What is the atomic number of curium?",
+    "answers": [
+      "130",
+      "145",
+      "101",
+      "96"
+    ],
+    "correctIndex": 3,
+    "category": "Science",
+    "difficulty": "Hard"
+  },
+  {
+    "id": "science_wd_9ccd417e20",
+    "question": "What is the atomic number of gold?",
+    "answers": [
+      "103",
+      "79",
+      "139",
+      "155"
+    ],
+    "correctIndex": 1,
+    "category": "Science",
+    "difficulty": "Hard"
+  },
+  {
+    "id": "science_wd_9d49fa37b3",
+    "question": "What is the chemical symbol for osmium?",
+    "answers": [
+      "Ac",
+      "Os",
+      "Mg",
+      "Zn"
+    ],
+    "correctIndex": 1,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_9e91eef0c0",
+    "question": "What is the atomic number of thulium?",
+    "answers": [
+      "71",
+      "69",
+      "162",
+      "90"
+    ],
+    "correctIndex": 1,
+    "category": "Science",
+    "difficulty": "Hard"
+  },
+  {
+    "id": "science_wd_9fa389610b",
+    "question": "Which element has the chemical symbol Ir?",
+    "answers": [
+      "unquadhexium",
+      "hafnium",
+      "calcium",
+      "iridium"
+    ],
+    "correctIndex": 3,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_9fe1c5093f",
+    "question": "Which element has the chemical symbol Ni?",
+    "answers": [
+      "nickel",
+      "phosphorus",
+      "argon",
+      "unbipentium"
+    ],
+    "correctIndex": 0,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_a0e149d706",
+    "question": "What is the atomic number of antimony?",
+    "answers": [
+      "70",
+      "51",
+      "60",
+      "6"
+    ],
+    "correctIndex": 1,
+    "category": "Science",
+    "difficulty": "Hard"
+  },
+  {
+    "id": "science_wd_a0f7ff222d",
+    "question": "What is the atomic number of holmium?",
+    "answers": [
+      "67",
+      "47",
+      "44",
+      "125"
+    ],
+    "correctIndex": 0,
+    "category": "Science",
+    "difficulty": "Hard"
+  },
+  {
+    "id": "science_wd_a108f4a722",
+    "question": "What is the chemical symbol for unquadseptium?",
+    "answers": [
+      "U",
+      "Uqs",
+      "Upb",
+      "W"
+    ],
+    "correctIndex": 1,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_a183955d2f",
+    "question": "Which element has the chemical symbol Uue?",
+    "answers": [
+      "silver",
+      "ununennium",
+      "ytterbium",
+      "tungsten"
+    ],
+    "correctIndex": 1,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_a34cc5c0da",
+    "question": "What is the atomic number of calcium?",
+    "answers": [
+      "108",
+      "26",
+      "20",
+      "105"
+    ],
+    "correctIndex": 2,
+    "category": "Science",
+    "difficulty": "Hard"
+  },
+  {
+    "id": "science_wd_a425782b64",
+    "question": "Which element has the chemical symbol Upu?",
+    "answers": [
+      "unhexennium",
+      "unhexhexium",
+      "unpentunium",
+      "lawrencium"
+    ],
+    "correctIndex": 2,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_a430076f30",
+    "question": "Which element has the chemical symbol Sc?",
+    "answers": [
+      "xenon",
+      "unbihexium",
+      "unquadunium",
+      "scandium"
+    ],
+    "correctIndex": 3,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_a4b52fcc8f",
+    "question": "What is the atomic number of unhexpentium?",
+    "answers": [
+      "165",
+      "24",
+      "161",
+      "82"
+    ],
+    "correctIndex": 0,
+    "category": "Science",
+    "difficulty": "Hard"
+  },
+  {
+    "id": "science_wd_a4d6dbf2eb",
+    "question": "What is the atomic number of meitnerium?",
+    "answers": [
+      "26",
+      "109",
+      "94",
+      "76"
+    ],
+    "correctIndex": 1,
+    "category": "Science",
+    "difficulty": "Hard"
+  },
+  {
+    "id": "science_wd_a4def56d9b",
+    "question": "What is the chemical symbol for cadmium?",
+    "answers": [
+      "Fr",
+      "Ups",
+      "Og",
+      "Cd"
+    ],
+    "correctIndex": 3,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_a5636e27b8",
+    "question": "What is the atomic number of unquadquadium?",
+    "answers": [
+      "13",
+      "144",
+      "88",
+      "18"
+    ],
+    "correctIndex": 1,
+    "category": "Science",
+    "difficulty": "Hard"
+  },
+  {
+    "id": "science_wd_a669ac1700",
+    "question": "What is the chemical symbol for promethium?",
+    "answers": [
+      "Pu",
+      "Tl",
+      "Bi",
+      "Pm"
+    ],
+    "correctIndex": 3,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_a7a094ec45",
+    "question": "Which element has the chemical symbol Zr?",
+    "answers": [
+      "ununennium",
+      "ruthenium",
+      "thulium",
+      "zirconium"
+    ],
+    "correctIndex": 3,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_a7fe6cd199",
+    "question": "Which element has the chemical symbol Uqh?",
+    "answers": [
+      "calcium",
+      "nickel",
+      "unquadhexium",
+      "unquadunium"
+    ],
+    "correctIndex": 2,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_a978a18cbc",
+    "question": "What is the atomic number of unhexennium?",
+    "answers": [
+      "83",
+      "25",
+      "169",
+      "135"
+    ],
+    "correctIndex": 2,
+    "category": "Science",
+    "difficulty": "Hard"
+  },
+  {
+    "id": "science_wd_a99c88482d",
+    "question": "Which element has the chemical symbol K?",
+    "answers": [
+      "technetium",
+      "potassium",
+      "hassium",
+      "lawrencium"
+    ],
+    "correctIndex": 1,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_aa29a80606",
+    "question": "What is the chemical symbol for erbium?",
+    "answers": [
+      "H",
+      "Uhs",
+      "Upe",
+      "Er"
+    ],
+    "correctIndex": 3,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_aa3a48b030",
+    "question": "Which element has the chemical symbol Rg?",
+    "answers": [
+      "cobalt",
+      "seaborgium",
+      "zinc",
+      "roentgenium"
+    ],
+    "correctIndex": 3,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_aae6e06ffb",
+    "question": "What is the atomic number of neon?",
+    "answers": [
+      "10",
+      "7",
+      "168",
+      "32"
+    ],
+    "correctIndex": 0,
+    "category": "Science",
+    "difficulty": "Hard"
+  },
+  {
+    "id": "science_wd_ab29901885",
+    "question": "Which element has the chemical symbol Uqn?",
+    "answers": [
+      "unquadnilium",
+      "thulium",
+      "astatine",
+      "unquadpentium"
+    ],
+    "correctIndex": 0,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_ac4894bd42",
+    "question": "What is the atomic number of germanium?",
+    "answers": [
+      "51",
+      "118",
+      "99",
+      "32"
+    ],
+    "correctIndex": 3,
+    "category": "Science",
+    "difficulty": "Hard"
+  },
+  {
+    "id": "science_wd_acfe5bb964",
+    "question": "What is the atomic number of manganese?",
+    "answers": [
+      "142",
+      "19",
+      "104",
+      "25"
+    ],
+    "correctIndex": 3,
+    "category": "Science",
+    "difficulty": "Hard"
+  },
+  {
+    "id": "science_wd_ad8d6abfe5",
+    "question": "Which element has the chemical symbol Se?",
+    "answers": [
+      "lithium",
+      "selenium",
+      "radium",
+      "thorium"
+    ],
+    "correctIndex": 1,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_ad9146af11",
+    "question": "Which element has the chemical symbol Lr?",
+    "answers": [
+      "lawrencium",
+      "krypton",
+      "unpentseptium",
+      "potassium"
+    ],
+    "correctIndex": 0,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_add444a416",
+    "question": "What is the chemical symbol for gallium?",
+    "answers": [
+      "Uhq",
+      "Pa",
+      "Ga",
+      "Upb"
+    ],
+    "correctIndex": 2,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_ae299a5cde",
+    "question": "What is the chemical symbol for unhexbium?",
+    "answers": [
+      "Tm",
+      "Li",
+      "Utt",
+      "Uhb"
+    ],
+    "correctIndex": 3,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_ae5be65b8e",
+    "question": "Which element has the chemical symbol Cr?",
+    "answers": [
+      "ruthenium",
+      "neon",
+      "bismuth",
+      "chromium"
+    ],
+    "correctIndex": 3,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_aeaf09b9b7",
+    "question": "What is the atomic number of strontium?",
+    "answers": [
+      "138",
+      "38",
+      "2",
+      "59"
+    ],
+    "correctIndex": 1,
+    "category": "Science",
+    "difficulty": "Hard"
+  },
+  {
+    "id": "science_wd_af14435f90",
+    "question": "What is the atomic number of fermium?",
+    "answers": [
+      "100",
+      "30",
+      "116",
+      "139"
+    ],
+    "correctIndex": 0,
+    "category": "Science",
+    "difficulty": "Hard"
+  },
+  {
+    "id": "science_wd_af5ed2093b",
+    "question": "What is the atomic number of titanium?",
+    "answers": [
+      "22",
+      "98",
+      "24",
+      "84"
+    ],
+    "correctIndex": 0,
+    "category": "Science",
+    "difficulty": "Hard"
+  },
+  {
+    "id": "science_wd_b37a7dab64",
+    "question": "What is the atomic number of unquadseptium?",
+    "answers": [
+      "57",
+      "74",
+      "49",
+      "147"
+    ],
+    "correctIndex": 3,
+    "category": "Science",
+    "difficulty": "Hard"
+  },
+  {
+    "id": "science_wd_b3c027db69",
+    "question": "What is the chemical symbol for yttrium?",
+    "answers": [
+      "Sg",
+      "I",
+      "Dy",
+      "Y"
+    ],
+    "correctIndex": 3,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_b5c76cd442",
+    "question": "Which element has the chemical symbol Pm?",
+    "answers": [
+      "promethium",
+      "lithium",
+      "nitrogen",
+      "americium"
+    ],
+    "correctIndex": 0,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_b61ba3b98a",
+    "question": "What is the atomic number of americium?",
+    "answers": [
+      "134",
+      "95",
+      "131",
+      "10"
+    ],
+    "correctIndex": 1,
+    "category": "Science",
+    "difficulty": "Hard"
+  },
+  {
+    "id": "science_wd_b686ade2e2",
+    "question": "What is the atomic number of unquadunium?",
+    "answers": [
+      "168",
+      "141",
+      "65",
+      "157"
+    ],
+    "correctIndex": 1,
+    "category": "Science",
+    "difficulty": "Hard"
+  },
+  {
+    "id": "science_wd_b70865e92d",
+    "question": "Which element has the chemical symbol Li?",
+    "answers": [
+      "untritrium",
+      "beryllium",
+      "untriennium",
+      "lithium"
+    ],
+    "correctIndex": 3,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_b712154ed7",
+    "question": "Which element has the chemical symbol Tb?",
+    "answers": [
+      "zirconium",
+      "neptunium",
+      "seaborgium",
+      "terbium"
+    ],
+    "correctIndex": 3,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_b744e28b84",
+    "question": "What is the atomic number of dysprosium?",
+    "answers": [
+      "66",
+      "134",
+      "115",
+      "149"
+    ],
+    "correctIndex": 0,
+    "category": "Science",
+    "difficulty": "Hard"
+  },
+  {
+    "id": "science_wd_b775ba6df9",
+    "question": "What is the atomic number of tungsten?",
+    "answers": [
+      "170",
+      "51",
+      "45",
+      "74"
+    ],
+    "correctIndex": 3,
+    "category": "Science",
+    "difficulty": "Hard"
+  },
+  {
+    "id": "science_wd_b78c1e36c1",
+    "question": "What is the atomic number of unbitrium?",
+    "answers": [
+      "23",
+      "163",
+      "123",
+      "60"
+    ],
+    "correctIndex": 2,
+    "category": "Science",
+    "difficulty": "Hard"
+  },
+  {
+    "id": "science_wd_b8268be727",
+    "question": "What is the chemical symbol for berkelium?",
+    "answers": [
+      "Pm",
+      "Bk",
+      "Ce",
+      "Zr"
+    ],
+    "correctIndex": 1,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_b83c5e0117",
+    "question": "Which element has the chemical symbol Pd?",
+    "answers": [
+      "barium",
+      "osmium",
+      "unpenthexium",
+      "palladium"
+    ],
+    "correctIndex": 3,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_b8a871889c",
+    "question": "What is the atomic number of unhexunium?",
+    "answers": [
+      "103",
+      "161",
+      "31",
+      "137"
+    ],
+    "correctIndex": 1,
+    "category": "Science",
+    "difficulty": "Hard"
+  },
+  {
+    "id": "science_wd_b8c5742066",
+    "question": "What is the chemical symbol for lead?",
+    "answers": [
+      "Pb",
+      "Uqt",
+      "Usb",
+      "Pd"
+    ],
+    "correctIndex": 0,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_b9090a3980",
+    "question": "Which element has the chemical symbol Pt?",
+    "answers": [
+      "unpenttrium",
+      "platinum",
+      "unbipentium",
+      "osmium"
+    ],
+    "correctIndex": 1,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_b91a119721",
+    "question": "What is the chemical symbol for cerium?",
+    "answers": [
+      "Uqq",
+      "N",
+      "Ce",
+      "Nd"
+    ],
+    "correctIndex": 2,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_b9253e1375",
+    "question": "Which element has the chemical symbol Cu?",
+    "answers": [
+      "unpentnilium",
+      "cobalt",
+      "copper",
+      "vanadium"
+    ],
+    "correctIndex": 2,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_b95ffb7065",
+    "question": "What is the atomic number of argon?",
+    "answers": [
+      "151",
+      "76",
+      "18",
+      "164"
+    ],
+    "correctIndex": 2,
+    "category": "Science",
+    "difficulty": "Hard"
+  },
+  {
+    "id": "science_wd_b9d87ee328",
+    "question": "What is the chemical symbol for iridium?",
+    "answers": [
+      "Eu",
+      "Pm",
+      "Ce",
+      "Ir"
+    ],
+    "correctIndex": 3,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_bb6c335ba7",
+    "question": "What is the atomic number of niobium?",
+    "answers": [
+      "14",
+      "41",
+      "118",
+      "158"
+    ],
+    "correctIndex": 1,
+    "category": "Science",
+    "difficulty": "Hard"
+  },
+  {
+    "id": "science_wd_bb9a6d6828",
+    "question": "What is the atomic number of hassium?",
+    "answers": [
+      "25",
+      "24",
+      "108",
+      "18"
+    ],
+    "correctIndex": 2,
+    "category": "Science",
+    "difficulty": "Hard"
+  },
+  {
+    "id": "science_wd_bb9ac94d92",
+    "question": "Which element has the chemical symbol Ge?",
+    "answers": [
+      "dysprosium",
+      "germanium",
+      "unbipentium",
+      "ruthenium"
+    ],
+    "correctIndex": 1,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_bbb3e9e04e",
+    "question": "What is the atomic number of molybdenum?",
+    "answers": [
+      "139",
+      "42",
+      "149",
+      "29"
+    ],
+    "correctIndex": 1,
+    "category": "Science",
+    "difficulty": "Hard"
+  },
+  {
+    "id": "science_wd_bc6197929c",
+    "question": "What is the chemical symbol for selenium?",
+    "answers": [
+      "Dy",
+      "Fl",
+      "Upn",
+      "Se"
+    ],
+    "correctIndex": 3,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_bd6b41cffb",
+    "question": "What is the atomic number of unbiquadium?",
+    "answers": [
+      "30",
+      "108",
+      "124",
+      "79"
+    ],
+    "correctIndex": 2,
+    "category": "Science",
+    "difficulty": "Hard"
+  },
+  {
+    "id": "science_wd_bd8c189179",
+    "question": "Which element has the chemical symbol In?",
+    "answers": [
+      "indium",
+      "plutonium",
+      "boron",
+      "mercury"
+    ],
+    "correctIndex": 0,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_bdadacd169",
+    "question": "What is the chemical symbol for bohrium?",
+    "answers": [
+      "Bh",
+      "Uhn",
+      "Yb",
+      "H"
+    ],
+    "correctIndex": 0,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_be01f7fd37",
+    "question": "What is the chemical symbol for krypton?",
+    "answers": [
+      "Kr",
+      "As",
+      "Usn",
+      "F"
+    ],
+    "correctIndex": 0,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_be42e7035e",
+    "question": "What is the atomic number of untripentium?",
+    "answers": [
+      "57",
+      "82",
+      "135",
+      "73"
+    ],
+    "correctIndex": 2,
+    "category": "Science",
+    "difficulty": "Hard"
+  },
+  {
+    "id": "science_wd_beaa7a0e2a",
+    "question": "Which element has the chemical symbol Uqu?",
+    "answers": [
+      "potassium",
+      "unquadunium",
+      "unhexquadium",
+      "mendelevium"
+    ],
+    "correctIndex": 1,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_bf4e4997a1",
+    "question": "Which element has the chemical symbol Og?",
+    "answers": [
+      "astatine",
+      "unsepttrium",
+      "oganesson",
+      "indium"
+    ],
+    "correctIndex": 2,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_bfdc5697f5",
+    "question": "What is the atomic number of iridium?",
+    "answers": [
+      "31",
+      "15",
+      "77",
+      "12"
+    ],
+    "correctIndex": 2,
+    "category": "Science",
+    "difficulty": "Hard"
+  },
+  {
+    "id": "science_wd_c0549a52c8",
+    "question": "Which element has the chemical symbol Ubp?",
+    "answers": [
+      "bismuth",
+      "lutetium",
+      "unbipentium",
+      "tellurium"
+    ],
+    "correctIndex": 2,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_c0a27e8e59",
+    "question": "What is the atomic number of untrioctium?",
+    "answers": [
+      "17",
+      "138",
+      "114",
+      "3"
+    ],
+    "correctIndex": 1,
+    "category": "Science",
+    "difficulty": "Hard"
+  },
+  {
+    "id": "science_wd_c0d1bd6cd4",
+    "question": "What is the atomic number of unquadennium?",
+    "answers": [
+      "105",
+      "81",
+      "27",
+      "149"
+    ],
+    "correctIndex": 3,
+    "category": "Science",
+    "difficulty": "Hard"
+  },
+  {
+    "id": "science_wd_c176f7ae40",
+    "question": "What is the atomic number of sulfur?",
+    "answers": [
+      "162",
+      "91",
+      "156",
+      "16"
+    ],
+    "correctIndex": 3,
+    "category": "Science",
+    "difficulty": "Hard"
+  },
+  {
+    "id": "science_wd_c1d3d8c007",
+    "question": "What is the atomic number of yttrium?",
+    "answers": [
+      "39",
+      "84",
+      "3",
+      "97"
+    ],
+    "correctIndex": 0,
+    "category": "Science",
+    "difficulty": "Hard"
+  },
+  {
+    "id": "science_wd_c29bc48f71",
+    "question": "What is the chemical symbol for unquadquadium?",
+    "answers": [
+      "Fr",
+      "He",
+      "Fl",
+      "Uqq"
+    ],
+    "correctIndex": 3,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_c346abb65e",
+    "question": "Which element has the chemical symbol Re?",
+    "answers": [
+      "zinc",
+      "nickel",
+      "silver",
+      "rhenium"
+    ],
+    "correctIndex": 3,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_c400761cdb",
+    "question": "Which element has the chemical symbol Pr?",
+    "answers": [
+      "praseodymium",
+      "untriquadium",
+      "lithium",
+      "untrihexium"
+    ],
+    "correctIndex": 0,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_c416d0d8ac",
+    "question": "What is the chemical symbol for radon?",
+    "answers": [
+      "Bk",
+      "Rn",
+      "Ac",
+      "Uth"
+    ],
+    "correctIndex": 1,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_c49e76fd15",
+    "question": "Which element has the chemical symbol Uqt?",
+    "answers": [
+      "argon",
+      "unquadunium",
+      "unquadtrium",
+      "unseptnilium"
+    ],
+    "correctIndex": 2,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_c59cad4da2",
+    "question": "What is the atomic number of iron?",
+    "answers": [
+      "26",
+      "163",
+      "127",
+      "114"
+    ],
+    "correctIndex": 0,
+    "category": "Science",
+    "difficulty": "Hard"
+  },
+  {
+    "id": "science_wd_c75aa0c873",
+    "question": "What is the chemical symbol for antimony?",
+    "answers": [
+      "Sb",
+      "Ca",
+      "Uqn",
+      "Uhs"
+    ],
+    "correctIndex": 0,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_c7ba240286",
+    "question": "What is the chemical symbol for unpenttrium?",
+    "answers": [
+      "Ac",
+      "Upt",
+      "Uqn",
+      "Se"
+    ],
+    "correctIndex": 1,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_c7d88eb110",
+    "question": "Which element has the chemical symbol He?",
+    "answers": [
+      "helium",
+      "lithium",
+      "unbiennium",
+      "bromine"
+    ],
+    "correctIndex": 0,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_c82cdeebb4",
+    "question": "What is the chemical symbol for hassium?",
+    "answers": [
+      "Nb",
+      "Pd",
+      "Pm",
+      "Hs"
+    ],
+    "correctIndex": 3,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_c86a3fec12",
+    "question": "What is the chemical symbol for tellurium?",
+    "answers": [
+      "Te",
+      "Upe",
+      "Np",
+      "Ar"
+    ],
+    "correctIndex": 0,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_c9857c73d7",
+    "question": "What is the atomic number of unsepttrium?",
+    "answers": [
+      "17",
+      "184",
+      "158",
+      "173"
+    ],
+    "correctIndex": 3,
+    "category": "Science",
+    "difficulty": "Hard"
+  },
+  {
+    "id": "science_wd_ca3212fef3",
+    "question": "What is the chemical symbol for scandium?",
+    "answers": [
+      "Rh",
+      "Rn",
+      "Sc",
+      "Ta"
+    ],
+    "correctIndex": 2,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_ca5c93ad11",
+    "question": "Which element has the chemical symbol Uhu?",
+    "answers": [
+      "caesium",
+      "unbihexium",
+      "unhexunium",
+      "unquadpentium"
+    ],
+    "correctIndex": 2,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_cacc93fd58",
+    "question": "Which element has the chemical symbol Utp?",
+    "answers": [
+      "untripentium",
+      "ytterbium",
+      "nitrogen",
+      "untritrium"
+    ],
+    "correctIndex": 0,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_cb6fa66a24",
+    "question": "What is the chemical symbol for unhexhexium?",
+    "answers": [
+      "Hs",
+      "Uhh",
+      "Po",
+      "Uoq"
+    ],
+    "correctIndex": 1,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_cbfe618ce0",
+    "question": "Which element has the chemical symbol N?",
+    "answers": [
+      "unhexbium",
+      "unquadunium",
+      "beryllium",
+      "nitrogen"
+    ],
+    "correctIndex": 3,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_cc095a7e48",
+    "question": "What is the atomic number of unhexoctium?",
+    "answers": [
+      "168",
+      "106",
+      "78",
+      "60"
+    ],
+    "correctIndex": 0,
+    "category": "Science",
+    "difficulty": "Hard"
+  },
+  {
+    "id": "science_wd_cc0d63c6cf",
+    "question": "Which element has the chemical symbol Md?",
+    "answers": [
+      "lead",
+      "selenium",
+      "seaborgium",
+      "mendelevium"
+    ],
+    "correctIndex": 3,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_cd48f3e6ac",
+    "question": "Which element has the chemical symbol Cf?",
+    "answers": [
+      "mendelevium",
+      "cobalt",
+      "mercury",
+      "californium"
+    ],
+    "correctIndex": 3,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_cd5047ba17",
+    "question": "What is the atomic number of vanadium?",
+    "answers": [
+      "45",
+      "23",
+      "100",
+      "127"
+    ],
+    "correctIndex": 1,
+    "category": "Science",
+    "difficulty": "Hard"
+  },
+  {
+    "id": "science_wd_cd52e00b16",
+    "question": "What is the atomic number of unpentbium?",
+    "answers": [
+      "159",
+      "152",
+      "96",
+      "109"
+    ],
+    "correctIndex": 1,
+    "category": "Science",
+    "difficulty": "Hard"
+  },
+  {
+    "id": "science_wd_ce348e2ca8",
+    "question": "Which element has the chemical symbol Co?",
+    "answers": [
+      "potassium",
+      "cobalt",
+      "unquadquadium",
+      "meitnerium"
+    ],
+    "correctIndex": 1,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_ce8ca24d1a",
+    "question": "Which element has the chemical symbol Uhb?",
+    "answers": [
+      "gallium",
+      "unpenthexium",
+      "unbioctium",
+      "unhexbium"
+    ],
+    "correctIndex": 3,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_cf4b60460a",
+    "question": "What is the chemical symbol for calcium?",
+    "answers": [
+      "Ca",
+      "Ba",
+      "Sc",
+      "Upe"
+    ],
+    "correctIndex": 0,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_cfc0b246ad",
+    "question": "What is the atomic number of uranium?",
+    "answers": [
+      "95",
+      "34",
+      "133",
+      "92"
+    ],
+    "correctIndex": 3,
+    "category": "Science",
+    "difficulty": "Hard"
+  },
+  {
+    "id": "science_wd_cfda0708f5",
+    "question": "Which element has the chemical symbol Uqe?",
+    "answers": [
+      "unquadennium",
+      "aluminium",
+      "uranium",
+      "rutherfordium"
+    ],
+    "correctIndex": 0,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_d024c9ed69",
+    "question": "What is the chemical symbol for ununennium?",
+    "answers": [
+      "Uqh",
+      "Pt",
+      "Ust",
+      "Uue"
+    ],
+    "correctIndex": 3,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_d0bcaac4e6",
+    "question": "What is the atomic number of rubidium?",
+    "answers": [
+      "160",
+      "21",
+      "63",
+      "37"
+    ],
+    "correctIndex": 3,
+    "category": "Science",
+    "difficulty": "Hard"
+  },
+  {
+    "id": "science_wd_d18cc24ad4",
+    "question": "What is the atomic number of sodium?",
+    "answers": [
+      "133",
+      "11",
+      "131",
+      "29"
+    ],
+    "correctIndex": 1,
+    "category": "Science",
+    "difficulty": "Hard"
+  },
+  {
+    "id": "science_wd_d207a8915c",
+    "question": "Which element has the chemical symbol La?",
+    "answers": [
+      "lanthanum",
+      "ytterbium",
+      "arsenic",
+      "cerium"
+    ],
+    "correctIndex": 0,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_d2108ac982",
+    "question": "What is the chemical symbol for potassium?",
+    "answers": [
+      "K",
+      "Upb",
+      "Li",
+      "Md"
+    ],
+    "correctIndex": 0,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_d22d806fc2",
+    "question": "What is the atomic number of carbon?",
+    "answers": [
+      "30",
+      "78",
+      "27",
+      "6"
+    ],
+    "correctIndex": 3,
+    "category": "Science",
+    "difficulty": "Hard"
+  },
+  {
+    "id": "science_wd_d2c876ebe7",
+    "question": "Which element has the chemical symbol Fr?",
+    "answers": [
+      "francium",
+      "unhexnilium",
+      "untrioctium",
+      "unpentseptium"
+    ],
+    "correctIndex": 0,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_d2cef7f485",
+    "question": "What is the atomic number of unoctquadium?",
+    "answers": [
+      "184",
+      "105",
+      "153",
+      "35"
+    ],
+    "correctIndex": 0,
+    "category": "Science",
+    "difficulty": "Hard"
+  },
+  {
+    "id": "science_wd_d3119e39c9",
+    "question": "What is the atomic number of untrinilium?",
+    "answers": [
+      "4",
+      "130",
+      "111",
+      "128"
+    ],
+    "correctIndex": 1,
+    "category": "Science",
+    "difficulty": "Hard"
+  },
+  {
+    "id": "science_wd_d38e8638ba",
+    "question": "What is the chemical symbol for seaborgium?",
+    "answers": [
+      "Sg",
+      "Md",
+      "Ubp",
+      "Tl"
+    ],
+    "correctIndex": 0,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_d49b2af3fb",
+    "question": "What is the atomic number of unpenttrium?",
+    "answers": [
+      "139",
+      "153",
+      "3",
+      "37"
+    ],
+    "correctIndex": 1,
+    "category": "Science",
+    "difficulty": "Hard"
+  },
+  {
+    "id": "science_wd_d49bb95062",
+    "question": "Which element has the chemical symbol Hs?",
+    "answers": [
+      "hassium",
+      "scandium",
+      "unpentoctium",
+      "radium"
+    ],
+    "correctIndex": 0,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_d4b6be9fc0",
+    "question": "What is the chemical symbol for indium?",
+    "answers": [
+      "In",
+      "Bh",
+      "Tc",
+      "O"
+    ],
+    "correctIndex": 0,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_d4e501cb54",
+    "question": "What is the chemical symbol for nobelium?",
+    "answers": [
+      "He",
+      "Tl",
+      "Usb",
+      "No"
+    ],
+    "correctIndex": 3,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_d505e1fba7",
+    "question": "What is the chemical symbol for unhexunium?",
+    "answers": [
+      "Pt",
+      "Uhu",
+      "Bh",
+      "Ho"
+    ],
+    "correctIndex": 1,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_d518bd4520",
+    "question": "Which element has the chemical symbol Am?",
+    "answers": [
+      "unhexquadium",
+      "iron",
+      "americium",
+      "ununennium"
+    ],
+    "correctIndex": 2,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_d5967ede3a",
+    "question": "What is the chemical symbol for darmstadtium?",
+    "answers": [
+      "Sc",
+      "Rh",
+      "Ds",
+      "I"
+    ],
+    "correctIndex": 2,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_d5a0cd5006",
+    "question": "What is the atomic number of californium?",
+    "answers": [
+      "14",
+      "105",
+      "98",
+      "166"
+    ],
+    "correctIndex": 2,
+    "category": "Science",
+    "difficulty": "Hard"
+  },
+  {
+    "id": "science_wd_d5b6994cef",
+    "question": "Which element has the chemical symbol Ubn?",
+    "answers": [
+      "unbiennium",
+      "calcium",
+      "barium",
+      "unbinilium"
+    ],
+    "correctIndex": 3,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_d5f65a0a4b",
+    "question": "Which element has the chemical symbol Es?",
+    "answers": [
+      "osmium",
+      "einsteinium",
+      "unquadquadium",
+      "tantalum"
+    ],
+    "correctIndex": 1,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_d65135f208",
+    "question": "What is the chemical symbol for unhexpentium?",
+    "answers": [
+      "Uhp",
+      "Xe",
+      "Rf",
+      "Utt"
+    ],
+    "correctIndex": 0,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_d6620ea9d8",
+    "question": "Which element has the chemical symbol Pu?",
+    "answers": [
+      "untrihexium",
+      "untripentium",
+      "plutonium",
+      "iron"
+    ],
+    "correctIndex": 2,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_d88496c5b6",
+    "question": "What is the chemical symbol for fermium?",
+    "answers": [
+      "Fm",
+      "Be",
+      "Uqt",
+      "Ts"
+    ],
+    "correctIndex": 0,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_d8a4ea62c6",
+    "question": "What is the atomic number of unquadhexium?",
+    "answers": [
+      "110",
+      "6",
+      "129",
+      "146"
+    ],
+    "correctIndex": 3,
+    "category": "Science",
+    "difficulty": "Hard"
+  },
+  {
+    "id": "science_wd_d977f4a448",
+    "question": "What is the chemical symbol for chlorine?",
+    "answers": [
+      "Uho",
+      "Cl",
+      "Pb",
+      "Mg"
+    ],
+    "correctIndex": 1,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_d9b8994a68",
+    "question": "Which element has the chemical symbol Yb?",
+    "answers": [
+      "einsteinium",
+      "rubidium",
+      "ytterbium",
+      "unseptbium"
+    ],
+    "correctIndex": 2,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_dab3c014a3",
+    "question": "What is the chemical symbol for aluminium?",
+    "answers": [
+      "P",
+      "Al",
+      "Uqo",
+      "Fr"
+    ],
+    "correctIndex": 1,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_db772a2046",
+    "question": "Which element has the chemical symbol Pb?",
+    "answers": [
+      "xenon",
+      "protactinium",
+      "copper",
+      "lead"
+    ],
+    "correctIndex": 3,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_dbb1f4df25",
+    "question": "What is the atomic number of zinc?",
+    "answers": [
+      "22",
+      "57",
+      "30",
+      "145"
+    ],
+    "correctIndex": 2,
+    "category": "Science",
+    "difficulty": "Hard"
+  },
+  {
+    "id": "science_wd_dd508b9834",
+    "question": "What is the atomic number of silver?",
+    "answers": [
+      "47",
+      "23",
+      "167",
+      "80"
+    ],
+    "correctIndex": 0,
+    "category": "Science",
+    "difficulty": "Hard"
+  },
+  {
+    "id": "science_wd_dd7d209660",
+    "question": "What is the chemical symbol for protactinium?",
+    "answers": [
+      "Be",
+      "Uqp",
+      "Ar",
+      "Pa"
+    ],
+    "correctIndex": 3,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_ddff6b35a3",
+    "question": "Which element has the chemical symbol Uht?",
+    "answers": [
+      "unhexquadium",
+      "unhextrium",
+      "ununennium",
+      "unquadpentium"
+    ],
+    "correctIndex": 1,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_dea7a66695",
+    "question": "What is the atomic number of chlorine?",
+    "answers": [
+      "35",
+      "124",
+      "17",
+      "162"
+    ],
+    "correctIndex": 2,
+    "category": "Science",
+    "difficulty": "Hard"
+  },
+  {
+    "id": "science_wd_deeea30e01",
+    "question": "What is the chemical symbol for californium?",
+    "answers": [
+      "Cf",
+      "Zn",
+      "Gd",
+      "Uhp"
+    ],
+    "correctIndex": 0,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_df4df2511d",
+    "question": "What is the chemical symbol for molybdenum?",
+    "answers": [
+      "Mo",
+      "Li",
+      "Hg",
+      "Ubu"
+    ],
+    "correctIndex": 0,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_df68b9c92c",
+    "question": "What is the atomic number of unpentennium?",
+    "answers": [
+      "20",
+      "159",
+      "32",
+      "55"
+    ],
+    "correctIndex": 1,
+    "category": "Science",
+    "difficulty": "Hard"
+  },
+  {
+    "id": "science_wd_df6ebbd986",
+    "question": "What is the chemical symbol for unquadbium?",
+    "answers": [
+      "Uhn",
+      "Uqe",
+      "No",
+      "Uqb"
+    ],
+    "correctIndex": 3,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_df78d327ac",
+    "question": "What is the atomic number of ununennium?",
+    "answers": [
+      "137",
+      "119",
+      "68",
+      "42"
+    ],
+    "correctIndex": 1,
+    "category": "Science",
+    "difficulty": "Hard"
+  },
+  {
+    "id": "science_wd_e0019d90bf",
+    "question": "Which element has the chemical symbol Bi?",
+    "answers": [
+      "ytterbium",
+      "bismuth",
+      "scandium",
+      "roentgenium"
+    ],
+    "correctIndex": 1,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_e0f178c0ee",
+    "question": "Which element has the chemical symbol Usn?",
+    "answers": [
+      "unbihexium",
+      "berkelium",
+      "unseptnilium",
+      "europium"
+    ],
+    "correctIndex": 2,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_e1619a43d5",
+    "question": "What is the atomic number of tantalum?",
+    "answers": [
+      "44",
+      "143",
+      "73",
+      "137"
+    ],
+    "correctIndex": 2,
+    "category": "Science",
+    "difficulty": "Hard"
+  },
+  {
+    "id": "science_wd_e23e319f35",
+    "question": "What is the chemical symbol for gadolinium?",
+    "answers": [
+      "Gd",
+      "Ups",
+      "Utn",
+      "Uqn"
+    ],
+    "correctIndex": 0,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_e26194dd4f",
+    "question": "What is the atomic number of potassium?",
+    "answers": [
+      "19",
+      "67",
+      "12",
+      "37"
+    ],
+    "correctIndex": 0,
+    "category": "Science",
+    "difficulty": "Hard"
+  },
+  {
+    "id": "science_wd_e2c15af5d8",
+    "question": "What is the atomic number of moscovium?",
+    "answers": [
+      "104",
+      "7",
+      "149",
+      "115"
+    ],
+    "correctIndex": 3,
+    "category": "Science",
+    "difficulty": "Hard"
+  },
+  {
+    "id": "science_wd_e2e37cbca8",
+    "question": "What is the chemical symbol for lutetium?",
+    "answers": [
+      "Dy",
+      "Lu",
+      "Uto",
+      "Upe"
+    ],
+    "correctIndex": 1,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_e30e31a43c",
+    "question": "What is the atomic number of neptunium?",
+    "answers": [
+      "90",
+      "29",
+      "102",
+      "93"
+    ],
+    "correctIndex": 3,
+    "category": "Science",
+    "difficulty": "Hard"
+  },
+  {
+    "id": "science_wd_e330d35aae",
+    "question": "What is the atomic number of gadolinium?",
+    "answers": [
+      "9",
+      "7",
+      "64",
+      "4"
+    ],
+    "correctIndex": 2,
+    "category": "Science",
+    "difficulty": "Hard"
+  },
+  {
+    "id": "science_wd_e413f2d018",
+    "question": "What is the chemical symbol for mercury?",
+    "answers": [
+      "Eu",
+      "Er",
+      "Upt",
+      "Hg"
+    ],
+    "correctIndex": 3,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_e41ac1b322",
+    "question": "What is the chemical symbol for curium?",
+    "answers": [
+      "He",
+      "Usn",
+      "Cm",
+      "Np"
+    ],
+    "correctIndex": 2,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_e480e0d498",
+    "question": "Which element has the chemical symbol Cs?",
+    "answers": [
+      "californium",
+      "caesium",
+      "copper",
+      "darmstadtium"
+    ],
+    "correctIndex": 1,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_e483896aef",
+    "question": "Which element has the chemical symbol Uhp?",
+    "answers": [
+      "unseptbium",
+      "unbiennium",
+      "unhexpentium",
+      "fluorine"
+    ],
+    "correctIndex": 2,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_e4952e3f3a",
+    "question": "What is the chemical symbol for unseptunium?",
+    "answers": [
+      "Usu",
+      "Usn",
+      "Ce",
+      "Uhu"
+    ],
+    "correctIndex": 0,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_e4f6ac3343",
+    "question": "What is the chemical symbol for chromium?",
+    "answers": [
+      "Cr",
+      "Eu",
+      "Uho",
+      "Th"
+    ],
+    "correctIndex": 0,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_e503962a7e",
+    "question": "What is the atomic number of platinum?",
+    "answers": [
+      "78",
+      "163",
+      "35",
+      "88"
+    ],
+    "correctIndex": 0,
+    "category": "Science",
+    "difficulty": "Hard"
+  },
+  {
+    "id": "science_wd_e5a4fd98ff",
+    "question": "What is the chemical symbol for unpentunium?",
+    "answers": [
+      "Upu",
+      "Uoq",
+      "Cu",
+      "Fl"
+    ],
+    "correctIndex": 0,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_e77409a873",
+    "question": "Which element has the chemical symbol Uqq?",
+    "answers": [
+      "nobelium",
+      "molybdenum",
+      "unquadquadium",
+      "unpentpentium"
+    ],
+    "correctIndex": 2,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_e8188103f8",
+    "question": "What is the chemical symbol for unpentquadium?",
+    "answers": [
+      "Lv",
+      "Upq",
+      "Ube",
+      "Hs"
+    ],
+    "correctIndex": 1,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_e89b66ffbe",
+    "question": "What is the atomic number of technetium?",
+    "answers": [
+      "128",
+      "43",
+      "5",
+      "126"
+    ],
+    "correctIndex": 1,
+    "category": "Science",
+    "difficulty": "Hard"
+  },
+  {
+    "id": "science_wd_e98874f4a8",
+    "question": "What is the atomic number of thallium?",
+    "answers": [
+      "157",
+      "69",
+      "96",
+      "81"
+    ],
+    "correctIndex": 3,
+    "category": "Science",
+    "difficulty": "Hard"
+  },
+  {
+    "id": "science_wd_ea3d5ea93e",
+    "question": "What is the chemical symbol for francium?",
+    "answers": [
+      "Er",
+      "Nh",
+      "Utb",
+      "Fr"
+    ],
+    "correctIndex": 3,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_ea53c800ff",
+    "question": "Which element has the chemical symbol Uqb?",
+    "answers": [
+      "uranium",
+      "unquadbium",
+      "copper",
+      "calcium"
+    ],
+    "correctIndex": 1,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_ed38e6b8e9",
+    "question": "What is the chemical symbol for unbipentium?",
+    "answers": [
+      "Ubt",
+      "Ba",
+      "Ubp",
+      "Utp"
+    ],
+    "correctIndex": 2,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_ed9ff93044",
+    "question": "What is the atomic number of astatine?",
+    "answers": [
+      "118",
+      "48",
+      "85",
+      "95"
+    ],
+    "correctIndex": 2,
+    "category": "Science",
+    "difficulty": "Hard"
+  },
+  {
+    "id": "science_wd_eda25a2591",
+    "question": "What is the atomic number of copernicium?",
+    "answers": [
+      "184",
+      "27",
+      "112",
+      "65"
+    ],
+    "correctIndex": 2,
+    "category": "Science",
+    "difficulty": "Hard"
+  },
+  {
+    "id": "science_wd_ee21dcf5c1",
+    "question": "What is the chemical symbol for unquadennium?",
+    "answers": [
+      "Uqe",
+      "Nh",
+      "Sn",
+      "Uqb"
+    ],
+    "correctIndex": 0,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_f00937e2fb",
+    "question": "What is the chemical symbol for unquadunium?",
+    "answers": [
+      "Utq",
+      "Ute",
+      "Uqb",
+      "Uqu"
+    ],
+    "correctIndex": 3,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_f02647a6ca",
+    "question": "Which element has the chemical symbol Hf?",
+    "answers": [
+      "hafnium",
+      "gadolinium",
+      "caesium",
+      "sulfur"
+    ],
+    "correctIndex": 0,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_f072c8c19b",
+    "question": "Which element has the chemical symbol Mt?",
+    "answers": [
+      "gallium",
+      "unquadtrium",
+      "meitnerium",
+      "untrinilium"
+    ],
+    "correctIndex": 2,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_f09c2a17da",
+    "question": "Which element has the chemical symbol Tm?",
+    "answers": [
+      "thulium",
+      "bohrium",
+      "tin",
+      "darmstadtium"
+    ],
+    "correctIndex": 0,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_f09fc3d0a4",
+    "question": "What is the chemical symbol for unbiunium?",
+    "answers": [
+      "Fr",
+      "Ubu",
+      "Ga",
+      "Rh"
+    ],
+    "correctIndex": 1,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_f0d0d38717",
+    "question": "What is the atomic number of lutetium?",
+    "answers": [
+      "25",
+      "3",
+      "71",
+      "150"
+    ],
+    "correctIndex": 2,
+    "category": "Science",
+    "difficulty": "Hard"
+  },
+  {
+    "id": "science_wd_f1ff5dab21",
+    "question": "Which element has the chemical symbol Ube?",
+    "answers": [
+      "californium",
+      "krypton",
+      "unbiennium",
+      "fluorine"
+    ],
+    "correctIndex": 2,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_f22470184b",
+    "question": "What is the atomic number of unpentpentium?",
+    "answers": [
+      "41",
+      "168",
+      "155",
+      "130"
+    ],
+    "correctIndex": 2,
+    "category": "Science",
+    "difficulty": "Hard"
+  },
+  {
+    "id": "science_wd_f2781f0108",
+    "question": "Which element has the chemical symbol Ca?",
+    "answers": [
+      "magnesium",
+      "gold",
+      "calcium",
+      "palladium"
+    ],
+    "correctIndex": 2,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_f2caa371d7",
+    "question": "Which element has the chemical symbol Uth?",
+    "answers": [
+      "cobalt",
+      "hafnium",
+      "untrihexium",
+      "plutonium"
+    ],
+    "correctIndex": 2,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_f2e7d05b77",
+    "question": "What is the atomic number of rhenium?",
+    "answers": [
+      "75",
+      "83",
+      "166",
+      "1"
+    ],
+    "correctIndex": 0,
+    "category": "Science",
+    "difficulty": "Hard"
+  },
+  {
+    "id": "science_wd_f44e07fd5e",
+    "question": "What is the atomic number of lawrencium?",
+    "answers": [
+      "103",
+      "109",
+      "150",
+      "57"
+    ],
+    "correctIndex": 0,
+    "category": "Science",
+    "difficulty": "Hard"
+  },
+  {
+    "id": "science_wd_f5125fdb9b",
+    "question": "What is the atomic number of europium?",
+    "answers": [
+      "158",
+      "85",
+      "63",
+      "146"
+    ],
+    "correctIndex": 2,
+    "category": "Science",
+    "difficulty": "Hard"
+  },
+  {
+    "id": "science_wd_f559883eb4",
+    "question": "What is the chemical symbol for untripentium?",
+    "answers": [
+      "Ubn",
+      "Utp",
+      "Es",
+      "Rb"
+    ],
+    "correctIndex": 1,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_f7764af662",
+    "question": "What is the atomic number of unpenthexium?",
+    "answers": [
+      "84",
+      "156",
+      "71",
+      "104"
+    ],
+    "correctIndex": 1,
+    "category": "Science",
+    "difficulty": "Hard"
+  },
+  {
+    "id": "science_wd_f786691133",
+    "question": "What is the atomic number of erbium?",
+    "answers": [
+      "68",
+      "88",
+      "162",
+      "101"
+    ],
+    "correctIndex": 0,
+    "category": "Science",
+    "difficulty": "Hard"
+  },
+  {
+    "id": "science_wd_f7ee833482",
+    "question": "What is the atomic number of hydrogen?",
+    "answers": [
+      "47",
+      "46",
+      "8",
+      "1"
+    ],
+    "correctIndex": 3,
+    "category": "Science",
+    "difficulty": "Hard"
+  },
+  {
+    "id": "science_wd_f9358534b0",
+    "question": "What is the atomic number of unquadtrium?",
+    "answers": [
+      "143",
+      "184",
+      "163",
+      "148"
+    ],
+    "correctIndex": 0,
+    "category": "Science",
+    "difficulty": "Hard"
+  },
+  {
+    "id": "science_wd_f93c7b1524",
+    "question": "What is the atomic number of lithium?",
+    "answers": [
+      "159",
+      "58",
+      "87",
+      "3"
+    ],
+    "correctIndex": 3,
+    "category": "Science",
+    "difficulty": "Hard"
+  },
+  {
+    "id": "science_wd_f959763b45",
+    "question": "What is the chemical symbol for unbibium?",
+    "answers": [
+      "As",
+      "Ubb",
+      "Tm",
+      "Bi"
+    ],
+    "correctIndex": 1,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_f9e53bdbef",
+    "question": "What is the chemical symbol for radium?",
+    "answers": [
+      "Nb",
+      "Ho",
+      "Cm",
+      "Ra"
+    ],
+    "correctIndex": 3,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_fa64f4a00a",
+    "question": "Which element has the chemical symbol Er?",
+    "answers": [
+      "erbium",
+      "uranium",
+      "arsenic",
+      "tellurium"
+    ],
+    "correctIndex": 0,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_faab2df7d4",
+    "question": "What is the chemical symbol for boron?",
+    "answers": [
+      "Nd",
+      "B",
+      "Rf",
+      "Cu"
+    ],
+    "correctIndex": 1,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_fb0184ef18",
+    "question": "What is the atomic number of unhextrium?",
+    "answers": [
+      "122",
+      "42",
+      "163",
+      "70"
+    ],
+    "correctIndex": 2,
+    "category": "Science",
+    "difficulty": "Hard"
+  },
+  {
+    "id": "science_wd_fbd9f952b0",
+    "question": "Which element has the chemical symbol Dy?",
+    "answers": [
+      "palladium",
+      "unpentbium",
+      "unquadnilium",
+      "dysprosium"
+    ],
+    "correctIndex": 3,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_fc327b1f1c",
+    "question": "What is the chemical symbol for americium?",
+    "answers": [
+      "Am",
+      "Ubu",
+      "Pt",
+      "Hg"
+    ],
+    "correctIndex": 0,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_fc5603487f",
+    "question": "Which element has the chemical symbol Nd?",
+    "answers": [
+      "praseodymium",
+      "neodymium",
+      "gallium",
+      "carbon"
+    ],
+    "correctIndex": 1,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_fcb94b098f",
+    "question": "What is the atomic number of tin?",
+    "answers": [
+      "80",
+      "3",
+      "50",
+      "88"
+    ],
+    "correctIndex": 2,
+    "category": "Science",
+    "difficulty": "Hard"
+  },
+  {
+    "id": "science_wd_fd2b381593",
+    "question": "What is the chemical symbol for unbinilium?",
+    "answers": [
+      "Upp",
+      "Os",
+      "Pa",
+      "Ubn"
+    ],
+    "correctIndex": 3,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_fd3b858278",
+    "question": "Which element has the chemical symbol Ups?",
+    "answers": [
+      "unquadtrium",
+      "unhexhexium",
+      "chlorine",
+      "unpentseptium"
+    ],
+    "correctIndex": 3,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_fd941bf7e3",
+    "question": "Which element has the chemical symbol I?",
+    "answers": [
+      "tantalum",
+      "chromium",
+      "unpentunium",
+      "iodine"
+    ],
+    "correctIndex": 3,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_wd_ff523db0b4",
+    "question": "What is the chemical symbol for thorium?",
+    "answers": [
+      "Th",
+      "Mc",
+      "Ir",
+      "Cm"
+    ],
+    "correctIndex": 0,
+    "category": "Science",
+    "difficulty": "Medium"
+  }
+]

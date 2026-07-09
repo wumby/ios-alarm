@@ -1,0 +1,8075 @@
+[
+  {
+    "id": "geography_0001",
+    "question": "What is the largest ocean on Earth?",
+    "answers": [
+      "Atlantic",
+      "Indian",
+      "Pacific",
+      "Arctic"
+    ],
+    "correctIndex": 2,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_0002",
+    "question": "Which country is home to the city of Kyoto?",
+    "answers": [
+      "China",
+      "Japan",
+      "South Korea",
+      "Thailand"
+    ],
+    "correctIndex": 1,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_0003",
+    "question": "What is the capital of Canada?",
+    "answers": [
+      "Toronto",
+      "Vancouver",
+      "Ottawa",
+      "Montreal"
+    ],
+    "correctIndex": 2,
+    "category": "Geography",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geography_wd_003ec6dced",
+    "question": "On which continent is North Korea located?",
+    "answers": [
+      "North America",
+      "Asia",
+      "Eurasia",
+      "Oceania"
+    ],
+    "correctIndex": 1,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_005c36419c",
+    "question": "What currency is used in India?",
+    "answers": [
+      "West African CFA franc",
+      "Maldivian rufiyaa",
+      "Indian rupee",
+      "Serbian dinar"
+    ],
+    "correctIndex": 2,
+    "category": "Geography",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geography_wd_00e01ae16c",
+    "question": "What currency is used in Austria?",
+    "answers": [
+      "Moroccan dirham",
+      "Central African CFA franc",
+      "euro",
+      "afghani"
+    ],
+    "correctIndex": 2,
+    "category": "Geography",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geography_wd_015dba41ac",
+    "question": "On which continent is Libya located?",
+    "answers": [
+      "Asia",
+      "Eurasia",
+      "South America",
+      "Africa"
+    ],
+    "correctIndex": 3,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_01b22b612b",
+    "question": "What currency is used in Iran?",
+    "answers": [
+      "Tongan paʻanga",
+      "lilangeni",
+      "Iranian rial",
+      "sovereign bolivar"
+    ],
+    "correctIndex": 2,
+    "category": "Geography",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geography_wd_021f2c644c",
+    "question": "What currency is used in Djibouti?",
+    "answers": [
+      "Ugandan shilling",
+      "Djiboutian franc",
+      "Argentine convertible peso",
+      "Georgian lari"
+    ],
+    "correctIndex": 1,
+    "category": "Geography",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geography_wd_0281b434bd",
+    "question": "What is the capital of Mexico?",
+    "answers": [
+      "Warsaw",
+      "Kinshasa",
+      "Mexico City",
+      "Dushanbe"
+    ],
+    "correctIndex": 2,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_0364f3a200",
+    "question": "On which continent is Djibouti located?",
+    "answers": [
+      "Europe",
+      "South America",
+      "Africa",
+      "Insular Oceania"
+    ],
+    "correctIndex": 2,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_036cd90244",
+    "question": "What is the capital of Central African Republic?",
+    "answers": [
+      "Astana",
+      "Bridgetown",
+      "San Salvador",
+      "Bangui"
+    ],
+    "correctIndex": 3,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_03b933846f",
+    "question": "What currency is used in Brazil?",
+    "answers": [
+      "Korean mun",
+      "Surinamese dollar",
+      "Algerian dinar",
+      "Brazilian real"
+    ],
+    "correctIndex": 3,
+    "category": "Geography",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geography_wd_0424527b21",
+    "question": "What currency is used in Tunisia?",
+    "answers": [
+      "Tunisian dinar",
+      "Nepalese rupee",
+      "sovereign bolivar",
+      "convertible mark"
+    ],
+    "correctIndex": 0,
+    "category": "Geography",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geography_wd_042b85be7b",
+    "question": "What currency is used in Singapore?",
+    "answers": [
+      "Ghana cedi",
+      "United States dollar",
+      "Singapore dollar",
+      "ngultrum"
+    ],
+    "correctIndex": 2,
+    "category": "Geography",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geography_wd_042c79b975",
+    "question": "What currency is used in Cook Islands?",
+    "answers": [
+      "forint",
+      "riel",
+      "Cook Islands dollar",
+      "kina"
+    ],
+    "correctIndex": 2,
+    "category": "Geography",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geography_wd_04ccde532c",
+    "question": "On which continent is Central African Republic located?",
+    "answers": [
+      "Insular Oceania",
+      "Oceania",
+      "Europe",
+      "Africa"
+    ],
+    "correctIndex": 3,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_057479ef19",
+    "question": "What is the capital of Venezuela?",
+    "answers": [
+      "Bangui",
+      "Bucharest",
+      "Pretoria",
+      "Caracas"
+    ],
+    "correctIndex": 3,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_05e71f810a",
+    "question": "What currency is used in Guinea-Bissau?",
+    "answers": [
+      "Lebanese pound",
+      "Congolese franc",
+      "West African CFA franc",
+      "Cuban peso"
+    ],
+    "correctIndex": 2,
+    "category": "Geography",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geography_wd_0793dbebfa",
+    "question": "What currency is used in Nepal?",
+    "answers": [
+      "Nepalese rupee",
+      "Malawian kwacha",
+      "Zimbabwean dollar",
+      "peso"
+    ],
+    "correctIndex": 0,
+    "category": "Geography",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geography_wd_07a9e28f74",
+    "question": "On which continent is Muscat and Oman located?",
+    "answers": [
+      "South America",
+      "Oceania",
+      "Asia",
+      "Eurasia"
+    ],
+    "correctIndex": 2,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_082d66916a",
+    "question": "On which continent is Slovakia located?",
+    "answers": [
+      "North America",
+      "Oceania",
+      "Europe",
+      "Insular Oceania"
+    ],
+    "correctIndex": 2,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_095adeefc9",
+    "question": "What currency is used in Qatar?",
+    "answers": [
+      "Qatari riyal",
+      "Faroese króna",
+      "Korean mun",
+      "loti"
+    ],
+    "correctIndex": 0,
+    "category": "Geography",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geography_wd_0978d174f6",
+    "question": "What currency is used in Turkey?",
+    "answers": [
+      "Kenyan shilling",
+      "Turkish lira",
+      "Jordanian dinar",
+      "Tanzanian shilling"
+    ],
+    "correctIndex": 1,
+    "category": "Geography",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geography_wd_09fe00351b",
+    "question": "On which continent is Gabon located?",
+    "answers": [
+      "Europe",
+      "Africa",
+      "Oceania",
+      "North America"
+    ],
+    "correctIndex": 1,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_0a3d4b801d",
+    "question": "On which continent is Malaysia located?",
+    "answers": [
+      "Asia",
+      "North America",
+      "Africa",
+      "South America"
+    ],
+    "correctIndex": 0,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_0a4b2887ea",
+    "question": "On which continent is South Korea located?",
+    "answers": [
+      "Europe",
+      "Oceania",
+      "Asia",
+      "Insular Oceania"
+    ],
+    "correctIndex": 2,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_0aa3655cc0",
+    "question": "On which continent is Mongolia located?",
+    "answers": [
+      "Insular Oceania",
+      "Asia",
+      "Eurasia",
+      "Europe"
+    ],
+    "correctIndex": 1,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_0bdae7878a",
+    "question": "What is the capital of Somalia?",
+    "answers": [
+      "Dushanbe",
+      "Mogadishu",
+      "Monaco",
+      "Washington, D.C."
+    ],
+    "correctIndex": 1,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_0cbbc176a7",
+    "question": "On which continent is Russia located?",
+    "answers": [
+      "South America",
+      "Eurasia",
+      "Insular Oceania",
+      "Europe"
+    ],
+    "correctIndex": 3,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_0cc8d613b7",
+    "question": "On which continent is Montenegro located?",
+    "answers": [
+      "Eurasia",
+      "Europe",
+      "Asia",
+      "North America"
+    ],
+    "correctIndex": 1,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_0d0992d765",
+    "question": "What is the capital of Cyprus?",
+    "answers": [
+      "Yaoundé",
+      "La Paz",
+      "Nicosia",
+      "Phnom Penh"
+    ],
+    "correctIndex": 2,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_0e229283e0",
+    "question": "What is the capital of Senegal?",
+    "answers": [
+      "Funafuti",
+      "Zagreb",
+      "Dakar",
+      "Yerevan"
+    ],
+    "correctIndex": 2,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_0ea41f1bbe",
+    "question": "On which continent is Jordan located?",
+    "answers": [
+      "North America",
+      "Europe",
+      "Asia",
+      "South America"
+    ],
+    "correctIndex": 2,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_0f0c7c6697",
+    "question": "What is the capital of Mozambique?",
+    "answers": [
+      "Maputo",
+      "Panama City",
+      "Port of Spain",
+      "Cairo"
+    ],
+    "correctIndex": 0,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_11831d5cdb",
+    "question": "What currency is used in Switzerland?",
+    "answers": [
+      "gourde",
+      "Georgian lari",
+      "Jamaican dollar",
+      "Swiss franc"
+    ],
+    "correctIndex": 3,
+    "category": "Geography",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geography_wd_119806e360",
+    "question": "What is the capital of Saudi Arabia?",
+    "answers": [
+      "Monrovia",
+      "Riyadh",
+      "Bamako",
+      "Willemstad"
+    ],
+    "correctIndex": 1,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_11e9204640",
+    "question": "What is the capital of Bangladesh?",
+    "answers": [
+      "Khartoum",
+      "Dhaka",
+      "Caracas",
+      "Port Vila"
+    ],
+    "correctIndex": 1,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_12cd7e766e",
+    "question": "What currency is used in New Zealand?",
+    "answers": [
+      "New Zealand dollar",
+      "Paraguayan guaraní",
+      "Malawian kwacha",
+      "Lao kip"
+    ],
+    "correctIndex": 0,
+    "category": "Geography",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geography_wd_133d300e9d",
+    "question": "What currency is used in The Gambia?",
+    "answers": [
+      "euro",
+      "Belarusian ruble",
+      "dalasi",
+      "Macedonian denar"
+    ],
+    "correctIndex": 2,
+    "category": "Geography",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geography_wd_13ddc936f9",
+    "question": "What is the capital of South Africa?",
+    "answers": [
+      "Honiara",
+      "Pretoria",
+      "Belgrade",
+      "Copenhagen"
+    ],
+    "correctIndex": 1,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_13de09517d",
+    "question": "On which continent is Bosnia and Herzegovina located?",
+    "answers": [
+      "Africa",
+      "Europe",
+      "South America",
+      "Eurasia"
+    ],
+    "correctIndex": 1,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_13ff685f83",
+    "question": "What currency is used in Zimbabwe?",
+    "answers": [
+      "Swedish krona",
+      "Philippine peso",
+      "rand",
+      "Mauritanian ouguiya"
+    ],
+    "correctIndex": 2,
+    "category": "Geography",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geography_wd_145f7b03bc",
+    "question": "On which continent is Iraq located?",
+    "answers": [
+      "Eurasia",
+      "Asia",
+      "Europe",
+      "Africa"
+    ],
+    "correctIndex": 1,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_1497c5b897",
+    "question": "What is the capital of Philippines?",
+    "answers": [
+      "Tunis",
+      "Funafuti",
+      "Tegucigalpa",
+      "Manila"
+    ],
+    "correctIndex": 3,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_14b50b87e0",
+    "question": "On which continent is Mauritius located?",
+    "answers": [
+      "Africa",
+      "Asia",
+      "North America",
+      "Eurasia"
+    ],
+    "correctIndex": 0,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_14d498ee97",
+    "question": "What currency is used in Ethiopia?",
+    "answers": [
+      "bir",
+      "Swiss franc",
+      "Maldivian rufiyaa",
+      "Turkmenistan new manat"
+    ],
+    "correctIndex": 0,
+    "category": "Geography",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geography_wd_1610423590",
+    "question": "What is the capital of Kiribati?",
+    "answers": [
+      "Prague",
+      "South Tarawa",
+      "Belmopan",
+      "Madrid"
+    ],
+    "correctIndex": 1,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_171012013e",
+    "question": "What currency is used in Germany?",
+    "answers": [
+      "Swedish krona",
+      "Tunisian dinar",
+      "euro",
+      "Eastern Caribbean dollar"
+    ],
+    "correctIndex": 2,
+    "category": "Geography",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geography_wd_18373c8642",
+    "question": "What currency is used in Turkmenistan?",
+    "answers": [
+      "Egyptian pound",
+      "Turkmenistan new manat",
+      "Swedish krona",
+      "kyat"
+    ],
+    "correctIndex": 1,
+    "category": "Geography",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geography_wd_1851405711",
+    "question": "What is the capital of Suriname?",
+    "answers": [
+      "Dakar",
+      "Paramaribo",
+      "Seoul",
+      "Kinshasa"
+    ],
+    "correctIndex": 1,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_18dec3f5df",
+    "question": "What currency is used in Poland?",
+    "answers": [
+      "Kuwaiti dinar",
+      "baht",
+      "Armenian dram",
+      "złoty"
+    ],
+    "correctIndex": 3,
+    "category": "Geography",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geography_wd_18e64bb2af",
+    "question": "What currency is used in Togo?",
+    "answers": [
+      "boliviano",
+      "West African CFA franc",
+      "Canadian dollar",
+      "Azerbaijani manat"
+    ],
+    "correctIndex": 1,
+    "category": "Geography",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geography_wd_1943064cf2",
+    "question": "What currency is used in Lesotho?",
+    "answers": [
+      "Solomon Islands dollar",
+      "loti",
+      "boliviano",
+      "Bahamian dollar"
+    ],
+    "correctIndex": 1,
+    "category": "Geography",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geography_wd_197ea2c131",
+    "question": "On which continent is Liberia located?",
+    "answers": [
+      "Eurasia",
+      "Europe",
+      "North America",
+      "Africa"
+    ],
+    "correctIndex": 3,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_199b76f4b7",
+    "question": "What currency is used in Tonga?",
+    "answers": [
+      "loti",
+      "Mongolian tögrög",
+      "Tongan paʻanga",
+      "Turkmenistan new manat"
+    ],
+    "correctIndex": 2,
+    "category": "Geography",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geography_wd_19dc8dbeb1",
+    "question": "What currency is used in Russia?",
+    "answers": [
+      "Jamaican dollar",
+      "Turkmenistan new manat",
+      "Russian ruble",
+      "Philippine peso"
+    ],
+    "correctIndex": 2,
+    "category": "Geography",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geography_wd_19fcceac98",
+    "question": "What currency is used in Jamaica?",
+    "answers": [
+      "South Sudanese pound",
+      "Saudi riyal",
+      "Jamaican dollar",
+      "Bahamian dollar"
+    ],
+    "correctIndex": 2,
+    "category": "Geography",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geography_wd_1a3dbaa417",
+    "question": "What is the capital of Tanzania?",
+    "answers": [
+      "Dodoma",
+      "Kigali",
+      "Baku",
+      "Port-au-Prince"
+    ],
+    "correctIndex": 0,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_1abe06b4ad",
+    "question": "On which continent is New Zealand located?",
+    "answers": [
+      "Oceania",
+      "North America",
+      "Eurasia",
+      "Insular Oceania"
+    ],
+    "correctIndex": 0,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_1b1cd38daf",
+    "question": "What is the capital of Mongolia?",
+    "answers": [
+      "Georgetown",
+      "Tripoli",
+      "Libreville",
+      "Ulaanbaatar"
+    ],
+    "correctIndex": 3,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_1b90e97563",
+    "question": "On which continent is The Bahamas located?",
+    "answers": [
+      "South America",
+      "Insular Oceania",
+      "Africa",
+      "North America"
+    ],
+    "correctIndex": 3,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_1cfdb4072b",
+    "question": "What is the capital of Sweden?",
+    "answers": [
+      "Hargeisa",
+      "Riyadh",
+      "Stockholm",
+      "Abu Dhabi"
+    ],
+    "correctIndex": 2,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_1da12cab8b",
+    "question": "What currency is used in Kazakhstan?",
+    "answers": [
+      "Kazakhstani tenge",
+      "euro",
+      "Serbian dinar",
+      "South Sudanese pound"
+    ],
+    "correctIndex": 0,
+    "category": "Geography",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geography_wd_1e3043745c",
+    "question": "What is the capital of Liechtenstein?",
+    "answers": [
+      "Vaduz",
+      "Moscow",
+      "Bangkok",
+      "Islamabad"
+    ],
+    "correctIndex": 0,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_1ed3934a76",
+    "question": "On which continent is Saudi Arabia located?",
+    "answers": [
+      "Asia",
+      "South America",
+      "Europe",
+      "North America"
+    ],
+    "correctIndex": 0,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_1f1a757ecb",
+    "question": "On which continent is Kosovo located?",
+    "answers": [
+      "North America",
+      "Asia",
+      "Europe",
+      "Eurasia"
+    ],
+    "correctIndex": 2,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_1fbe559696",
+    "question": "On which continent is Curaçao located?",
+    "answers": [
+      "North America",
+      "Insular Oceania",
+      "Europe",
+      "South America"
+    ],
+    "correctIndex": 0,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_21190977af",
+    "question": "What currency is used in Peru?",
+    "answers": [
+      "Nuevo sol",
+      "Russian ruble",
+      "Congolese franc",
+      "gourde"
+    ],
+    "correctIndex": 0,
+    "category": "Geography",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geography_wd_2146932a1c",
+    "question": "On which continent is Singapore located?",
+    "answers": [
+      "Europe",
+      "Oceania",
+      "Insular Oceania",
+      "Asia"
+    ],
+    "correctIndex": 3,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_21a6a515a1",
+    "question": "What currency is used in Uzbekistan?",
+    "answers": [
+      "Pakistani rupee",
+      "United Arab Emirates dirham",
+      "Uzbek som",
+      "afghani"
+    ],
+    "correctIndex": 2,
+    "category": "Geography",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geography_wd_21f9343b7b",
+    "question": "On which continent is Ethiopia located?",
+    "answers": [
+      "Africa",
+      "Eurasia",
+      "Europe",
+      "North America"
+    ],
+    "correctIndex": 0,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_23095eec50",
+    "question": "What currency is used in Timor-Leste?",
+    "answers": [
+      "Bahamian dollar",
+      "São Tomé and Príncipe dobra",
+      "Bahraini dinar",
+      "United States dollar"
+    ],
+    "correctIndex": 3,
+    "category": "Geography",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geography_wd_2352f1727e",
+    "question": "What is the capital of Russia?",
+    "answers": [
+      "Moscow",
+      "Nuuk",
+      "Mbabane",
+      "Singapore"
+    ],
+    "correctIndex": 0,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_236e0176dc",
+    "question": "What is the capital of Chad?",
+    "answers": [
+      "Freetown",
+      "Sri Jayawardenepura Kotte",
+      "Lisbon",
+      "N'Djamena"
+    ],
+    "correctIndex": 3,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_251e36f376",
+    "question": "On which continent is Saint Vincent and the Grenadines located?",
+    "answers": [
+      "Asia",
+      "North America",
+      "Europe",
+      "Oceania"
+    ],
+    "correctIndex": 1,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_26cb50d9da",
+    "question": "What currency is used in Sierra Leone?",
+    "answers": [
+      "leone",
+      "Swedish krona",
+      "Belize dollar",
+      "convertible mark"
+    ],
+    "correctIndex": 0,
+    "category": "Geography",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geography_wd_26e1fc5ed3",
+    "question": "What is the capital of Morocco?",
+    "answers": [
+      "Rabat",
+      "Quito",
+      "Muscat",
+      "Tirana"
+    ],
+    "correctIndex": 0,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_2714b5e1cb",
+    "question": "What currency is used in Liberia?",
+    "answers": [
+      "Central African CFA franc",
+      "Liberian dollar",
+      "rupiah",
+      "Korean mun"
+    ],
+    "correctIndex": 1,
+    "category": "Geography",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geography_wd_271bb4c3ed",
+    "question": "What is the capital of Spain?",
+    "answers": [
+      "Aden",
+      "Sarajevo",
+      "Madrid",
+      "Yerevan"
+    ],
+    "correctIndex": 2,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_27732d0a97",
+    "question": "What is the capital of Canada?",
+    "answers": [
+      "Thimphu",
+      "Rabat",
+      "Prague",
+      "Ottawa"
+    ],
+    "correctIndex": 3,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_27985147dc",
+    "question": "What is the capital of Switzerland?",
+    "answers": [
+      "Kuwait City",
+      "Gitega",
+      "Bern",
+      "Chișinău"
+    ],
+    "correctIndex": 2,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_27a23ad1f3",
+    "question": "What is the capital of Maldives?",
+    "answers": [
+      "Malé",
+      "Andorra la Vella",
+      "Riga",
+      "Tashkent"
+    ],
+    "correctIndex": 0,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_2800752dcb",
+    "question": "What currency is used in Panama?",
+    "answers": [
+      "leone",
+      "kina",
+      "Eastern Caribbean dollar",
+      "Panamanian balboa"
+    ],
+    "correctIndex": 3,
+    "category": "Geography",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geography_wd_28b168011f",
+    "question": "On which continent is Serbia located?",
+    "answers": [
+      "Europe",
+      "Africa",
+      "Asia",
+      "Insular Oceania"
+    ],
+    "correctIndex": 0,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_293eafb9a8",
+    "question": "On which continent is Yemen located?",
+    "answers": [
+      "North America",
+      "Europe",
+      "Asia",
+      "Africa"
+    ],
+    "correctIndex": 2,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_2a10a89a92",
+    "question": "What is the capital of Slovenia?",
+    "answers": [
+      "Cairo",
+      "São Tomé",
+      "Ljubljana",
+      "Kathmandu"
+    ],
+    "correctIndex": 2,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_2a7644379c",
+    "question": "What currency is used in Bosnia and Herzegovina?",
+    "answers": [
+      "Panamanian balboa",
+      "nakfa",
+      "convertible mark",
+      "Somaliland shilling"
+    ],
+    "correctIndex": 2,
+    "category": "Geography",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geography_wd_2ab37a7cea",
+    "question": "On which continent is Costa Rica located?",
+    "answers": [
+      "Oceania",
+      "North America",
+      "Insular Oceania",
+      "South America"
+    ],
+    "correctIndex": 1,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_2b4ffa2442",
+    "question": "On which continent is North Macedonia located?",
+    "answers": [
+      "North America",
+      "Oceania",
+      "Europe",
+      "Asia"
+    ],
+    "correctIndex": 2,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_2b65f706f9",
+    "question": "What is the capital of Comoros?",
+    "answers": [
+      "Beijing",
+      "Nouakchott",
+      "Amsterdam",
+      "Moroni"
+    ],
+    "correctIndex": 3,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_2c0587daa0",
+    "question": "What is the capital of Nepal?",
+    "answers": [
+      "Monrovia",
+      "Guatemala City",
+      "Malé",
+      "Kathmandu"
+    ],
+    "correctIndex": 3,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_2c918724dc",
+    "question": "On which continent is Belize located?",
+    "answers": [
+      "North America",
+      "Asia",
+      "South America",
+      "Insular Oceania"
+    ],
+    "correctIndex": 0,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_2c947d3c5a",
+    "question": "What is the capital of Kosovo?",
+    "answers": [
+      "Tegucigalpa",
+      "Pristina",
+      "Bridgetown",
+      "Bishkek"
+    ],
+    "correctIndex": 1,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_2ca25d467c",
+    "question": "On which continent is Peru located?",
+    "answers": [
+      "South America",
+      "Africa",
+      "Asia",
+      "Europe"
+    ],
+    "correctIndex": 0,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_2d510e64f8",
+    "question": "On which continent is Cape Verde located?",
+    "answers": [
+      "Oceania",
+      "Europe",
+      "Insular Oceania",
+      "Africa"
+    ],
+    "correctIndex": 3,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_2edd7afb1d",
+    "question": "On which continent is Egypt located?",
+    "answers": [
+      "Africa",
+      "North America",
+      "Eurasia",
+      "Oceania"
+    ],
+    "correctIndex": 0,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_30b9b0845d",
+    "question": "On which continent is Tanzania located?",
+    "answers": [
+      "Oceania",
+      "South America",
+      "Asia",
+      "Africa"
+    ],
+    "correctIndex": 3,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_30c828de07",
+    "question": "What is the capital of Myanmar?",
+    "answers": [
+      "Vatican City",
+      "Kampala",
+      "Naypyidaw",
+      "Muscat"
+    ],
+    "correctIndex": 2,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_31a1524c21",
+    "question": "What currency is used in Cambodia?",
+    "answers": [
+      "riel",
+      "Tongan paʻanga",
+      "Cook Islands dollar",
+      "Niue dollar"
+    ],
+    "correctIndex": 0,
+    "category": "Geography",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geography_wd_31d0cd84c2",
+    "question": "On which continent is Honduras located?",
+    "answers": [
+      "South America",
+      "Oceania",
+      "North America",
+      "Asia"
+    ],
+    "correctIndex": 2,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_3212f3d1e4",
+    "question": "What currency is used in Senegal?",
+    "answers": [
+      "Swiss franc",
+      "Aruban florin",
+      "West African CFA franc",
+      "Zimbabwe ZiG"
+    ],
+    "correctIndex": 2,
+    "category": "Geography",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geography_wd_323648d9ac",
+    "question": "What currency is used in Guatemala?",
+    "answers": [
+      "quetzal",
+      "Central African CFA franc",
+      "Malawian kwacha",
+      "South Sudanese pound"
+    ],
+    "correctIndex": 0,
+    "category": "Geography",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geography_wd_32779934a1",
+    "question": "What currency is used in Bhutan?",
+    "answers": [
+      "Argentine convertible peso",
+      "Mozambican metical",
+      "ngultrum",
+      "Burundian franc"
+    ],
+    "correctIndex": 2,
+    "category": "Geography",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geography_wd_33144d357d",
+    "question": "What currency is used in Niue?",
+    "answers": [
+      "Indian rupee",
+      "Trinidad and Tobago dollar",
+      "Malaysian ringgit",
+      "New Zealand dollar"
+    ],
+    "correctIndex": 3,
+    "category": "Geography",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geography_wd_3323050528",
+    "question": "What is the capital of Benin?",
+    "answers": [
+      "Tunis",
+      "San Marino",
+      "Kampala",
+      "Porto-Novo"
+    ],
+    "correctIndex": 3,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_340ae317c5",
+    "question": "On which continent is Paraguay located?",
+    "answers": [
+      "South America",
+      "Oceania",
+      "Europe",
+      "Insular Oceania"
+    ],
+    "correctIndex": 0,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_3459ddc611",
+    "question": "What currency is used in Cameroon?",
+    "answers": [
+      "Central African CFA franc",
+      "baht",
+      "Bangladeshi taka",
+      "Belarusian ruble"
+    ],
+    "correctIndex": 0,
+    "category": "Geography",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geography_wd_34a26154f2",
+    "question": "On which continent is Saint Lucia located?",
+    "answers": [
+      "Africa",
+      "North America",
+      "Oceania",
+      "Asia"
+    ],
+    "correctIndex": 1,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_34ffd4af60",
+    "question": "What is the capital of The Gambia?",
+    "answers": [
+      "Nassau",
+      "Zagreb",
+      "Colombo",
+      "Banjul"
+    ],
+    "correctIndex": 3,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_35801c4961",
+    "question": "What currency is used in Serbia?",
+    "answers": [
+      "Nicaraguan córdoba",
+      "Serbian dinar",
+      "Uzbek som",
+      "Guyanese dollar"
+    ],
+    "correctIndex": 1,
+    "category": "Geography",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geography_wd_36366f6d32",
+    "question": "What currency is used in Sweden?",
+    "answers": [
+      "Fijian dollar",
+      "riel",
+      "Swedish krona",
+      "Tunisian dinar"
+    ],
+    "correctIndex": 2,
+    "category": "Geography",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geography_wd_366277ca89",
+    "question": "What currency is used in Eritrea?",
+    "answers": [
+      "Singapore dollar",
+      "nakfa",
+      "Moldovan leu",
+      "Central African CFA franc"
+    ],
+    "correctIndex": 1,
+    "category": "Geography",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geography_wd_3692956964",
+    "question": "What is the capital of Turkmenistan?",
+    "answers": [
+      "Valletta",
+      "Kinshasa",
+      "Ashgabat",
+      "Algiers"
+    ],
+    "correctIndex": 2,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_369e03b844",
+    "question": "On which continent is Mozambique located?",
+    "answers": [
+      "North America",
+      "Eurasia",
+      "Africa",
+      "Asia"
+    ],
+    "correctIndex": 2,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_3710749000",
+    "question": "On which continent is Uganda located?",
+    "answers": [
+      "North America",
+      "Asia",
+      "Europe",
+      "Africa"
+    ],
+    "correctIndex": 3,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_3773de0660",
+    "question": "What currency is used in Democratic Republic of the Congo?",
+    "answers": [
+      "Turkish lira",
+      "Kenyan shilling",
+      "Congolese franc",
+      "North Korean won"
+    ],
+    "correctIndex": 2,
+    "category": "Geography",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geography_wd_3822a6ff9a",
+    "question": "What currency is used in Saint Lucia?",
+    "answers": [
+      "rupiah",
+      "Eastern Caribbean dollar",
+      "Caribbean guilder",
+      "ngultrum"
+    ],
+    "correctIndex": 1,
+    "category": "Geography",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geography_wd_384df689c6",
+    "question": "What currency is used in Cuba?",
+    "answers": [
+      "Cuban peso",
+      "Barbadian dollar",
+      "Moldovan leu",
+      "Algerian dinar"
+    ],
+    "correctIndex": 0,
+    "category": "Geography",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geography_wd_38600679c6",
+    "question": "What currency is used in Indonesia?",
+    "answers": [
+      "Moldovan leu",
+      "quetzal",
+      "West African CFA franc",
+      "rupiah"
+    ],
+    "correctIndex": 3,
+    "category": "Geography",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geography_wd_38c7d59e66",
+    "question": "On which continent is Benin located?",
+    "answers": [
+      "Africa",
+      "Eurasia",
+      "Insular Oceania",
+      "Europe"
+    ],
+    "correctIndex": 0,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_38ef4b7e11",
+    "question": "What currency is used in Guyana?",
+    "answers": [
+      "Tongan paʻanga",
+      "Guyanese dollar",
+      "Libyan dinar",
+      "won"
+    ],
+    "correctIndex": 1,
+    "category": "Geography",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geography_wd_391dec9383",
+    "question": "What is the capital of Albania?",
+    "answers": [
+      "Kathmandu",
+      "Manila",
+      "Bratislava",
+      "Tirana"
+    ],
+    "correctIndex": 3,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_392985284f",
+    "question": "On which continent is Eswatini located?",
+    "answers": [
+      "Insular Oceania",
+      "South America",
+      "Africa",
+      "Asia"
+    ],
+    "correctIndex": 2,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_392c39cac7",
+    "question": "What is the capital of Bolivia?",
+    "answers": [
+      "La Paz",
+      "Sri Jayawardenepura Kotte",
+      "Bucharest",
+      "Damascus"
+    ],
+    "correctIndex": 0,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_398411fd09",
+    "question": "What is the capital of Uganda?",
+    "answers": [
+      "Ciudad de la Paz",
+      "Kampala",
+      "Jerusalem",
+      "Maputo"
+    ],
+    "correctIndex": 1,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_39c0d177de",
+    "question": "What currency is used in Mauritius?",
+    "answers": [
+      "Cook Islands dollar",
+      "Georgian lari",
+      "Mauritian rupee",
+      "Bahraini dinar"
+    ],
+    "correctIndex": 2,
+    "category": "Geography",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geography_wd_3a2a4ba839",
+    "question": "What currency is used in Brunei?",
+    "answers": [
+      "Belize dollar",
+      "Brunei dollar",
+      "riel",
+      "Saudi riyal"
+    ],
+    "correctIndex": 1,
+    "category": "Geography",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geography_wd_3a3b0a8924",
+    "question": "On which continent is Kyrgyzstan located?",
+    "answers": [
+      "Africa",
+      "Oceania",
+      "Asia",
+      "Insular Oceania"
+    ],
+    "correctIndex": 2,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_3a9a21f56d",
+    "question": "On which continent is Rwanda located?",
+    "answers": [
+      "Africa",
+      "Eurasia",
+      "Insular Oceania",
+      "Asia"
+    ],
+    "correctIndex": 0,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_3aa650c042",
+    "question": "What is the capital of Iceland?",
+    "answers": [
+      "St. John's",
+      "Port Moresby",
+      "Brussels",
+      "Reykjavík"
+    ],
+    "correctIndex": 3,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_3aa853dd7e",
+    "question": "On which continent is Moldova located?",
+    "answers": [
+      "North America",
+      "Africa",
+      "Asia",
+      "Europe"
+    ],
+    "correctIndex": 3,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_3b5a76af88",
+    "question": "On which continent is Laos located?",
+    "answers": [
+      "Europe",
+      "Asia",
+      "Insular Oceania",
+      "South America"
+    ],
+    "correctIndex": 1,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_3bb0a0bfb4",
+    "question": "What currency is used in Republic of the Congo?",
+    "answers": [
+      "Central African CFA franc",
+      "Maldivian rufiyaa",
+      "Djiboutian franc",
+      "pound sterling"
+    ],
+    "correctIndex": 0,
+    "category": "Geography",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geography_wd_3c41a6155a",
+    "question": "What currency is used in United States?",
+    "answers": [
+      "Mauritanian ouguiya",
+      "United States dollar",
+      "loti",
+      "Colombian peso"
+    ],
+    "correctIndex": 1,
+    "category": "Geography",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geography_wd_3c50b7ff4f",
+    "question": "On which continent is Dominica located?",
+    "answers": [
+      "Oceania",
+      "Asia",
+      "North America",
+      "South America"
+    ],
+    "correctIndex": 2,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_3d257f89c7",
+    "question": "What is the capital of Solomon Islands?",
+    "answers": [
+      "Ottawa",
+      "Honiara",
+      "Athens",
+      "Sarajevo"
+    ],
+    "correctIndex": 1,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_3dad20170d",
+    "question": "What currency is used in Chad?",
+    "answers": [
+      "forint",
+      "ariary",
+      "Central African CFA franc",
+      "riel"
+    ],
+    "correctIndex": 2,
+    "category": "Geography",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geography_wd_3db5de1f24",
+    "question": "What currency is used in Greenland?",
+    "answers": [
+      "Nuevo sol",
+      "Mauritanian ouguiya",
+      "lilangeni",
+      "Danish krone"
+    ],
+    "correctIndex": 3,
+    "category": "Geography",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geography_wd_3e081e4a5a",
+    "question": "On which continent is Belgium located?",
+    "answers": [
+      "Europe",
+      "Africa",
+      "Oceania",
+      "South America"
+    ],
+    "correctIndex": 0,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_3e18a6d4ef",
+    "question": "On which continent is Tuvalu located?",
+    "answers": [
+      "Oceania",
+      "Insular Oceania",
+      "Asia",
+      "South America"
+    ],
+    "correctIndex": 0,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_3ebe1317dc",
+    "question": "What currency is used in Syria?",
+    "answers": [
+      "Syrian pound",
+      "Armenian dram",
+      "dalasi",
+      "Qatari riyal"
+    ],
+    "correctIndex": 0,
+    "category": "Geography",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geography_wd_3f9c56616a",
+    "question": "What is the capital of Uruguay?",
+    "answers": [
+      "Dodoma",
+      "Chișinău",
+      "Tripoli",
+      "Montevideo"
+    ],
+    "correctIndex": 3,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_3fb70a5b41",
+    "question": "What currency is used in Pakistan?",
+    "answers": [
+      "Bangladeshi taka",
+      "afghani",
+      "Pakistani rupee",
+      "Sudanese pound"
+    ],
+    "correctIndex": 2,
+    "category": "Geography",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geography_wd_3feaf6adf8",
+    "question": "What is the capital of Bosnia and Herzegovina?",
+    "answers": [
+      "Sarajevo",
+      "Andorra la Vella",
+      "Ljubljana",
+      "Skopje"
+    ],
+    "correctIndex": 0,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_40d121755b",
+    "question": "On which continent is Algeria located?",
+    "answers": [
+      "Africa",
+      "Asia",
+      "South America",
+      "Insular Oceania"
+    ],
+    "correctIndex": 0,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_4139dfcbb2",
+    "question": "On which continent is Thailand located?",
+    "answers": [
+      "Oceania",
+      "Asia",
+      "Eurasia",
+      "South America"
+    ],
+    "correctIndex": 1,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_4222fd4c05",
+    "question": "On which continent is Togo located?",
+    "answers": [
+      "Oceania",
+      "Africa",
+      "Asia",
+      "Eurasia"
+    ],
+    "correctIndex": 1,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_42eea0b21c",
+    "question": "On which continent is Norway located?",
+    "answers": [
+      "Insular Oceania",
+      "Europe",
+      "Oceania",
+      "North America"
+    ],
+    "correctIndex": 1,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_43497cf193",
+    "question": "What currency is used in Equatorial Guinea?",
+    "answers": [
+      "new shekel",
+      "sovereign bolivar",
+      "Serbian dinar",
+      "Central African CFA franc"
+    ],
+    "correctIndex": 3,
+    "category": "Geography",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geography_wd_43817182db",
+    "question": "What is the capital of Costa Rica?",
+    "answers": [
+      "San José",
+      "Sri Jayawardenepura Kotte",
+      "Luxembourg",
+      "Wellington"
+    ],
+    "correctIndex": 0,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_44128ea3e2",
+    "question": "On which continent is Lesotho located?",
+    "answers": [
+      "Asia",
+      "Oceania",
+      "Africa",
+      "Europe"
+    ],
+    "correctIndex": 2,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_443ce33646",
+    "question": "What currency is used in Kosovo?",
+    "answers": [
+      "Belarusian ruble",
+      "rand",
+      "Paraguayan guaraní",
+      "euro"
+    ],
+    "correctIndex": 3,
+    "category": "Geography",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geography_wd_4487b74467",
+    "question": "What is the capital of Vanuatu?",
+    "answers": [
+      "Ulaanbaatar",
+      "Lima",
+      "Phnom Penh",
+      "Port Vila"
+    ],
+    "correctIndex": 3,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_4492073535",
+    "question": "What is the capital of Kenya?",
+    "answers": [
+      "Bandar Seri Begawan",
+      "Nairobi",
+      "Panama City",
+      "Tunis"
+    ],
+    "correctIndex": 1,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_4557edcf94",
+    "question": "On which continent is Japan located?",
+    "answers": [
+      "South America",
+      "Europe",
+      "Asia",
+      "Africa"
+    ],
+    "correctIndex": 2,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_458ec1d570",
+    "question": "What is the capital of Israel?",
+    "answers": [
+      "Jerusalem",
+      "Quito",
+      "Prague",
+      "La Paz"
+    ],
+    "correctIndex": 0,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_46580ff224",
+    "question": "What currency is used in Andorra?",
+    "answers": [
+      "ngultrum",
+      "euro",
+      "Zimbabwe ZiG",
+      "rupiah"
+    ],
+    "correctIndex": 1,
+    "category": "Geography",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geography_wd_46bf503e1d",
+    "question": "On which continent is Indonesia located?",
+    "answers": [
+      "Oceania",
+      "Eurasia",
+      "South America",
+      "Asia"
+    ],
+    "correctIndex": 3,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_473a9dd5fe",
+    "question": "What is the capital of Saint Lucia?",
+    "answers": [
+      "Castries",
+      "Windhoek",
+      "Paramaribo",
+      "Lobamba"
+    ],
+    "correctIndex": 0,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_47996f5048",
+    "question": "What currency is used in Maldives?",
+    "answers": [
+      "Lebanese pound",
+      "Maldivian rufiyaa",
+      "Danish krone",
+      "West African CFA franc"
+    ],
+    "correctIndex": 1,
+    "category": "Geography",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geography_wd_487230cf22",
+    "question": "What currency is used in North Korea?",
+    "answers": [
+      "Romanian Leu",
+      "North Korean won",
+      "Armenian dram",
+      "Nuevo sol"
+    ],
+    "correctIndex": 1,
+    "category": "Geography",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geography_wd_48cd49e1a2",
+    "question": "On which continent is Dominican Republic located?",
+    "answers": [
+      "South America",
+      "North America",
+      "Asia",
+      "Africa"
+    ],
+    "correctIndex": 1,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_48e1b7d625",
+    "question": "What currency is used in Australia?",
+    "answers": [
+      "Nicaraguan córdoba",
+      "forint",
+      "sovereign bolivar",
+      "Australian dollar"
+    ],
+    "correctIndex": 3,
+    "category": "Geography",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geography_wd_4911284277",
+    "question": "What currency is used in Saudi Arabia?",
+    "answers": [
+      "Ghana cedi",
+      "Saudi riyal",
+      "forint",
+      "Belarusian ruble"
+    ],
+    "correctIndex": 1,
+    "category": "Geography",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geography_wd_495dc291f2",
+    "question": "What is the capital of Vietnam?",
+    "answers": [
+      "Skopje",
+      "Oranjestad",
+      "Djibouti",
+      "Hanoi"
+    ],
+    "correctIndex": 3,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_496ea839c3",
+    "question": "What is the capital of New Zealand?",
+    "answers": [
+      "Zagreb",
+      "Santo Domingo",
+      "Wellington",
+      "Yaoundé"
+    ],
+    "correctIndex": 2,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_4974d2cb0d",
+    "question": "On which continent is Lebanon located?",
+    "answers": [
+      "Insular Oceania",
+      "North America",
+      "Asia",
+      "Africa"
+    ],
+    "correctIndex": 2,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_49d7a5f869",
+    "question": "What is the capital of Lithuania?",
+    "answers": [
+      "Vilnius",
+      "Monrovia",
+      "Kathmandu",
+      "Luxembourg"
+    ],
+    "correctIndex": 0,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_49f00aca6a",
+    "question": "What currency is used in Estonia?",
+    "answers": [
+      "rupiah",
+      "Vanuatu vatus",
+      "United States dollar",
+      "euro"
+    ],
+    "correctIndex": 3,
+    "category": "Geography",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geography_wd_49f2408d52",
+    "question": "What currency is used in São Tomé and Príncipe?",
+    "answers": [
+      "United States dollar",
+      "Russian ruble",
+      "São Tomé and Príncipe dobra",
+      "Ghana cedi"
+    ],
+    "correctIndex": 2,
+    "category": "Geography",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geography_wd_4a4d9f4645",
+    "question": "What is the capital of Belarus?",
+    "answers": [
+      "Zagreb",
+      "Honiara",
+      "Astana",
+      "Minsk"
+    ],
+    "correctIndex": 3,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_4ad36a28b9",
+    "question": "What is the capital of Croatia?",
+    "answers": [
+      "Lilongwe",
+      "Nicosia",
+      "Zagreb",
+      "Bishkek"
+    ],
+    "correctIndex": 2,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_4c5672c80f",
+    "question": "What is the capital of Guinea-Bissau?",
+    "answers": [
+      "Ottawa",
+      "Bissau",
+      "Santo Domingo",
+      "Beijing"
+    ],
+    "correctIndex": 1,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_4cf6d10e65",
+    "question": "What is the capital of Aruba?",
+    "answers": [
+      "Sanaa",
+      "Lilongwe",
+      "Phnom Penh",
+      "Oranjestad"
+    ],
+    "correctIndex": 3,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_4d936dda19",
+    "question": "On which continent is Tunisia located?",
+    "answers": [
+      "Oceania",
+      "Europe",
+      "South America",
+      "Africa"
+    ],
+    "correctIndex": 3,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_4dc08c267e",
+    "question": "What is the capital of San Marino?",
+    "answers": [
+      "San Marino",
+      "Kampala",
+      "Tripoli",
+      "Wellington"
+    ],
+    "correctIndex": 0,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_4dd47ff3d3",
+    "question": "On which continent is Grenada located?",
+    "answers": [
+      "Europe",
+      "Asia",
+      "Oceania",
+      "North America"
+    ],
+    "correctIndex": 3,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_4df3a55132",
+    "question": "What is the capital of Brazil?",
+    "answers": [
+      "Kinshasa",
+      "Libreville",
+      "Brasília",
+      "Luanda"
+    ],
+    "correctIndex": 2,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_4e2b84d9db",
+    "question": "On which continent is Kazakhstan located?",
+    "answers": [
+      "Europe",
+      "South America",
+      "Asia",
+      "Oceania"
+    ],
+    "correctIndex": 2,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_4ea68599ad",
+    "question": "On which continent is Greenland located?",
+    "answers": [
+      "North America",
+      "Africa",
+      "Insular Oceania",
+      "Eurasia"
+    ],
+    "correctIndex": 0,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_4ee2f760bf",
+    "question": "On which continent is Palestine located?",
+    "answers": [
+      "Insular Oceania",
+      "Oceania",
+      "Africa",
+      "Asia"
+    ],
+    "correctIndex": 3,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_4efab45555",
+    "question": "What is the capital of Montenegro?",
+    "answers": [
+      "Chișinău",
+      "Cape Town",
+      "Podgorica",
+      "Asunción"
+    ],
+    "correctIndex": 2,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_4efe6d9201",
+    "question": "What is the capital of Bhutan?",
+    "answers": [
+      "Minsk",
+      "Tehran",
+      "Thimphu",
+      "Beirut"
+    ],
+    "correctIndex": 2,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_4f19679c91",
+    "question": "What is the capital of Cape Verde?",
+    "answers": [
+      "Addis Ababa",
+      "Helsinki",
+      "Praia",
+      "Nukuʻalofa"
+    ],
+    "correctIndex": 2,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_4f3e2ce130",
+    "question": "On which continent is Myanmar located?",
+    "answers": [
+      "North America",
+      "South America",
+      "Asia",
+      "Eurasia"
+    ],
+    "correctIndex": 2,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_4f44964068",
+    "question": "What is the capital of Guyana?",
+    "answers": [
+      "Podgorica",
+      "Georgetown",
+      "Asunción",
+      "Reykjavík"
+    ],
+    "correctIndex": 1,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_4f68c71996",
+    "question": "What is the capital of Malta?",
+    "answers": [
+      "Vatican City",
+      "Vienna",
+      "Lobamba",
+      "Valletta"
+    ],
+    "correctIndex": 3,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_4f851bcb55",
+    "question": "On which continent is Pahlavi Iran located?",
+    "answers": [
+      "Europe",
+      "Africa",
+      "Asia",
+      "North America"
+    ],
+    "correctIndex": 2,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_4f89d9e472",
+    "question": "What is the capital of Timor-Leste?",
+    "answers": [
+      "Kingston",
+      "Jakarta",
+      "Tegucigalpa",
+      "Dili"
+    ],
+    "correctIndex": 3,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_4fc3db79a8",
+    "question": "What currency is used in Eswatini?",
+    "answers": [
+      "Singapore dollar",
+      "lilangeni",
+      "peso",
+      "boliviano"
+    ],
+    "correctIndex": 1,
+    "category": "Geography",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geography_wd_4fd4bf9256",
+    "question": "What currency is used in Nauru?",
+    "answers": [
+      "Czech koruna",
+      "Australian dollar",
+      "Libyan dinar",
+      "Botswana pula"
+    ],
+    "correctIndex": 1,
+    "category": "Geography",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geography_wd_50b65b0f22",
+    "question": "What currency is used in Madagascar?",
+    "answers": [
+      "Zambian Kwacha",
+      "euro",
+      "ariary",
+      "Brazilian real"
+    ],
+    "correctIndex": 2,
+    "category": "Geography",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geography_wd_50f5a0b2fe",
+    "question": "What currency is used in Suriname?",
+    "answers": [
+      "Belize dollar",
+      "Kenyan shilling",
+      "Burundian franc",
+      "Surinamese dollar"
+    ],
+    "correctIndex": 3,
+    "category": "Geography",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geography_wd_515597856e",
+    "question": "On which continent is Australia located?",
+    "answers": [
+      "South America",
+      "Eurasia",
+      "Oceania",
+      "Insular Oceania"
+    ],
+    "correctIndex": 2,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_51aa0478b1",
+    "question": "On which continent is Bangladesh located?",
+    "answers": [
+      "Africa",
+      "Oceania",
+      "South America",
+      "Asia"
+    ],
+    "correctIndex": 3,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_51f8220f56",
+    "question": "What currency is used in Tanzania?",
+    "answers": [
+      "Lao kip",
+      "Algerian dinar",
+      "Tanzanian shilling",
+      "Kazakhstani tenge"
+    ],
+    "correctIndex": 2,
+    "category": "Geography",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geography_wd_52373d6ccf",
+    "question": "What currency is used in Bulgaria?",
+    "answers": [
+      "Philippine peso",
+      "złoty",
+      "nakfa",
+      "euro"
+    ],
+    "correctIndex": 3,
+    "category": "Geography",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geography_wd_52ebb67904",
+    "question": "What is the capital of Poland?",
+    "answers": [
+      "Reykjavík",
+      "Jakarta",
+      "Warsaw",
+      "Kinshasa"
+    ],
+    "correctIndex": 2,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_530454ee8c",
+    "question": "On which continent is Zambia located?",
+    "answers": [
+      "Africa",
+      "North America",
+      "South America",
+      "Europe"
+    ],
+    "correctIndex": 0,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_5334494ef7",
+    "question": "On which continent is Marshall Islands located?",
+    "answers": [
+      "South America",
+      "Europe",
+      "Oceania",
+      "North America"
+    ],
+    "correctIndex": 2,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_5364398b27",
+    "question": "What is the capital of Syria?",
+    "answers": [
+      "Santiago",
+      "Damascus",
+      "Bandar Seri Begawan",
+      "Bamako"
+    ],
+    "correctIndex": 1,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_546adafc43",
+    "question": "What is the capital of Georgia?",
+    "answers": [
+      "Brussels",
+      "Lima",
+      "Tbilisi",
+      "Budapest"
+    ],
+    "correctIndex": 2,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_54b0bd7666",
+    "question": "What is the capital of North Korea?",
+    "answers": [
+      "Pyongyang",
+      "Stockholm",
+      "Beijing",
+      "Bangui"
+    ],
+    "correctIndex": 0,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_54da311e11",
+    "question": "What is the capital of Armenia?",
+    "answers": [
+      "Banjul",
+      "Yerevan",
+      "Yaoundé",
+      "Tehran"
+    ],
+    "correctIndex": 1,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_560c31aafc",
+    "question": "What currency is used in Albania?",
+    "answers": [
+      "Swedish krona",
+      "Albanian lek",
+      "CFP Franc",
+      "Botswana pula"
+    ],
+    "correctIndex": 1,
+    "category": "Geography",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geography_wd_5633ebdb73",
+    "question": "What currency is used in Philippines?",
+    "answers": [
+      "kina",
+      "Philippine peso",
+      "Albanian lek",
+      "Korean mun"
+    ],
+    "correctIndex": 1,
+    "category": "Geography",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geography_wd_566bad5688",
+    "question": "On which continent is Switzerland located?",
+    "answers": [
+      "North America",
+      "Insular Oceania",
+      "Oceania",
+      "Europe"
+    ],
+    "correctIndex": 3,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_56b40acbfe",
+    "question": "On which continent is Chile located?",
+    "answers": [
+      "North America",
+      "Europe",
+      "Africa",
+      "South America"
+    ],
+    "correctIndex": 3,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_56de8cdfa0",
+    "question": "What currency is used in Iceland?",
+    "answers": [
+      "nakfa",
+      "bir",
+      "Yemeni Rial",
+      "Icelandic króna"
+    ],
+    "correctIndex": 3,
+    "category": "Geography",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geography_wd_5755cc42ef",
+    "question": "On which continent is Portugal located?",
+    "answers": [
+      "Europe",
+      "Africa",
+      "Insular Oceania",
+      "Asia"
+    ],
+    "correctIndex": 0,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_575a5d520e",
+    "question": "What is the capital of Dominica?",
+    "answers": [
+      "Port Vila",
+      "Roseau",
+      "Avarua",
+      "Port Louis"
+    ],
+    "correctIndex": 1,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_57c4a3c49e",
+    "question": "On which continent is Mexico located?",
+    "answers": [
+      "North America",
+      "Insular Oceania",
+      "Africa",
+      "South America"
+    ],
+    "correctIndex": 0,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_57f46cec04",
+    "question": "What is the capital of Belize?",
+    "answers": [
+      "San Marino",
+      "Belmopan",
+      "Sanaa",
+      "Colombo"
+    ],
+    "correctIndex": 1,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_582c1a5d62",
+    "question": "What currency is used in Pahlavi Iran?",
+    "answers": [
+      "Sri Lankan rupee",
+      "North Korean won",
+      "Iranian rial",
+      "Somaliland shilling"
+    ],
+    "correctIndex": 2,
+    "category": "Geography",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geography_wd_5915ff4d01",
+    "question": "What is the capital of United Kingdom?",
+    "answers": [
+      "Port-au-Prince",
+      "London",
+      "Tallinn",
+      "Yaoundé"
+    ],
+    "correctIndex": 1,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_591f627606",
+    "question": "What currency is used in Costa Rica?",
+    "answers": [
+      "Brazilian real",
+      "bir",
+      "Costa Rican colón",
+      "Swiss franc"
+    ],
+    "correctIndex": 2,
+    "category": "Geography",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geography_wd_59822aa1be",
+    "question": "What is the capital of Palestine?",
+    "answers": [
+      "Ramallah",
+      "Bissau",
+      "Podgorica",
+      "Manama"
+    ],
+    "correctIndex": 0,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_5a1d3a6be6",
+    "question": "What currency is used in Kingdom of the Netherlands?",
+    "answers": [
+      "Caribbean guilder",
+      "Tunisian dinar",
+      "United Arab Emirates dirham",
+      "Eastern Caribbean dollar"
+    ],
+    "correctIndex": 0,
+    "category": "Geography",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geography_wd_5a6c0186ad",
+    "question": "What is the capital of Somaliland?",
+    "answers": [
+      "Manama",
+      "Hargeisa",
+      "Yaoundé",
+      "Kinshasa"
+    ],
+    "correctIndex": 1,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_5bc598b98c",
+    "question": "What currency is used in Mongolia?",
+    "answers": [
+      "ngultrum",
+      "Mongolian tögrög",
+      "loti",
+      "Mozambican metical"
+    ],
+    "correctIndex": 1,
+    "category": "Geography",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geography_wd_5be5f6408c",
+    "question": "What currency is used in Ireland?",
+    "answers": [
+      "Guyanese dollar",
+      "Zimbabwe ZiG",
+      "euro",
+      "Cook Islands dollar"
+    ],
+    "correctIndex": 2,
+    "category": "Geography",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geography_wd_5c481b1079",
+    "question": "What currency is used in South Korea?",
+    "answers": [
+      "Tongan paʻanga",
+      "Iranian rial",
+      "won",
+      "Armenian dram"
+    ],
+    "correctIndex": 2,
+    "category": "Geography",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geography_wd_5c814abc23",
+    "question": "On which continent is Germany located?",
+    "answers": [
+      "Insular Oceania",
+      "Africa",
+      "Europe",
+      "Eurasia"
+    ],
+    "correctIndex": 2,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_5c8688663f",
+    "question": "On which continent is Papua New Guinea located?",
+    "answers": [
+      "Insular Oceania",
+      "Europe",
+      "Oceania",
+      "Eurasia"
+    ],
+    "correctIndex": 2,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_5cac39954f",
+    "question": "What is the capital of Northern Cyprus?",
+    "answers": [
+      "Apia",
+      "Bissau",
+      "Kuala Lumpur",
+      "North Nicosia"
+    ],
+    "correctIndex": 3,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_5d79895d91",
+    "question": "On which continent is Guatemala located?",
+    "answers": [
+      "Oceania",
+      "Asia",
+      "North America",
+      "Africa"
+    ],
+    "correctIndex": 2,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_5e367110a1",
+    "question": "On which continent is Cambodia located?",
+    "answers": [
+      "Europe",
+      "South America",
+      "Oceania",
+      "Asia"
+    ],
+    "correctIndex": 3,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_5e8bb1f36d",
+    "question": "What is the capital of Guatemala?",
+    "answers": [
+      "Guatemala City",
+      "Bratislava",
+      "Kampala",
+      "Alofi"
+    ],
+    "correctIndex": 0,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_5eeb14a763",
+    "question": "What is the capital of Namibia?",
+    "answers": [
+      "Chișinău",
+      "Luanda",
+      "Windhoek",
+      "Basseterre"
+    ],
+    "correctIndex": 2,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_5f3008287f",
+    "question": "What currency is used in Mauritania?",
+    "answers": [
+      "Comorian franc",
+      "Somaliland shilling",
+      "Mauritanian ouguiya",
+      "quetzal"
+    ],
+    "correctIndex": 2,
+    "category": "Geography",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geography_wd_5f5ead0e1b",
+    "question": "On which continent is Poland located?",
+    "answers": [
+      "North America",
+      "South America",
+      "Africa",
+      "Europe"
+    ],
+    "correctIndex": 3,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_60cd9032a5",
+    "question": "What currency is used in South Africa?",
+    "answers": [
+      "Philippine peso",
+      "Congolese franc",
+      "nakfa",
+      "rand"
+    ],
+    "correctIndex": 3,
+    "category": "Geography",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geography_wd_612b2bcfa3",
+    "question": "What is the capital of Czech Republic?",
+    "answers": [
+      "Muscat",
+      "Pyongyang",
+      "Prague",
+      "Bridgetown"
+    ],
+    "correctIndex": 2,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_613c9523c1",
+    "question": "On which continent is Iran located?",
+    "answers": [
+      "Eurasia",
+      "Asia",
+      "South America",
+      "Oceania"
+    ],
+    "correctIndex": 1,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_61c6c70ea9",
+    "question": "What is the capital of Malawi?",
+    "answers": [
+      "Lilongwe",
+      "Gitega",
+      "Ankara",
+      "Castries"
+    ],
+    "correctIndex": 0,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_61fccafefd",
+    "question": "What is the capital of Iran?",
+    "answers": [
+      "Lisbon",
+      "Tehran",
+      "Jakarta",
+      "Tirana"
+    ],
+    "correctIndex": 1,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_628a9ac2b5",
+    "question": "What is the capital of Uzbekistan?",
+    "answers": [
+      "Cairo",
+      "Astana",
+      "Bandar Seri Begawan",
+      "Tashkent"
+    ],
+    "correctIndex": 3,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_634207e4c0",
+    "question": "On which continent is Liechtenstein located?",
+    "answers": [
+      "Europe",
+      "North America",
+      "Asia",
+      "South America"
+    ],
+    "correctIndex": 0,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_63a13352a6",
+    "question": "What is the capital of Democratic Republic of the Congo?",
+    "answers": [
+      "Singapore",
+      "Banjul",
+      "Kinshasa",
+      "Dushanbe"
+    ],
+    "correctIndex": 2,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_6405d732a6",
+    "question": "On which continent is Argentina located?",
+    "answers": [
+      "North America",
+      "Europe",
+      "Oceania",
+      "South America"
+    ],
+    "correctIndex": 3,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_642fcb7060",
+    "question": "On which continent is Sri Lanka located?",
+    "answers": [
+      "Asia",
+      "Africa",
+      "Oceania",
+      "Eurasia"
+    ],
+    "correctIndex": 0,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_6433361758",
+    "question": "On which continent is Hungary located?",
+    "answers": [
+      "Asia",
+      "Europe",
+      "Insular Oceania",
+      "North America"
+    ],
+    "correctIndex": 1,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_647722b8a9",
+    "question": "What is the capital of Romania?",
+    "answers": [
+      "Lima",
+      "Bucharest",
+      "Bern",
+      "Majuro"
+    ],
+    "correctIndex": 1,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_64a6f61dd1",
+    "question": "What currency is used in Slovakia?",
+    "answers": [
+      "Uruguayan peso",
+      "euro",
+      "Kenyan shilling",
+      "Tajikistani somoni"
+    ],
+    "correctIndex": 1,
+    "category": "Geography",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geography_wd_64b6bcb4de",
+    "question": "On which continent is Madagascar located?",
+    "answers": [
+      "South America",
+      "Europe",
+      "Africa",
+      "Insular Oceania"
+    ],
+    "correctIndex": 2,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_64f66bf1bc",
+    "question": "What currency is used in Trinidad and Tobago?",
+    "answers": [
+      "Lebanese pound",
+      "Nicaraguan córdoba",
+      "Trinidad and Tobago dollar",
+      "Belize dollar"
+    ],
+    "correctIndex": 2,
+    "category": "Geography",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geography_wd_64fb906154",
+    "question": "What currency is used in Finland?",
+    "answers": [
+      "Algerian dinar",
+      "Niue dollar",
+      "euro",
+      "Brazilian real"
+    ],
+    "correctIndex": 2,
+    "category": "Geography",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geography_wd_655e6ba1cb",
+    "question": "What currency is used in Dominica?",
+    "answers": [
+      "Turkish lira",
+      "Eastern Caribbean dollar",
+      "Tongan paʻanga",
+      "Uruguayan peso"
+    ],
+    "correctIndex": 1,
+    "category": "Geography",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geography_wd_6582a64327",
+    "question": "What is the capital of Libya?",
+    "answers": [
+      "Monaco",
+      "Tripoli",
+      "Managua",
+      "Lisbon"
+    ],
+    "correctIndex": 1,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_659db60e1e",
+    "question": "On which continent is Guyana located?",
+    "answers": [
+      "North America",
+      "Insular Oceania",
+      "Eurasia",
+      "South America"
+    ],
+    "correctIndex": 3,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_6686d9c5ce",
+    "question": "On which continent is Federated States of Micronesia located?",
+    "answers": [
+      "Oceania",
+      "North America",
+      "Eurasia",
+      "Europe"
+    ],
+    "correctIndex": 0,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_66e07b376d",
+    "question": "On which continent is Haiti located?",
+    "answers": [
+      "North America",
+      "Insular Oceania",
+      "Europe",
+      "South America"
+    ],
+    "correctIndex": 0,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_66fc104c18",
+    "question": "What is the capital of Singapore?",
+    "answers": [
+      "Khartoum",
+      "Bern",
+      "Castries",
+      "Singapore"
+    ],
+    "correctIndex": 3,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_6812012d46",
+    "question": "What is the capital of Egypt?",
+    "answers": [
+      "Cairo",
+      "Nairobi",
+      "Kigali",
+      "Kingstown"
+    ],
+    "correctIndex": 0,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_68d6aded4a",
+    "question": "What currency is used in Liechtenstein?",
+    "answers": [
+      "Singapore dollar",
+      "euro",
+      "hryvnia",
+      "Swiss franc"
+    ],
+    "correctIndex": 3,
+    "category": "Geography",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geography_wd_6930bb6249",
+    "question": "What currency is used in Mexico?",
+    "answers": [
+      "Jamaican dollar",
+      "peso",
+      "Kiribati dollar",
+      "leone"
+    ],
+    "correctIndex": 1,
+    "category": "Geography",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geography_wd_694e20ad3a",
+    "question": "What is the capital of Ecuador?",
+    "answers": [
+      "Yaoundé",
+      "Quito",
+      "Montevideo",
+      "Yerevan"
+    ],
+    "correctIndex": 1,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_698258fbff",
+    "question": "What is the capital of Ghana?",
+    "answers": [
+      "Muscat",
+      "Avarua",
+      "Manama",
+      "Accra"
+    ],
+    "correctIndex": 3,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_6a38897a0d",
+    "question": "On which continent is Brunei located?",
+    "answers": [
+      "North America",
+      "Africa",
+      "Insular Oceania",
+      "Asia"
+    ],
+    "correctIndex": 3,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_6a43590d8e",
+    "question": "On which continent is Estonia located?",
+    "answers": [
+      "South America",
+      "Europe",
+      "Asia",
+      "North America"
+    ],
+    "correctIndex": 1,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_6bd478377c",
+    "question": "What is the capital of Azerbaijan?",
+    "answers": [
+      "Ciudad de la Paz",
+      "Sri Jayawardenepura Kotte",
+      "Dushanbe",
+      "Baku"
+    ],
+    "correctIndex": 3,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_6bfd05481c",
+    "question": "What is the capital of People's Republic of China?",
+    "answers": [
+      "Valletta",
+      "Beijing",
+      "Podgorica",
+      "Wellington"
+    ],
+    "correctIndex": 1,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_6c3826cdd6",
+    "question": "On which continent is Sudan located?",
+    "answers": [
+      "Africa",
+      "Oceania",
+      "Eurasia",
+      "South America"
+    ],
+    "correctIndex": 0,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_6cc89d31f0",
+    "question": "What is the capital of Jamaica?",
+    "answers": [
+      "Cairo",
+      "Kingston",
+      "Kinshasa",
+      "Roseau"
+    ],
+    "correctIndex": 1,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_6d7b6a7daf",
+    "question": "On which continent is Mauritania located?",
+    "answers": [
+      "Africa",
+      "Europe",
+      "Eurasia",
+      "Asia"
+    ],
+    "correctIndex": 0,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_6d80176bf0",
+    "question": "What currency is used in Antigua and Barbuda?",
+    "answers": [
+      "Danish krone",
+      "złoty",
+      "Eastern Caribbean dollar",
+      "Omani rial"
+    ],
+    "correctIndex": 2,
+    "category": "Geography",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geography_wd_6e8ddc3d1f",
+    "question": "What currency is used in Sint Maarten?",
+    "answers": [
+      "Sri Lankan rupee",
+      "Tunisian dinar",
+      "convertible mark",
+      "Caribbean guilder"
+    ],
+    "correctIndex": 3,
+    "category": "Geography",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geography_wd_6ebacb82a6",
+    "question": "What currency is used in Botswana?",
+    "answers": [
+      "Nepalese rupee",
+      "Uzbek som",
+      "Botswana pula",
+      "Sudanese pound"
+    ],
+    "correctIndex": 2,
+    "category": "Geography",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geography_wd_6ef049f246",
+    "question": "What is the capital of Palau?",
+    "answers": [
+      "Hargeisa",
+      "Guatemala City",
+      "Ngerulmud",
+      "Algiers"
+    ],
+    "correctIndex": 2,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_6ff5711c49",
+    "question": "On which continent is Guinea-Bissau located?",
+    "answers": [
+      "Oceania",
+      "Eurasia",
+      "Africa",
+      "South America"
+    ],
+    "correctIndex": 2,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_701100b639",
+    "question": "On which continent is Zimbabwe located?",
+    "answers": [
+      "Oceania",
+      "North America",
+      "Africa",
+      "South America"
+    ],
+    "correctIndex": 2,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_707ef6e667",
+    "question": "On which continent is Somalia located?",
+    "answers": [
+      "Insular Oceania",
+      "Asia",
+      "Africa",
+      "Europe"
+    ],
+    "correctIndex": 2,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_714b992325",
+    "question": "What is the capital of Botswana?",
+    "answers": [
+      "St. George's",
+      "Kingstown",
+      "Gaborone",
+      "Helsinki"
+    ],
+    "correctIndex": 2,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_716ff9f949",
+    "question": "On which continent is Republic of the Congo located?",
+    "answers": [
+      "North America",
+      "Africa",
+      "South America",
+      "Oceania"
+    ],
+    "correctIndex": 1,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_7178063934",
+    "question": "What is the capital of United Arab Emirates?",
+    "answers": [
+      "Willemstad",
+      "Belmopan",
+      "Abu Dhabi",
+      "Lusaka"
+    ],
+    "correctIndex": 2,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_72408465a0",
+    "question": "What currency is used in United Arab Emirates?",
+    "answers": [
+      "boliviano",
+      "Turkish lira",
+      "Belize dollar",
+      "United Arab Emirates dirham"
+    ],
+    "correctIndex": 3,
+    "category": "Geography",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geography_wd_7298e671bf",
+    "question": "On which continent is Cyprus located?",
+    "answers": [
+      "Insular Oceania",
+      "Africa",
+      "Asia",
+      "Europe"
+    ],
+    "correctIndex": 3,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_73bfde3c58",
+    "question": "On which continent is Austria located?",
+    "answers": [
+      "North America",
+      "Europe",
+      "Asia",
+      "Africa"
+    ],
+    "correctIndex": 1,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_73d0b2638f",
+    "question": "What currency is used in Vatican City?",
+    "answers": [
+      "Samoan tālā",
+      "euro",
+      "Uzbek som",
+      "kina"
+    ],
+    "correctIndex": 1,
+    "category": "Geography",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geography_wd_74a89e3694",
+    "question": "What is the capital of Belgium?",
+    "answers": [
+      "Kingstown",
+      "Brussels",
+      "Rome",
+      "Malé"
+    ],
+    "correctIndex": 1,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_74f3a310a4",
+    "question": "On which continent is Kingdom of Denmark located?",
+    "answers": [
+      "Eurasia",
+      "North America",
+      "Africa",
+      "Europe"
+    ],
+    "correctIndex": 3,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_7550ef547f",
+    "question": "What currency is used in Uganda?",
+    "answers": [
+      "Philippine peso",
+      "Romanian Leu",
+      "Surinamese dollar",
+      "Ugandan shilling"
+    ],
+    "correctIndex": 3,
+    "category": "Geography",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geography_wd_7567716ea3",
+    "question": "On which continent is Iceland located?",
+    "answers": [
+      "Asia",
+      "Eurasia",
+      "Europe",
+      "North America"
+    ],
+    "correctIndex": 2,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_76546e9bfe",
+    "question": "What currency is used in North Macedonia?",
+    "answers": [
+      "Syrian pound",
+      "Dominican peso",
+      "loti",
+      "Macedonian denar"
+    ],
+    "correctIndex": 3,
+    "category": "Geography",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geography_wd_76a8e522b4",
+    "question": "On which continent is Armenia located?",
+    "answers": [
+      "Asia",
+      "Insular Oceania",
+      "Eurasia",
+      "Oceania"
+    ],
+    "correctIndex": 0,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_76ba288175",
+    "question": "On which continent is Ivory Coast located?",
+    "answers": [
+      "South America",
+      "Africa",
+      "Europe",
+      "Insular Oceania"
+    ],
+    "correctIndex": 1,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_773f3db6c1",
+    "question": "What is the capital of Luxembourg?",
+    "answers": [
+      "Luxembourg",
+      "Guatemala City",
+      "Naypyidaw",
+      "Wellington"
+    ],
+    "correctIndex": 0,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_77c9961916",
+    "question": "What currency is used in Monaco?",
+    "answers": [
+      "CFP Franc",
+      "Qatari riyal",
+      "euro",
+      "riel"
+    ],
+    "correctIndex": 2,
+    "category": "Geography",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geography_wd_77fa0b2961",
+    "question": "On which continent is Burkina Faso located?",
+    "answers": [
+      "Eurasia",
+      "Oceania",
+      "Insular Oceania",
+      "Africa"
+    ],
+    "correctIndex": 3,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_78552b2b6d",
+    "question": "What is the capital of Iraq?",
+    "answers": [
+      "Port-au-Prince",
+      "Aden",
+      "Baghdad",
+      "Moscow"
+    ],
+    "correctIndex": 2,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_78cb8171c6",
+    "question": "What currency is used in Gabon?",
+    "answers": [
+      "Ghana cedi",
+      "Chilean peso",
+      "Central African CFA franc",
+      "Swiss franc"
+    ],
+    "correctIndex": 2,
+    "category": "Geography",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geography_wd_797c235558",
+    "question": "What is the capital of Saint Vincent and the Grenadines?",
+    "answers": [
+      "Cairo",
+      "Lusaka",
+      "Kingstown",
+      "Lilongwe"
+    ],
+    "correctIndex": 2,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_799acd8083",
+    "question": "On which continent is Syria located?",
+    "answers": [
+      "Asia",
+      "Insular Oceania",
+      "Oceania",
+      "Europe"
+    ],
+    "correctIndex": 0,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_79a7c2d0d8",
+    "question": "What currency is used in Thailand?",
+    "answers": [
+      "kwanza",
+      "baht",
+      "rand",
+      "Surinamese dollar"
+    ],
+    "correctIndex": 1,
+    "category": "Geography",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geography_wd_7a3cbd6831",
+    "question": "What is the capital of Kyrgyzstan?",
+    "answers": [
+      "Bishkek",
+      "Ljubljana",
+      "Algiers",
+      "Muscat"
+    ],
+    "correctIndex": 0,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_7a79788fbc",
+    "question": "What currency is used in Uruguay?",
+    "answers": [
+      "Uruguayan peso",
+      "Malaysian ringgit",
+      "Tajikistani somoni",
+      "lilangeni"
+    ],
+    "correctIndex": 0,
+    "category": "Geography",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geography_wd_7afc9639d5",
+    "question": "What currency is used in Greece?",
+    "answers": [
+      "Guyanese dollar",
+      "Ugandan shilling",
+      "euro",
+      "Paraguayan guaraní"
+    ],
+    "correctIndex": 2,
+    "category": "Geography",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geography_wd_7b78817df3",
+    "question": "What currency is used in Angola?",
+    "answers": [
+      "kwanza",
+      "quetzal",
+      "Niue dollar",
+      "baht"
+    ],
+    "correctIndex": 0,
+    "category": "Geography",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geography_wd_7bf71261c4",
+    "question": "What currency is used in Bolivia?",
+    "answers": [
+      "boliviano",
+      "Bahamian dollar",
+      "Icelandic króna",
+      "Swiss franc"
+    ],
+    "correctIndex": 0,
+    "category": "Geography",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geography_wd_7cfdc424cb",
+    "question": "On which continent is Croatia located?",
+    "answers": [
+      "Europe",
+      "Insular Oceania",
+      "Africa",
+      "Eurasia"
+    ],
+    "correctIndex": 0,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_7ddb38426b",
+    "question": "What is the capital of Laos?",
+    "answers": [
+      "Tallinn",
+      "Accra",
+      "Vientiane",
+      "Lomé"
+    ],
+    "correctIndex": 2,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_7e505300a4",
+    "question": "What is the capital of Monaco?",
+    "answers": [
+      "Paris",
+      "Havana",
+      "Monaco",
+      "Aden"
+    ],
+    "correctIndex": 2,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_7e93d5797a",
+    "question": "What is the capital of Ivory Coast?",
+    "answers": [
+      "Nuuk",
+      "Hanoi",
+      "St. John's",
+      "Yamoussoukro"
+    ],
+    "correctIndex": 3,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_7eaee19edd",
+    "question": "What currency is used in Morocco?",
+    "answers": [
+      "East Timor centavo coins",
+      "Moroccan dirham",
+      "Yemeni Rial",
+      "Fijian dollar"
+    ],
+    "correctIndex": 1,
+    "category": "Geography",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geography_wd_7f3078de2d",
+    "question": "What is the capital of Barbados?",
+    "answers": [
+      "Victoria",
+      "Libreville",
+      "Lusaka",
+      "Bridgetown"
+    ],
+    "correctIndex": 3,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_80429de8f0",
+    "question": "What currency is used in Azerbaijan?",
+    "answers": [
+      "Niue dollar",
+      "Namibian dollar",
+      "Sri Lankan rupee",
+      "Azerbaijani manat"
+    ],
+    "correctIndex": 3,
+    "category": "Geography",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geography_wd_80bd26a63c",
+    "question": "What is the capital of Muscat and Oman?",
+    "answers": [
+      "Stockholm",
+      "Muscat",
+      "Nassau",
+      "London"
+    ],
+    "correctIndex": 1,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_8113964f33",
+    "question": "On which continent is Afghanistan located?",
+    "answers": [
+      "South America",
+      "Asia",
+      "North America",
+      "Oceania"
+    ],
+    "correctIndex": 1,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_81418fb1ab",
+    "question": "What currency is used in Aruba?",
+    "answers": [
+      "Aruban florin",
+      "lilangeni",
+      "pound sterling",
+      "Kyrgyz som"
+    ],
+    "correctIndex": 0,
+    "category": "Geography",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geography_wd_815564d2f1",
+    "question": "What is the capital of Angola?",
+    "answers": [
+      "Brussels",
+      "Luanda",
+      "Bogotá",
+      "Yaren District"
+    ],
+    "correctIndex": 1,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_81ffd686b4",
+    "question": "What currency is used in Kuwait?",
+    "answers": [
+      "Kuwaiti dinar",
+      "Botswana pula",
+      "Liberian dollar",
+      "Tongan paʻanga"
+    ],
+    "correctIndex": 0,
+    "category": "Geography",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geography_wd_8235df7e35",
+    "question": "What currency is used in Ghana?",
+    "answers": [
+      "hryvnia",
+      "Cape Verdean escudo",
+      "Omani rial",
+      "Ghana cedi"
+    ],
+    "correctIndex": 3,
+    "category": "Geography",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geography_wd_833de4df8d",
+    "question": "What currency is used in Paraguay?",
+    "answers": [
+      "Zimbabwe ZiG",
+      "United States dollar",
+      "ariary",
+      "Paraguayan guaraní"
+    ],
+    "correctIndex": 3,
+    "category": "Geography",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geography_wd_8369413e81",
+    "question": "What is the capital of Moldova?",
+    "answers": [
+      "Nicosia",
+      "Naypyidaw",
+      "Chișinău",
+      "Libreville"
+    ],
+    "correctIndex": 2,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_8419495384",
+    "question": "What is the capital of Greenland?",
+    "answers": [
+      "Kingstown",
+      "Nuuk",
+      "Beijing",
+      "Nairobi"
+    ],
+    "correctIndex": 1,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_8582ba37e1",
+    "question": "On which continent is Czech Republic located?",
+    "answers": [
+      "Europe",
+      "Africa",
+      "South America",
+      "Oceania"
+    ],
+    "correctIndex": 0,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_85cbb4aedb",
+    "question": "What is the capital of Cook Islands?",
+    "answers": [
+      "Avarua",
+      "Valletta",
+      "Prague",
+      "Tegucigalpa"
+    ],
+    "correctIndex": 0,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_85d1b2c75e",
+    "question": "What is the capital of Serbia?",
+    "answers": [
+      "Lusaka",
+      "Amman",
+      "Belgrade",
+      "Porto-Novo"
+    ],
+    "correctIndex": 2,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_866a71faed",
+    "question": "What currency is used in France?",
+    "answers": [
+      "Kuwaiti dinar",
+      "CFP Franc",
+      "Congolese franc",
+      "Colombian peso"
+    ],
+    "correctIndex": 1,
+    "category": "Geography",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geography_wd_86a2b081cd",
+    "question": "What currency is used in Mali?",
+    "answers": [
+      "Omani rial",
+      "Tanzanian shilling",
+      "West African CFA franc",
+      "Romanian Leu"
+    ],
+    "correctIndex": 2,
+    "category": "Geography",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geography_wd_86b83efce5",
+    "question": "What is the capital of Bulgaria?",
+    "answers": [
+      "Dakar",
+      "Mexico City",
+      "Nicosia",
+      "Sofia"
+    ],
+    "correctIndex": 3,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_86f04b2a43",
+    "question": "What is the capital of El Salvador?",
+    "answers": [
+      "San Salvador",
+      "Kinshasa",
+      "Kigali",
+      "Bloemfontein"
+    ],
+    "correctIndex": 0,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_87c53ed401",
+    "question": "On which continent is Samoa located?",
+    "answers": [
+      "Eurasia",
+      "Africa",
+      "Oceania",
+      "Insular Oceania"
+    ],
+    "correctIndex": 2,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_87c9763068",
+    "question": "On which continent is Azerbaijan located?",
+    "answers": [
+      "South America",
+      "Eurasia",
+      "North America",
+      "Asia"
+    ],
+    "correctIndex": 3,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_87cc04cdc3",
+    "question": "What currency is used in Laos?",
+    "answers": [
+      "Cook Islands dollar",
+      "Nicaraguan córdoba",
+      "Cape Verdean escudo",
+      "Lao kip"
+    ],
+    "correctIndex": 3,
+    "category": "Geography",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geography_wd_87fcfb72c3",
+    "question": "On which continent is Saint Kitts and Nevis located?",
+    "answers": [
+      "North America",
+      "Asia",
+      "Europe",
+      "Oceania"
+    ],
+    "correctIndex": 0,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_88c1a335f4",
+    "question": "On which continent is Bahrain located?",
+    "answers": [
+      "Europe",
+      "Eurasia",
+      "Asia",
+      "Insular Oceania"
+    ],
+    "correctIndex": 2,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_895900315f",
+    "question": "On which continent is Seychelles located?",
+    "answers": [
+      "North America",
+      "Europe",
+      "Oceania",
+      "Africa"
+    ],
+    "correctIndex": 3,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_899350619c",
+    "question": "What currency is used in People's Republic of China?",
+    "answers": [
+      "Tanzanian shilling",
+      "Guinean franc",
+      "renminbi",
+      "New Zealand dollar"
+    ],
+    "correctIndex": 2,
+    "category": "Geography",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geography_wd_8a737fb698",
+    "question": "What is the capital of Fiji?",
+    "answers": [
+      "Suva",
+      "Moscow",
+      "Lusaka",
+      "Nuuk"
+    ],
+    "correctIndex": 0,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_8b0dcfdee5",
+    "question": "On which continent is Luxembourg located?",
+    "answers": [
+      "North America",
+      "Africa",
+      "Oceania",
+      "Europe"
+    ],
+    "correctIndex": 3,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_8b311bf399",
+    "question": "On which continent is Belarus located?",
+    "answers": [
+      "Asia",
+      "Oceania",
+      "Europe",
+      "Eurasia"
+    ],
+    "correctIndex": 2,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_8baed2f756",
+    "question": "What is the capital of Denmark?",
+    "answers": [
+      "Copenhagen",
+      "Willemstad",
+      "London",
+      "Algiers"
+    ],
+    "correctIndex": 0,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_8bccdb75eb",
+    "question": "What is the capital of Cameroon?",
+    "answers": [
+      "Lobamba",
+      "Wellington",
+      "Yaoundé",
+      "Bissau"
+    ],
+    "correctIndex": 2,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_8c508ffc0a",
+    "question": "On which continent is Northern Cyprus located?",
+    "answers": [
+      "North America",
+      "Africa",
+      "Europe",
+      "South America"
+    ],
+    "correctIndex": 2,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_8cda507d2b",
+    "question": "What is the capital of Sri Lanka?",
+    "answers": [
+      "Alofi",
+      "Berlin",
+      "Colombo",
+      "Oranjestad"
+    ],
+    "correctIndex": 2,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_8cfbfd6690",
+    "question": "On which continent is Cameroon located?",
+    "answers": [
+      "Oceania",
+      "Insular Oceania",
+      "Africa",
+      "Eurasia"
+    ],
+    "correctIndex": 2,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_8da249368d",
+    "question": "What is the capital of Samoa?",
+    "answers": [
+      "Apia",
+      "Vilnius",
+      "Accra",
+      "Lilongwe"
+    ],
+    "correctIndex": 0,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_8dde9b6a9b",
+    "question": "On which continent is Uruguay located?",
+    "answers": [
+      "Eurasia",
+      "South America",
+      "Europe",
+      "North America"
+    ],
+    "correctIndex": 1,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_8f2b4763d3",
+    "question": "On which continent is Venezuela located?",
+    "answers": [
+      "North America",
+      "Eurasia",
+      "Europe",
+      "South America"
+    ],
+    "correctIndex": 3,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_8f3121c948",
+    "question": "On which continent is Andorra located?",
+    "answers": [
+      "Asia",
+      "Oceania",
+      "Europe",
+      "Eurasia"
+    ],
+    "correctIndex": 2,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_8f5653a271",
+    "question": "What is the capital of Tuvalu?",
+    "answers": [
+      "Buenos Aires",
+      "Riga",
+      "Funafuti",
+      "Tbilisi"
+    ],
+    "correctIndex": 2,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_8f7f9717b1",
+    "question": "What is the capital of Lesotho?",
+    "answers": [
+      "Maseru",
+      "Avarua",
+      "Ramallah",
+      "Manama"
+    ],
+    "correctIndex": 0,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_8f8fe98b34",
+    "question": "What currency is used in Afghanistan?",
+    "answers": [
+      "afghani",
+      "peso",
+      "kyat",
+      "Dominican peso"
+    ],
+    "correctIndex": 0,
+    "category": "Geography",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geography_wd_9052ac6349",
+    "question": "What is the capital of Greece?",
+    "answers": [
+      "Athens",
+      "Ulaanbaatar",
+      "Addis Ababa",
+      "Washington, D.C."
+    ],
+    "correctIndex": 0,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_9055366827",
+    "question": "What currency is used in Dominican Republic?",
+    "answers": [
+      "Turkish lira",
+      "Dominican peso",
+      "riel",
+      "Turkmenistan new manat"
+    ],
+    "correctIndex": 1,
+    "category": "Geography",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geography_wd_906770b7b2",
+    "question": "What currency is used in Hungary?",
+    "answers": [
+      "forint",
+      "Kenyan shilling",
+      "Turkmenistan new manat",
+      "Costa Rican colón"
+    ],
+    "correctIndex": 0,
+    "category": "Geography",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geography_wd_90866d7b1b",
+    "question": "What is the capital of South Korea?",
+    "answers": [
+      "Santo Domingo",
+      "North Nicosia",
+      "Apia",
+      "Seoul"
+    ],
+    "correctIndex": 3,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_909a0dc932",
+    "question": "What is the capital of Yemen?",
+    "answers": [
+      "Bishkek",
+      "Porto-Novo",
+      "Aden",
+      "Kathmandu"
+    ],
+    "correctIndex": 2,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_90b86ca905",
+    "question": "What is the capital of Ethiopia?",
+    "answers": [
+      "Yerevan",
+      "Addis Ababa",
+      "Malé",
+      "Maseru"
+    ],
+    "correctIndex": 1,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_91f32b7656",
+    "question": "What currency is used in Bangladesh?",
+    "answers": [
+      "Samoan tālā",
+      "South Sudanese pound",
+      "United States dollar",
+      "Bangladeshi taka"
+    ],
+    "correctIndex": 3,
+    "category": "Geography",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geography_wd_923286d56a",
+    "question": "On which continent is Suriname located?",
+    "answers": [
+      "South America",
+      "Africa",
+      "Insular Oceania",
+      "Eurasia"
+    ],
+    "correctIndex": 0,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_933869d2ee",
+    "question": "What currency is used in Norway?",
+    "answers": [
+      "Norwegian krone",
+      "loti",
+      "Gulf rupee",
+      "forint"
+    ],
+    "correctIndex": 0,
+    "category": "Geography",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geography_wd_93587a6674",
+    "question": "What is the capital of Sint Maarten?",
+    "answers": [
+      "Chișinău",
+      "Philipsburg",
+      "Dodoma",
+      "Riga"
+    ],
+    "correctIndex": 1,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_953f51d168",
+    "question": "What currency is used in The Bahamas?",
+    "answers": [
+      "Zimbabwean dollar",
+      "Bahamian dollar",
+      "rupiah",
+      "Czech koruna"
+    ],
+    "correctIndex": 1,
+    "category": "Geography",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geography_wd_95978ba2c5",
+    "question": "What is the capital of Marshall Islands?",
+    "answers": [
+      "Baku",
+      "Ashgabat",
+      "Apia",
+      "Majuro"
+    ],
+    "correctIndex": 3,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_9662569e57",
+    "question": "What currency is used in Spain?",
+    "answers": [
+      "euro",
+      "Mauritian rupee",
+      "rupiah",
+      "dalasi"
+    ],
+    "correctIndex": 0,
+    "category": "Geography",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geography_wd_9801827629",
+    "question": "What currency is used in Grenada?",
+    "answers": [
+      "Eastern Caribbean dollar",
+      "Congolese franc",
+      "leone",
+      "Belize dollar"
+    ],
+    "correctIndex": 0,
+    "category": "Geography",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geography_wd_98044fe49f",
+    "question": "On which continent is Turkey located?",
+    "answers": [
+      "Africa",
+      "Europe",
+      "Asia",
+      "South America"
+    ],
+    "correctIndex": 1,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_98657d6b8a",
+    "question": "What is the capital of Mali?",
+    "answers": [
+      "Bamako",
+      "Abu Dhabi",
+      "Skopje",
+      "Juba"
+    ],
+    "correctIndex": 0,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_98a37f1abb",
+    "question": "On which continent is Vietnam located?",
+    "answers": [
+      "South America",
+      "Asia",
+      "Eurasia",
+      "Oceania"
+    ],
+    "correctIndex": 1,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_98e79eac89",
+    "question": "On which continent is Georgia located?",
+    "answers": [
+      "Asia",
+      "Europe",
+      "South America",
+      "Eurasia"
+    ],
+    "correctIndex": 1,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_9920ca7b6a",
+    "question": "On which continent is Maldives located?",
+    "answers": [
+      "Eurasia",
+      "Asia",
+      "Africa",
+      "South America"
+    ],
+    "correctIndex": 1,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_9a1b72cfb9",
+    "question": "What is the capital of Seychelles?",
+    "answers": [
+      "Alofi",
+      "Victoria",
+      "Bamako",
+      "Damascus"
+    ],
+    "correctIndex": 1,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_9a8fe0b9f5",
+    "question": "What is the capital of Madagascar?",
+    "answers": [
+      "Belmopan",
+      "Moscow",
+      "Bangui",
+      "Antananarivo"
+    ],
+    "correctIndex": 3,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_9aec89a936",
+    "question": "What currency is used in Central African Republic?",
+    "answers": [
+      "Iranian rial",
+      "Costa Rican colón",
+      "Omani rial",
+      "Central African CFA franc"
+    ],
+    "correctIndex": 3,
+    "category": "Geography",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geography_wd_9b1361a0fb",
+    "question": "On which continent is The Gambia located?",
+    "answers": [
+      "Africa",
+      "Asia",
+      "Europe",
+      "Insular Oceania"
+    ],
+    "correctIndex": 0,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_9bbcfe9831",
+    "question": "What currency is used in Japan?",
+    "answers": [
+      "Costa Rican colón",
+      "Gulf rupee",
+      "yen",
+      "Pakistani rupee"
+    ],
+    "correctIndex": 2,
+    "category": "Geography",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geography_wd_9d1dba7c1e",
+    "question": "What is the capital of Oman?",
+    "answers": [
+      "Tehran",
+      "Seoul",
+      "Yaoundé",
+      "Muscat"
+    ],
+    "correctIndex": 3,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_9ea59ed891",
+    "question": "What currency is used in Guinea?",
+    "answers": [
+      "Guinean franc",
+      "lilangeni",
+      "Tuvaluan dollar",
+      "Namibian dollar"
+    ],
+    "correctIndex": 0,
+    "category": "Geography",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geography_wd_9f345d7f24",
+    "question": "What currency is used in Venezuela?",
+    "answers": [
+      "Honduran lempira",
+      "new shekel",
+      "sovereign bolivar",
+      "Niue dollar"
+    ],
+    "correctIndex": 2,
+    "category": "Geography",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geography_wd_9f5fbe019f",
+    "question": "What is the capital of Antigua and Barbuda?",
+    "answers": [
+      "Oranjestad",
+      "Addis Ababa",
+      "St. John's",
+      "Montevideo"
+    ],
+    "correctIndex": 2,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_9fd97ddad8",
+    "question": "What currency is used in Italy?",
+    "answers": [
+      "rand",
+      "Cook Islands dollar",
+      "pound sterling",
+      "euro"
+    ],
+    "correctIndex": 3,
+    "category": "Geography",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geography_wd_9ff33090b0",
+    "question": "What currency is used in Chile?",
+    "answers": [
+      "Chilean peso",
+      "Vietnamese đồng",
+      "Eastern Caribbean dollar",
+      "Qatari riyal"
+    ],
+    "correctIndex": 0,
+    "category": "Geography",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geography_wd_9ffeaf9d16",
+    "question": "What is the capital of Chile?",
+    "answers": [
+      "Santiago",
+      "Bissau",
+      "Reykjavík",
+      "Maputo"
+    ],
+    "correctIndex": 0,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_a0b812714f",
+    "question": "On which continent is Jamaica located?",
+    "answers": [
+      "South America",
+      "North America",
+      "Asia",
+      "Africa"
+    ],
+    "correctIndex": 1,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_a153d3f33b",
+    "question": "On which continent is Nicaragua located?",
+    "answers": [
+      "Eurasia",
+      "Asia",
+      "South America",
+      "North America"
+    ],
+    "correctIndex": 3,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_a1c5faec8e",
+    "question": "What is the capital of Niue?",
+    "answers": [
+      "Amsterdam",
+      "Apia",
+      "Alofi",
+      "Monrovia"
+    ],
+    "correctIndex": 2,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_a20059e9de",
+    "question": "What is the capital of Nicaragua?",
+    "answers": [
+      "Kingston",
+      "Kathmandu",
+      "Managua",
+      "Ljubljana"
+    ],
+    "correctIndex": 2,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_a20928e6be",
+    "question": "On which continent is Turkmenistan located?",
+    "answers": [
+      "Europe",
+      "Eurasia",
+      "Asia",
+      "Oceania"
+    ],
+    "correctIndex": 2,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_a24a270783",
+    "question": "What is the capital of United States?",
+    "answers": [
+      "Washington, D.C.",
+      "Montevideo",
+      "Tbilisi",
+      "Suva"
+    ],
+    "correctIndex": 0,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_a2a9237742",
+    "question": "What currency is used in Curaçao?",
+    "answers": [
+      "Caribbean guilder",
+      "Argentine convertible peso",
+      "forint",
+      "Somaliland shilling"
+    ],
+    "correctIndex": 0,
+    "category": "Geography",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geography_wd_a319da2695",
+    "question": "On which continent is Barbados located?",
+    "answers": [
+      "Europe",
+      "Eurasia",
+      "North America",
+      "Oceania"
+    ],
+    "correctIndex": 2,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_a34e8485f1",
+    "question": "What is the capital of Afghanistan?",
+    "answers": [
+      "Tehran",
+      "Kabul",
+      "Manama",
+      "Lisbon"
+    ],
+    "correctIndex": 1,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_a3a7267970",
+    "question": "On which continent is Kenya located?",
+    "answers": [
+      "Europe",
+      "Eurasia",
+      "Africa",
+      "North America"
+    ],
+    "correctIndex": 2,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_a3c0eb07b8",
+    "question": "What currency is used in Malawi?",
+    "answers": [
+      "Kiribati dollar",
+      "Malawian kwacha",
+      "rupiah",
+      "gourde"
+    ],
+    "correctIndex": 1,
+    "category": "Geography",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geography_wd_a494291980",
+    "question": "On which continent is Senegal located?",
+    "answers": [
+      "Oceania",
+      "Europe",
+      "North America",
+      "Africa"
+    ],
+    "correctIndex": 3,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_a63d6be1f8",
+    "question": "What currency is used in Kenya?",
+    "answers": [
+      "forint",
+      "Philippine peso",
+      "Kenyan shilling",
+      "leone"
+    ],
+    "correctIndex": 2,
+    "category": "Geography",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geography_wd_a741f3397e",
+    "question": "On which continent is Bhutan located?",
+    "answers": [
+      "Oceania",
+      "Africa",
+      "Asia",
+      "Insular Oceania"
+    ],
+    "correctIndex": 2,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_a7c73d3de9",
+    "question": "What currency is used in Belarus?",
+    "answers": [
+      "Niue dollar",
+      "Belarusian ruble",
+      "Serbian dinar",
+      "pound sterling"
+    ],
+    "correctIndex": 1,
+    "category": "Geography",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geography_wd_a8e677c1f1",
+    "question": "On which continent is Uzbekistan located?",
+    "answers": [
+      "Asia",
+      "Oceania",
+      "Africa",
+      "Insular Oceania"
+    ],
+    "correctIndex": 0,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_a96b7f1ecb",
+    "question": "What is the capital of Guinea?",
+    "answers": [
+      "Georgetown",
+      "Conakry",
+      "N'Djamena",
+      "Sucre"
+    ],
+    "correctIndex": 1,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_aa13c0084b",
+    "question": "What is the capital of São Tomé and Príncipe?",
+    "answers": [
+      "Bucharest",
+      "Valletta",
+      "Sarajevo",
+      "São Tomé"
+    ],
+    "correctIndex": 3,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_aa29cbcfc6",
+    "question": "What currency is used in Denmark?",
+    "answers": [
+      "dalasi",
+      "Guyanese dollar",
+      "Danish krone",
+      "Brunei dollar"
+    ],
+    "correctIndex": 2,
+    "category": "Geography",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geography_wd_aa5d032b60",
+    "question": "On which continent is Timor-Leste located?",
+    "answers": [
+      "North America",
+      "Africa",
+      "South America",
+      "Asia"
+    ],
+    "correctIndex": 3,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_ab1678d790",
+    "question": "What currency is used in Barbados?",
+    "answers": [
+      "Romanian Leu",
+      "Barbadian dollar",
+      "Canadian dollar",
+      "renminbi"
+    ],
+    "correctIndex": 1,
+    "category": "Geography",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geography_wd_ab7817526d",
+    "question": "What is the capital of Kingdom of the Netherlands?",
+    "answers": [
+      "Sofia",
+      "Amsterdam",
+      "Tallinn",
+      "Tegucigalpa"
+    ],
+    "correctIndex": 1,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_abe29d861c",
+    "question": "What currency is used in Fiji?",
+    "answers": [
+      "Cuban peso",
+      "pound sterling",
+      "Fijian dollar",
+      "Bangladeshi taka"
+    ],
+    "correctIndex": 2,
+    "category": "Geography",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geography_wd_aceca78a03",
+    "question": "On which continent is Sweden located?",
+    "answers": [
+      "South America",
+      "North America",
+      "Europe",
+      "Oceania"
+    ],
+    "correctIndex": 2,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_ad2885b6f1",
+    "question": "On which continent is Guinea located?",
+    "answers": [
+      "Africa",
+      "Europe",
+      "Oceania",
+      "Insular Oceania"
+    ],
+    "correctIndex": 0,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_ad9c42471e",
+    "question": "On which continent is Botswana located?",
+    "answers": [
+      "Africa",
+      "Asia",
+      "Insular Oceania",
+      "Europe"
+    ],
+    "correctIndex": 0,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_aec966ef43",
+    "question": "What is the capital of Equatorial Guinea?",
+    "answers": [
+      "St. George's",
+      "Nassau",
+      "Ciudad de la Paz",
+      "Helsinki"
+    ],
+    "correctIndex": 2,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_af0eb6f6e4",
+    "question": "What is the capital of India?",
+    "answers": [
+      "Kigali",
+      "San Marino",
+      "Chișinău",
+      "New Delhi"
+    ],
+    "correctIndex": 3,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_b07015122c",
+    "question": "What currency is used in Belgium?",
+    "answers": [
+      "South Sudanese pound",
+      "Kiribati dollar",
+      "Mongolian tögrög",
+      "euro"
+    ],
+    "correctIndex": 3,
+    "category": "Geography",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geography_wd_b15e136571",
+    "question": "What is the capital of Colombia?",
+    "answers": [
+      "Oslo",
+      "Bogotá",
+      "Vaduz",
+      "Ottawa"
+    ],
+    "correctIndex": 1,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_b19f32500e",
+    "question": "What is the capital of Estonia?",
+    "answers": [
+      "Doha",
+      "Bogotá",
+      "Kinshasa",
+      "Tallinn"
+    ],
+    "correctIndex": 3,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_b22bf203cb",
+    "question": "On which continent is São Tomé and Príncipe located?",
+    "answers": [
+      "Oceania",
+      "South America",
+      "Africa",
+      "Asia"
+    ],
+    "correctIndex": 2,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_b2623cea30",
+    "question": "On which continent is Spain located?",
+    "answers": [
+      "Oceania",
+      "Europe",
+      "North America",
+      "Africa"
+    ],
+    "correctIndex": 1,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_b2e3b55fba",
+    "question": "On which continent is United Arab Emirates located?",
+    "answers": [
+      "Africa",
+      "Asia",
+      "North America",
+      "Insular Oceania"
+    ],
+    "correctIndex": 1,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_b2f17c51d1",
+    "question": "What currency is used in Burkina Faso?",
+    "answers": [
+      "Samoan tālā",
+      "Argentine convertible peso",
+      "West African CFA franc",
+      "North Korean won"
+    ],
+    "correctIndex": 2,
+    "category": "Geography",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geography_wd_b3acea4348",
+    "question": "What currency is used in Myanmar?",
+    "answers": [
+      "CFP Franc",
+      "Australian dollar",
+      "Moroccan dirham",
+      "kyat"
+    ],
+    "correctIndex": 3,
+    "category": "Geography",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geography_wd_b3e9b846f5",
+    "question": "What currency is used in Somaliland?",
+    "answers": [
+      "Somaliland shilling",
+      "nakfa",
+      "Canadian dollar",
+      "Zimbabwean dollar"
+    ],
+    "correctIndex": 0,
+    "category": "Geography",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geography_wd_b434f79a04",
+    "question": "On which continent is Somaliland located?",
+    "answers": [
+      "Europe",
+      "Africa",
+      "North America",
+      "Eurasia"
+    ],
+    "correctIndex": 1,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_b47893c895",
+    "question": "What currency is used in Benin?",
+    "answers": [
+      "Cape Verdean escudo",
+      "Bahamian dollar",
+      "West African CFA franc",
+      "Ugandan shilling"
+    ],
+    "correctIndex": 2,
+    "category": "Geography",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geography_wd_b49ac4ace5",
+    "question": "What currency is used in Malaysia?",
+    "answers": [
+      "Russian ruble",
+      "Argentine convertible peso",
+      "Malaysian ringgit",
+      "afghani"
+    ],
+    "correctIndex": 2,
+    "category": "Geography",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geography_wd_b4ac510764",
+    "question": "What currency is used in Oman?",
+    "answers": [
+      "Surinamese dollar",
+      "Omani rial",
+      "Trinidad and Tobago dollar",
+      "Vanuatu vatus"
+    ],
+    "correctIndex": 1,
+    "category": "Geography",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geography_wd_b4b1cbff81",
+    "question": "What currency is used in Montenegro?",
+    "answers": [
+      "Egyptian pound",
+      "Danish krone",
+      "euro",
+      "Guinean franc"
+    ],
+    "correctIndex": 2,
+    "category": "Geography",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geography_wd_b4c0ee82f4",
+    "question": "What currency is used in Cape Verde?",
+    "answers": [
+      "Paraguayan guaraní",
+      "Mauritanian ouguiya",
+      "Seychellois rupee",
+      "Cape Verdean escudo"
+    ],
+    "correctIndex": 3,
+    "category": "Geography",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geography_wd_b4e17fc282",
+    "question": "On which continent is Fiji located?",
+    "answers": [
+      "Insular Oceania",
+      "Asia",
+      "Africa",
+      "South America"
+    ],
+    "correctIndex": 0,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_b5be20dd1e",
+    "question": "On which continent is Panama located?",
+    "answers": [
+      "South America",
+      "Europe",
+      "Africa",
+      "North America"
+    ],
+    "correctIndex": 3,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_b66b2d2f5d",
+    "question": "What is the capital of Saint Kitts and Nevis?",
+    "answers": [
+      "Valletta",
+      "Ljubljana",
+      "Basseterre",
+      "Dakar"
+    ],
+    "correctIndex": 2,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_b7571e4aca",
+    "question": "What currency is used in Seychelles?",
+    "answers": [
+      "Seychellois rupee",
+      "Bahamian dollar",
+      "afghani",
+      "convertible mark"
+    ],
+    "correctIndex": 0,
+    "category": "Geography",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geography_wd_b7b284942e",
+    "question": "What currency is used in Nicaragua?",
+    "answers": [
+      "gourde",
+      "ariary",
+      "Nicaraguan córdoba",
+      "sovereign bolivar"
+    ],
+    "correctIndex": 2,
+    "category": "Geography",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geography_wd_b823a6e799",
+    "question": "What is the capital of Andorra?",
+    "answers": [
+      "Bogotá",
+      "Suva",
+      "Riyadh",
+      "Andorra la Vella"
+    ],
+    "correctIndex": 3,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_b82c307a4c",
+    "question": "What is the capital of Brunei?",
+    "answers": [
+      "Bandar Seri Begawan",
+      "Lusaka",
+      "Luanda",
+      "Baku"
+    ],
+    "correctIndex": 0,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_b84d92dfc6",
+    "question": "What is the capital of Cuba?",
+    "answers": [
+      "Havana",
+      "Harare",
+      "Port-au-Prince",
+      "Sofia"
+    ],
+    "correctIndex": 0,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_b885e4c7f5",
+    "question": "On which continent is Brazil located?",
+    "answers": [
+      "Oceania",
+      "Asia",
+      "South America",
+      "Africa"
+    ],
+    "correctIndex": 2,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_b92217cf49",
+    "question": "On which continent is Niue located?",
+    "answers": [
+      "North America",
+      "Asia",
+      "Insular Oceania",
+      "Oceania"
+    ],
+    "correctIndex": 2,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_b93325c7fc",
+    "question": "What currency is used in Namibia?",
+    "answers": [
+      "Serbian dinar",
+      "Namibian dollar",
+      "złoty",
+      "Cuban peso"
+    ],
+    "correctIndex": 1,
+    "category": "Geography",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geography_wd_b9651aa8a4",
+    "question": "What currency is used in Romania?",
+    "answers": [
+      "Vanuatu vatus",
+      "SOV",
+      "Mauritanian ouguiya",
+      "Romanian Leu"
+    ],
+    "correctIndex": 3,
+    "category": "Geography",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geography_wd_b98a25216e",
+    "question": "What is the capital of Netherlands?",
+    "answers": [
+      "Nukuʻalofa",
+      "Majuro",
+      "Amsterdam",
+      "North Nicosia"
+    ],
+    "correctIndex": 2,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_b99d10ceb5",
+    "question": "On which continent is Nauru located?",
+    "answers": [
+      "Europe",
+      "Asia",
+      "Oceania",
+      "Insular Oceania"
+    ],
+    "correctIndex": 2,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_b9aa40c2df",
+    "question": "On which continent is Cook Islands located?",
+    "answers": [
+      "North America",
+      "Oceania",
+      "Insular Oceania",
+      "Africa"
+    ],
+    "correctIndex": 2,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_b9c022e6c2",
+    "question": "What is the capital of Cambodia?",
+    "answers": [
+      "Kyiv",
+      "Port Louis",
+      "Kampala",
+      "Phnom Penh"
+    ],
+    "correctIndex": 3,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_ba063162d7",
+    "question": "On which continent is Solomon Islands located?",
+    "answers": [
+      "South America",
+      "Eurasia",
+      "Oceania",
+      "North America"
+    ],
+    "correctIndex": 2,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_ba33f1c135",
+    "question": "What is the capital of Haiti?",
+    "answers": [
+      "Port-au-Prince",
+      "Bogotá",
+      "Jakarta",
+      "Montevideo"
+    ],
+    "correctIndex": 0,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_ba532e2c6e",
+    "question": "What currency is used in Samoa?",
+    "answers": [
+      "Sudanese pound",
+      "Samoan tālā",
+      "Mauritian rupee",
+      "peso"
+    ],
+    "correctIndex": 1,
+    "category": "Geography",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geography_wd_ba8d2a2045",
+    "question": "What currency is used in Czech Republic?",
+    "answers": [
+      "Congolese franc",
+      "Czech koruna",
+      "Syrian pound",
+      "Liberian dollar"
+    ],
+    "correctIndex": 1,
+    "category": "Geography",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geography_wd_bab4f3cd5f",
+    "question": "On which continent is Nepal located?",
+    "answers": [
+      "Europe",
+      "Insular Oceania",
+      "Oceania",
+      "Asia"
+    ],
+    "correctIndex": 3,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_bba92da362",
+    "question": "What currency is used in Somalia?",
+    "answers": [
+      "Ghana cedi",
+      "Somali shilling",
+      "SOV",
+      "Tanzanian shilling"
+    ],
+    "correctIndex": 1,
+    "category": "Geography",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geography_wd_bc0e8cdc82",
+    "question": "What is the capital of Qatar?",
+    "answers": [
+      "Havana",
+      "Valletta",
+      "Doha",
+      "Praia"
+    ],
+    "correctIndex": 2,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_bc3453dab3",
+    "question": "What currency is used in Tuvalu?",
+    "answers": [
+      "Said rial",
+      "Armenian dram",
+      "złoty",
+      "Tuvaluan dollar"
+    ],
+    "correctIndex": 3,
+    "category": "Geography",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geography_wd_bc56858bd2",
+    "question": "What currency is used in Luxembourg?",
+    "answers": [
+      "Jordanian dinar",
+      "Cuban peso",
+      "euro",
+      "Namibian dollar"
+    ],
+    "correctIndex": 2,
+    "category": "Geography",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geography_wd_bcdd9698ad",
+    "question": "What currency is used in Algeria?",
+    "answers": [
+      "Bangladeshi taka",
+      "Algerian dinar",
+      "Macedonian denar",
+      "rand"
+    ],
+    "correctIndex": 1,
+    "category": "Geography",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geography_wd_bd4012200e",
+    "question": "On which continent is Qatar located?",
+    "answers": [
+      "Asia",
+      "Insular Oceania",
+      "Africa",
+      "Oceania"
+    ],
+    "correctIndex": 0,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_bdae3f57a6",
+    "question": "What is the capital of Norway?",
+    "answers": [
+      "Luanda",
+      "Alofi",
+      "Oslo",
+      "N'Djamena"
+    ],
+    "correctIndex": 2,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_bdcd147a32",
+    "question": "What currency is used in Northern Cyprus?",
+    "answers": [
+      "Belize dollar",
+      "Canadian dollar",
+      "new shekel",
+      "Turkish lira"
+    ],
+    "correctIndex": 3,
+    "category": "Geography",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geography_wd_be166fbe90",
+    "question": "What is the capital of Tonga?",
+    "answers": [
+      "Nukuʻalofa",
+      "New Delhi",
+      "South Tarawa",
+      "Yamoussoukro"
+    ],
+    "correctIndex": 0,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_be1a7c6c2a",
+    "question": "What currency is used in Honduras?",
+    "answers": [
+      "Honduran lempira",
+      "ariary",
+      "Kiribati dollar",
+      "Zambian Kwacha"
+    ],
+    "correctIndex": 0,
+    "category": "Geography",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geography_wd_bf059a2815",
+    "question": "What is the capital of Portugal?",
+    "answers": [
+      "Lisbon",
+      "N'Djamena",
+      "Bogotá",
+      "Bangui"
+    ],
+    "correctIndex": 0,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_bfbefde640",
+    "question": "What is the capital of Pakistan?",
+    "answers": [
+      "San Marino",
+      "Bangkok",
+      "Islamabad",
+      "New Delhi"
+    ],
+    "correctIndex": 2,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_c02ea4f194",
+    "question": "What is the capital of Mauritania?",
+    "answers": [
+      "Stockholm",
+      "Asunción",
+      "Bandar Seri Begawan",
+      "Nouakchott"
+    ],
+    "correctIndex": 3,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_c05b357258",
+    "question": "What is the capital of Zimbabwe?",
+    "answers": [
+      "Lisbon",
+      "Harare",
+      "Ramallah",
+      "São Tomé"
+    ],
+    "correctIndex": 1,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_c0920c9077",
+    "question": "On which continent is Democratic Republic of the Congo located?",
+    "answers": [
+      "Africa",
+      "North America",
+      "Oceania",
+      "South America"
+    ],
+    "correctIndex": 0,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_c0a3385af4",
+    "question": "On which continent is Mali located?",
+    "answers": [
+      "North America",
+      "Eurasia",
+      "Europe",
+      "Africa"
+    ],
+    "correctIndex": 3,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_c0cfd9a9a5",
+    "question": "What currency is used in Papua New Guinea?",
+    "answers": [
+      "Omani rial",
+      "loti",
+      "Chilean peso",
+      "kina"
+    ],
+    "correctIndex": 3,
+    "category": "Geography",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geography_wd_c0d56f25d3",
+    "question": "What currency is used in Solomon Islands?",
+    "answers": [
+      "dalasi",
+      "Malaysian ringgit",
+      "ngultrum",
+      "Solomon Islands dollar"
+    ],
+    "correctIndex": 3,
+    "category": "Geography",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geography_wd_c150f154cc",
+    "question": "What currency is used in Croatia?",
+    "answers": [
+      "peso",
+      "euro",
+      "leone",
+      "Armenian dram"
+    ],
+    "correctIndex": 1,
+    "category": "Geography",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geography_wd_c166835132",
+    "question": "On which continent is Kuwait located?",
+    "answers": [
+      "Asia",
+      "Eurasia",
+      "South America",
+      "North America"
+    ],
+    "correctIndex": 0,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_c203eb2ff3",
+    "question": "On which continent is South Africa located?",
+    "answers": [
+      "South America",
+      "Asia",
+      "Africa",
+      "Insular Oceania"
+    ],
+    "correctIndex": 2,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_c2b308fcfb",
+    "question": "What is the capital of Paraguay?",
+    "answers": [
+      "Suva",
+      "Asunción",
+      "Conakry",
+      "Brasília"
+    ],
+    "correctIndex": 1,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_c30ffa6bcb",
+    "question": "What currency is used in Rwanda?",
+    "answers": [
+      "Namibian dollar",
+      "Ghana cedi",
+      "Rwandan franc",
+      "Mongolian tögrög"
+    ],
+    "correctIndex": 2,
+    "category": "Geography",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geography_wd_c33a3fd31f",
+    "question": "What is the capital of Vatican City?",
+    "answers": [
+      "New Delhi",
+      "Maputo",
+      "Thimphu",
+      "Vatican City"
+    ],
+    "correctIndex": 3,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_c3b89f63b0",
+    "question": "What currency is used in Latvia?",
+    "answers": [
+      "Rwandan franc",
+      "United Arab Emirates dirham",
+      "kwanza",
+      "euro"
+    ],
+    "correctIndex": 3,
+    "category": "Geography",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geography_wd_c3f0aef237",
+    "question": "What is the capital of Argentina?",
+    "answers": [
+      "Muscat",
+      "Paris",
+      "Buenos Aires",
+      "Naypyidaw"
+    ],
+    "correctIndex": 2,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_c431ee882f",
+    "question": "On which continent is Trinidad and Tobago located?",
+    "answers": [
+      "Asia",
+      "Africa",
+      "Eurasia",
+      "North America"
+    ],
+    "correctIndex": 3,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_c4d927ea60",
+    "question": "On which continent is Italy located?",
+    "answers": [
+      "Europe",
+      "North America",
+      "Asia",
+      "South America"
+    ],
+    "correctIndex": 0,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_c4ebcae5b4",
+    "question": "What is the capital of Germany?",
+    "answers": [
+      "Honiara",
+      "Willemstad",
+      "Castries",
+      "Berlin"
+    ],
+    "correctIndex": 3,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_c575d4f2a1",
+    "question": "On which continent is Ecuador located?",
+    "answers": [
+      "South America",
+      "Insular Oceania",
+      "Asia",
+      "North America"
+    ],
+    "correctIndex": 0,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_c6408340f8",
+    "question": "What is the capital of Kuwait?",
+    "answers": [
+      "Kuwait City",
+      "Ljubljana",
+      "La Paz",
+      "Kampala"
+    ],
+    "correctIndex": 0,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_c799588744",
+    "question": "What is the capital of Panama?",
+    "answers": [
+      "Asunción",
+      "Roseau",
+      "Kuala Lumpur",
+      "Panama City"
+    ],
+    "correctIndex": 3,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_c7a17fae74",
+    "question": "What is the capital of Lebanon?",
+    "answers": [
+      "Brasília",
+      "Bogotá",
+      "Gitega",
+      "Beirut"
+    ],
+    "correctIndex": 3,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_c7d486c778",
+    "question": "What currency is used in Cyprus?",
+    "answers": [
+      "Eastern Caribbean dollar",
+      "euro",
+      "North Korean won",
+      "Tongan paʻanga"
+    ],
+    "correctIndex": 1,
+    "category": "Geography",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geography_wd_c7f435a4b3",
+    "question": "What currency is used in Iraq?",
+    "answers": [
+      "Iraqi dinar",
+      "Georgian lari",
+      "Faroese króna",
+      "Vanuatu vatus"
+    ],
+    "correctIndex": 0,
+    "category": "Geography",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geography_wd_c8a45a96c8",
+    "question": "What is the capital of Latvia?",
+    "answers": [
+      "Moscow",
+      "Brussels",
+      "Riga",
+      "Port Louis"
+    ],
+    "correctIndex": 2,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_c981bf35ea",
+    "question": "On which continent is Malawi located?",
+    "answers": [
+      "Insular Oceania",
+      "Asia",
+      "South America",
+      "Africa"
+    ],
+    "correctIndex": 3,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_ca30f54924",
+    "question": "On which continent is San Marino located?",
+    "answers": [
+      "Oceania",
+      "Europe",
+      "South America",
+      "North America"
+    ],
+    "correctIndex": 1,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_ca64e9137d",
+    "question": "What is the capital of Honduras?",
+    "answers": [
+      "San José",
+      "Tegucigalpa",
+      "London",
+      "Amsterdam"
+    ],
+    "correctIndex": 1,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_ca8d7e407e",
+    "question": "What is the capital of Finland?",
+    "answers": [
+      "Islamabad",
+      "Helsinki",
+      "Libreville",
+      "Bucharest"
+    ],
+    "correctIndex": 1,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_cb7e2d9374",
+    "question": "What currency is used in Canada?",
+    "answers": [
+      "Tuvaluan dollar",
+      "Kyrgyz som",
+      "Canadian dollar",
+      "CFP Franc"
+    ],
+    "correctIndex": 2,
+    "category": "Geography",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geography_wd_cc9c1e937b",
+    "question": "What currency is used in Lebanon?",
+    "answers": [
+      "SOV",
+      "Zambian Kwacha",
+      "Lebanese pound",
+      "South Sudanese pound"
+    ],
+    "correctIndex": 2,
+    "category": "Geography",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geography_wd_ccbabe0400",
+    "question": "On which continent is Greece located?",
+    "answers": [
+      "Eurasia",
+      "Oceania",
+      "Europe",
+      "Africa"
+    ],
+    "correctIndex": 2,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_cd163b77f1",
+    "question": "On which continent is South Sudan located?",
+    "answers": [
+      "Africa",
+      "Oceania",
+      "South America",
+      "Europe"
+    ],
+    "correctIndex": 0,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_cd2590c2e8",
+    "question": "What is the capital of Ireland?",
+    "answers": [
+      "Windhoek",
+      "Amsterdam",
+      "Dublin",
+      "Ljubljana"
+    ],
+    "correctIndex": 2,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_cd5ad5fb93",
+    "question": "What currency is used in Yemen?",
+    "answers": [
+      "Guinean franc",
+      "Yemeni Rial",
+      "Romanian Leu",
+      "kwanza"
+    ],
+    "correctIndex": 1,
+    "category": "Geography",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geography_wd_cd5c78f30f",
+    "question": "What currency is used in Federated States of Micronesia?",
+    "answers": [
+      "Sudanese pound",
+      "United States dollar",
+      "North Korean won",
+      "Zambian Kwacha"
+    ],
+    "correctIndex": 1,
+    "category": "Geography",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geography_wd_cd7b114ad6",
+    "question": "On which continent is Oman located?",
+    "answers": [
+      "Europe",
+      "Asia",
+      "Eurasia",
+      "Oceania"
+    ],
+    "correctIndex": 1,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_ce329a07bb",
+    "question": "On which continent is Antigua and Barbuda located?",
+    "answers": [
+      "North America",
+      "Africa",
+      "South America",
+      "Asia"
+    ],
+    "correctIndex": 0,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_ce8d64ddb6",
+    "question": "What is the capital of Zambia?",
+    "answers": [
+      "Lusaka",
+      "Praia",
+      "Bogotá",
+      "Kyiv"
+    ],
+    "correctIndex": 0,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_cfec6c3f95",
+    "question": "On which continent is Equatorial Guinea located?",
+    "answers": [
+      "Asia",
+      "Eurasia",
+      "Africa",
+      "Insular Oceania"
+    ],
+    "correctIndex": 2,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_cff937ffdb",
+    "question": "What is the capital of Sierra Leone?",
+    "answers": [
+      "Pyongyang",
+      "Nuuk",
+      "Freetown",
+      "Vatican City"
+    ],
+    "correctIndex": 2,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_cffa6b2d89",
+    "question": "What currency is used in Vietnam?",
+    "answers": [
+      "Vietnamese đồng",
+      "Chilean peso",
+      "Turkish lira",
+      "new shekel"
+    ],
+    "correctIndex": 0,
+    "category": "Geography",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geography_wd_d01d444c71",
+    "question": "What currency is used in Mozambique?",
+    "answers": [
+      "Georgian lari",
+      "Lebanese pound",
+      "Mozambican metical",
+      "Seychellois rupee"
+    ],
+    "correctIndex": 2,
+    "category": "Geography",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geography_wd_d09f9b6b50",
+    "question": "What is the capital of Italy?",
+    "answers": [
+      "Rome",
+      "Amsterdam",
+      "Tehran",
+      "Kabul"
+    ],
+    "correctIndex": 0,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_d0ce01ffa3",
+    "question": "What currency is used in Muscat and Oman?",
+    "answers": [
+      "Korean mun",
+      "Eastern Caribbean dollar",
+      "Gulf rupee",
+      "yen"
+    ],
+    "correctIndex": 2,
+    "category": "Geography",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geography_wd_d124ae0309",
+    "question": "On which continent is United States located?",
+    "answers": [
+      "North America",
+      "Europe",
+      "Asia",
+      "Africa"
+    ],
+    "correctIndex": 0,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_d17208fab0",
+    "question": "What is the capital of Kingdom of Denmark?",
+    "answers": [
+      "Nicosia",
+      "Manama",
+      "Vientiane",
+      "Copenhagen"
+    ],
+    "correctIndex": 3,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_d1f9b920eb",
+    "question": "What currency is used in Vanuatu?",
+    "answers": [
+      "boliviano",
+      "Vanuatu vatus",
+      "Comorian franc",
+      "Nuevo sol"
+    ],
+    "correctIndex": 1,
+    "category": "Geography",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geography_wd_d269b4a91b",
+    "question": "What currency is used in Belize?",
+    "answers": [
+      "Belize dollar",
+      "Czech koruna",
+      "ngultrum",
+      "Turkish lira"
+    ],
+    "correctIndex": 0,
+    "category": "Geography",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geography_wd_d2f3b68023",
+    "question": "On which continent is Ukraine located?",
+    "answers": [
+      "Europe",
+      "Asia",
+      "Africa",
+      "Oceania"
+    ],
+    "correctIndex": 0,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_d32bbb7cf4",
+    "question": "What is the capital of Trinidad and Tobago?",
+    "answers": [
+      "Valletta",
+      "Sanaa",
+      "Bern",
+      "Port of Spain"
+    ],
+    "correctIndex": 3,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_d3654bfc02",
+    "question": "What is the capital of Malaysia?",
+    "answers": [
+      "Kathmandu",
+      "Sarajevo",
+      "Antananarivo",
+      "Kuala Lumpur"
+    ],
+    "correctIndex": 3,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_d36dfcdbe8",
+    "question": "On which continent is Bolivia located?",
+    "answers": [
+      "Oceania",
+      "Asia",
+      "North America",
+      "South America"
+    ],
+    "correctIndex": 3,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_d3a6910fff",
+    "question": "What is the capital of Rwanda?",
+    "answers": [
+      "Tehran",
+      "Nuuk",
+      "Kigali",
+      "Georgetown"
+    ],
+    "correctIndex": 2,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_d3f4ddeaf7",
+    "question": "What is the capital of Eritrea?",
+    "answers": [
+      "Tunis",
+      "Port Moresby",
+      "Luanda",
+      "Asmara"
+    ],
+    "correctIndex": 3,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_d42a27056b",
+    "question": "What currency is used in El Salvador?",
+    "answers": [
+      "euro",
+      "Cook Islands dollar",
+      "United States dollar",
+      "Albanian lek"
+    ],
+    "correctIndex": 2,
+    "category": "Geography",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geography_wd_d437360f02",
+    "question": "What is the capital of Federated States of Micronesia?",
+    "answers": [
+      "Palikir",
+      "Pretoria",
+      "Bissau",
+      "Tbilisi"
+    ],
+    "correctIndex": 0,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_d46df53eca",
+    "question": "What is the capital of The Bahamas?",
+    "answers": [
+      "Kathmandu",
+      "Copenhagen",
+      "Nassau",
+      "Avarua"
+    ],
+    "correctIndex": 2,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_d554f078ab",
+    "question": "What is the capital of Hungary?",
+    "answers": [
+      "Dili",
+      "Conakry",
+      "Budapest",
+      "Chișinău"
+    ],
+    "correctIndex": 2,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_d5ef6b2ce1",
+    "question": "On which continent is Israel located?",
+    "answers": [
+      "Asia",
+      "Oceania",
+      "South America",
+      "Eurasia"
+    ],
+    "correctIndex": 0,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_d5f94c96ef",
+    "question": "On which continent is Sint Maarten located?",
+    "answers": [
+      "North America",
+      "Eurasia",
+      "Insular Oceania",
+      "Europe"
+    ],
+    "correctIndex": 0,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_d60840f097",
+    "question": "On which continent is Vanuatu located?",
+    "answers": [
+      "North America",
+      "Europe",
+      "Insular Oceania",
+      "Eurasia"
+    ],
+    "correctIndex": 2,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_d60d332db5",
+    "question": "On which continent is Lithuania located?",
+    "answers": [
+      "Eurasia",
+      "Insular Oceania",
+      "Europe",
+      "North America"
+    ],
+    "correctIndex": 2,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_d633e073e1",
+    "question": "On which continent is India located?",
+    "answers": [
+      "Oceania",
+      "South America",
+      "Asia",
+      "Africa"
+    ],
+    "correctIndex": 2,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_d64b63e1a1",
+    "question": "On which continent is France located?",
+    "answers": [
+      "Africa",
+      "Eurasia",
+      "South America",
+      "Europe"
+    ],
+    "correctIndex": 3,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_d6e0d8d7ee",
+    "question": "On which continent is Kingdom of the Netherlands located?",
+    "answers": [
+      "Europe",
+      "Oceania",
+      "Asia",
+      "South America"
+    ],
+    "correctIndex": 0,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_d72588cc98",
+    "question": "What currency is used in Portugal?",
+    "answers": [
+      "Congolese franc",
+      "euro",
+      "boliviano",
+      "Malawian kwacha"
+    ],
+    "correctIndex": 1,
+    "category": "Geography",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geography_wd_d727885c23",
+    "question": "On which continent is Comoros located?",
+    "answers": [
+      "Oceania",
+      "Africa",
+      "Europe",
+      "South America"
+    ],
+    "correctIndex": 1,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_d76dc93a30",
+    "question": "What currency is used in Burundi?",
+    "answers": [
+      "Costa Rican colón",
+      "Burundian franc",
+      "Tajikistani somoni",
+      "Belarusian ruble"
+    ],
+    "correctIndex": 1,
+    "category": "Geography",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geography_wd_d88e808cb8",
+    "question": "On which continent is Angola located?",
+    "answers": [
+      "North America",
+      "Africa",
+      "Insular Oceania",
+      "Europe"
+    ],
+    "correctIndex": 1,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_d8915b29d8",
+    "question": "On which continent is Eritrea located?",
+    "answers": [
+      "Europe",
+      "Africa",
+      "Insular Oceania",
+      "Oceania"
+    ],
+    "correctIndex": 1,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_d8cadec13f",
+    "question": "On which continent is United Kingdom located?",
+    "answers": [
+      "North America",
+      "Europe",
+      "Asia",
+      "Eurasia"
+    ],
+    "correctIndex": 1,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_d8cca9b287",
+    "question": "What currency is used in Ecuador?",
+    "answers": [
+      "Colombian peso",
+      "United States dollar",
+      "Faroese króna",
+      "Trinidad and Tobago dollar"
+    ],
+    "correctIndex": 1,
+    "category": "Geography",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geography_wd_d8d02b96ce",
+    "question": "On which continent is Morocco located?",
+    "answers": [
+      "Oceania",
+      "Africa",
+      "North America",
+      "Europe"
+    ],
+    "correctIndex": 1,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_d91f4976fe",
+    "question": "What is the capital of Curaçao?",
+    "answers": [
+      "Willemstad",
+      "Tegucigalpa",
+      "East Jerusalem",
+      "Moscow"
+    ],
+    "correctIndex": 0,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_da21bc3621",
+    "question": "What is the capital of Liberia?",
+    "answers": [
+      "Bogotá",
+      "Vaduz",
+      "Monrovia",
+      "Nukuʻalofa"
+    ],
+    "correctIndex": 2,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_da50ceff3e",
+    "question": "What currency is used in Kingdom of Denmark?",
+    "answers": [
+      "Faroese króna",
+      "lilangeni",
+      "East Timor centavo coins",
+      "Said rial"
+    ],
+    "correctIndex": 0,
+    "category": "Geography",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geography_wd_da59ae4a93",
+    "question": "What is the capital of North Macedonia?",
+    "answers": [
+      "Skopje",
+      "Tegucigalpa",
+      "Kinshasa",
+      "Kuwait City"
+    ],
+    "correctIndex": 0,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_da9121dbc7",
+    "question": "What currency is used in Lithuania?",
+    "answers": [
+      "euro",
+      "Qatari riyal",
+      "Bangladeshi taka",
+      "Turkmenistan new manat"
+    ],
+    "correctIndex": 0,
+    "category": "Geography",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geography_wd_da9689b62c",
+    "question": "What is the capital of Republic of the Congo?",
+    "answers": [
+      "St. George's",
+      "Brazzaville",
+      "Khartoum",
+      "Vaduz"
+    ],
+    "correctIndex": 1,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_daf52093b6",
+    "question": "What is the capital of Sudan?",
+    "answers": [
+      "Quito",
+      "Vaduz",
+      "Khartoum",
+      "Ashgabat"
+    ],
+    "correctIndex": 2,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_db5a41aa81",
+    "question": "On which continent is Ghana located?",
+    "answers": [
+      "Africa",
+      "Insular Oceania",
+      "Oceania",
+      "Asia"
+    ],
+    "correctIndex": 0,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_db5bb3d622",
+    "question": "On which continent is Pakistan located?",
+    "answers": [
+      "Asia",
+      "Insular Oceania",
+      "South America",
+      "Europe"
+    ],
+    "correctIndex": 0,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_db972549df",
+    "question": "On which continent is Tajikistan located?",
+    "answers": [
+      "Insular Oceania",
+      "Asia",
+      "North America",
+      "Europe"
+    ],
+    "correctIndex": 1,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_dc60929be6",
+    "question": "What currency is used in Bahrain?",
+    "answers": [
+      "Malaysian ringgit",
+      "afghani",
+      "hryvnia",
+      "Bahraini dinar"
+    ],
+    "correctIndex": 3,
+    "category": "Geography",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geography_wd_dcaf3a6e09",
+    "question": "What currency is used in Libya?",
+    "answers": [
+      "Libyan dinar",
+      "Caribbean guilder",
+      "United Arab Emirates dirham",
+      "North Korean won"
+    ],
+    "correctIndex": 0,
+    "category": "Geography",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geography_wd_dcf3e87512",
+    "question": "On which continent is Vatican City located?",
+    "answers": [
+      "Insular Oceania",
+      "Asia",
+      "Oceania",
+      "Europe"
+    ],
+    "correctIndex": 3,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_dd2b4fb797",
+    "question": "What is the capital of Slovakia?",
+    "answers": [
+      "Berlin",
+      "Bratislava",
+      "Chișinău",
+      "Helsinki"
+    ],
+    "correctIndex": 1,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_de1a0864d5",
+    "question": "What is the capital of Tajikistan?",
+    "answers": [
+      "Willemstad",
+      "Dushanbe",
+      "Harare",
+      "Mbabane"
+    ],
+    "correctIndex": 1,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_de9719fbf7",
+    "question": "What currency is used in San Marino?",
+    "answers": [
+      "SOV",
+      "United Arab Emirates dirham",
+      "gourde",
+      "euro"
+    ],
+    "correctIndex": 3,
+    "category": "Geography",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geography_wd_df4a6c0b19",
+    "question": "On which continent is Sierra Leone located?",
+    "answers": [
+      "Africa",
+      "North America",
+      "South America",
+      "Europe"
+    ],
+    "correctIndex": 0,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_e0a4b086b7",
+    "question": "What currency is used in Jordan?",
+    "answers": [
+      "Jordanian dinar",
+      "East Timor centavo coins",
+      "Dominican peso",
+      "Liberian dollar"
+    ],
+    "correctIndex": 0,
+    "category": "Geography",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geography_wd_e10b4b38c0",
+    "question": "What currency is used in Comoros?",
+    "answers": [
+      "lilangeni",
+      "Aruban florin",
+      "Burundian franc",
+      "Comorian franc"
+    ],
+    "correctIndex": 3,
+    "category": "Geography",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geography_wd_e1211e4cd2",
+    "question": "What currency is used in Ivory Coast?",
+    "answers": [
+      "Kuwaiti dinar",
+      "loti",
+      "West African CFA franc",
+      "Iranian rial"
+    ],
+    "correctIndex": 2,
+    "category": "Geography",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geography_wd_e1bdd1c776",
+    "question": "What currency is used in Tajikistan?",
+    "answers": [
+      "złoty",
+      "convertible mark",
+      "Tajikistani somoni",
+      "Central African CFA franc"
+    ],
+    "correctIndex": 2,
+    "category": "Geography",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geography_wd_e204ce48ea",
+    "question": "On which continent is Albania located?",
+    "answers": [
+      "Oceania",
+      "Asia",
+      "North America",
+      "Europe"
+    ],
+    "correctIndex": 3,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_e23bcae98d",
+    "question": "What currency is used in Sri Lanka?",
+    "answers": [
+      "Serbian dinar",
+      "Saudi riyal",
+      "Icelandic króna",
+      "Sri Lankan rupee"
+    ],
+    "correctIndex": 3,
+    "category": "Geography",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geography_wd_e2efe7ff14",
+    "question": "On which continent is Finland located?",
+    "answers": [
+      "Africa",
+      "Europe",
+      "Asia",
+      "Insular Oceania"
+    ],
+    "correctIndex": 1,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_e2f20bed5e",
+    "question": "What currency is used in Moldova?",
+    "answers": [
+      "Turkmenistan new manat",
+      "Moldovan leu",
+      "Nepalese rupee",
+      "Danish krone"
+    ],
+    "correctIndex": 1,
+    "category": "Geography",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geography_wd_e340920757",
+    "question": "What currency is used in Marshall Islands?",
+    "answers": [
+      "Sudanese pound",
+      "lilangeni",
+      "Colombian peso",
+      "United States dollar"
+    ],
+    "correctIndex": 3,
+    "category": "Geography",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geography_wd_e37805b309",
+    "question": "What currency is used in Haiti?",
+    "answers": [
+      "lilangeni",
+      "boliviano",
+      "Omani rial",
+      "gourde"
+    ],
+    "correctIndex": 3,
+    "category": "Geography",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geography_wd_e3dfd531bf",
+    "question": "On which continent is Netherlands located?",
+    "answers": [
+      "Asia",
+      "Africa",
+      "Eurasia",
+      "Europe"
+    ],
+    "correctIndex": 3,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_e4c839a322",
+    "question": "On which continent is Monaco located?",
+    "answers": [
+      "Oceania",
+      "North America",
+      "Eurasia",
+      "Europe"
+    ],
+    "correctIndex": 3,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_e503c1ee77",
+    "question": "What is the capital of Algeria?",
+    "answers": [
+      "Kigali",
+      "Algiers",
+      "Bangui",
+      "Tripoli"
+    ],
+    "correctIndex": 1,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_e50830d564",
+    "question": "What currency is used in Zambia?",
+    "answers": [
+      "Albanian lek",
+      "Caribbean guilder",
+      "Zambian Kwacha",
+      "hryvnia"
+    ],
+    "correctIndex": 2,
+    "category": "Geography",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geography_wd_e50c426f52",
+    "question": "What currency is used in Kyrgyzstan?",
+    "answers": [
+      "lilangeni",
+      "Kyrgyz som",
+      "Mongolian tögrög",
+      "Chilean peso"
+    ],
+    "correctIndex": 1,
+    "category": "Geography",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geography_wd_e5776aa3b5",
+    "question": "What is the capital of Peru?",
+    "answers": [
+      "Sofia",
+      "Baku",
+      "Pristina",
+      "Lima"
+    ],
+    "correctIndex": 3,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_e6162cf51d",
+    "question": "What is the capital of Tunisia?",
+    "answers": [
+      "Tunis",
+      "Brussels",
+      "Yaren District",
+      "Washington, D.C."
+    ],
+    "correctIndex": 0,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_e65195e688",
+    "question": "On which continent is Latvia located?",
+    "answers": [
+      "Insular Oceania",
+      "Africa",
+      "Europe",
+      "South America"
+    ],
+    "correctIndex": 2,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_e6653becc0",
+    "question": "What currency is used in United Kingdom?",
+    "answers": [
+      "pound sterling",
+      "CFP Franc",
+      "Bahraini dinar",
+      "Niue dollar"
+    ],
+    "correctIndex": 0,
+    "category": "Geography",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geography_wd_e6923c0a75",
+    "question": "On which continent is Philippines located?",
+    "answers": [
+      "Oceania",
+      "Asia",
+      "Africa",
+      "South America"
+    ],
+    "correctIndex": 1,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_e701bff6f4",
+    "question": "What is the capital of Japan?",
+    "answers": [
+      "Rabat",
+      "Kigali",
+      "Roseau",
+      "Tokyo"
+    ],
+    "correctIndex": 3,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_e72bcde1b6",
+    "question": "What currency is used in Argentina?",
+    "answers": [
+      "Congolese franc",
+      "Argentine convertible peso",
+      "United States dollar",
+      "afghani"
+    ],
+    "correctIndex": 1,
+    "category": "Geography",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geography_wd_e74f4665cb",
+    "question": "What currency is used in Sudan?",
+    "answers": [
+      "Niue dollar",
+      "Norwegian krone",
+      "Sudanese pound",
+      "Guyanese dollar"
+    ],
+    "correctIndex": 2,
+    "category": "Geography",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geography_wd_e7706a9594",
+    "question": "On which continent is Malta located?",
+    "answers": [
+      "Asia",
+      "North America",
+      "Europe",
+      "Africa"
+    ],
+    "correctIndex": 2,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_e7a6d3c881",
+    "question": "What is the capital of Gabon?",
+    "answers": [
+      "Libreville",
+      "Andorra la Vella",
+      "Honiara",
+      "Singapore"
+    ],
+    "correctIndex": 0,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_e8459743c1",
+    "question": "What is the capital of Austria?",
+    "answers": [
+      "Beijing",
+      "Ottawa",
+      "Vienna",
+      "Guatemala City"
+    ],
+    "correctIndex": 2,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_e8c7f66b08",
+    "question": "On which continent is People's Republic of China located?",
+    "answers": [
+      "Europe",
+      "Insular Oceania",
+      "Asia",
+      "Africa"
+    ],
+    "correctIndex": 2,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_e93ad9c235",
+    "question": "What is the capital of Australia?",
+    "answers": [
+      "Roseau",
+      "Colombo",
+      "Panama City",
+      "Canberra"
+    ],
+    "correctIndex": 3,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_e941e9ddcb",
+    "question": "On which continent is Palau located?",
+    "answers": [
+      "South America",
+      "Oceania",
+      "Europe",
+      "Asia"
+    ],
+    "correctIndex": 1,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_e97efc3128",
+    "question": "On which continent is Ireland located?",
+    "answers": [
+      "Europe",
+      "Asia",
+      "Oceania",
+      "South America"
+    ],
+    "correctIndex": 0,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_e9864ec4df",
+    "question": "On which continent is Chad located?",
+    "answers": [
+      "Africa",
+      "Insular Oceania",
+      "Eurasia",
+      "Europe"
+    ],
+    "correctIndex": 0,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_e98fa49d93",
+    "question": "What currency is used in Palau?",
+    "answers": [
+      "Botswana pula",
+      "Turkmenistan new manat",
+      "rupiah",
+      "United States dollar"
+    ],
+    "correctIndex": 3,
+    "category": "Geography",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geography_wd_ea02822733",
+    "question": "What currency is used in Israel?",
+    "answers": [
+      "peso",
+      "Bitcoin",
+      "new shekel",
+      "Iraqi dinar"
+    ],
+    "correctIndex": 2,
+    "category": "Geography",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geography_wd_eafa0c8b56",
+    "question": "What is the capital of Grenada?",
+    "answers": [
+      "Vientiane",
+      "Quito",
+      "St. George's",
+      "Ouagadougou"
+    ],
+    "correctIndex": 2,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_eb1e89bbd8",
+    "question": "On which continent is Kiribati located?",
+    "answers": [
+      "Europe",
+      "North America",
+      "Oceania",
+      "Eurasia"
+    ],
+    "correctIndex": 2,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_ec0cf8f7e3",
+    "question": "What is the capital of Pahlavi Iran?",
+    "answers": [
+      "Tehran",
+      "Cape Town",
+      "Ankara",
+      "Kinshasa"
+    ],
+    "correctIndex": 0,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_ec70c2dd96",
+    "question": "On which continent is Slovenia located?",
+    "answers": [
+      "Europe",
+      "Eurasia",
+      "North America",
+      "Africa"
+    ],
+    "correctIndex": 0,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_ecb24f7d9f",
+    "question": "What currency is used in Ukraine?",
+    "answers": [
+      "Belize dollar",
+      "hryvnia",
+      "Czech koruna",
+      "Russian ruble"
+    ],
+    "correctIndex": 1,
+    "category": "Geography",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geography_wd_ed1c2617d6",
+    "question": "What is the capital of Thailand?",
+    "answers": [
+      "Kyiv",
+      "Bamako",
+      "Bangkok",
+      "Mbabane"
+    ],
+    "correctIndex": 2,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_ed52d63d59",
+    "question": "What currency is used in Palestine?",
+    "answers": [
+      "Burundian franc",
+      "new shekel",
+      "rupiah",
+      "Caribbean guilder"
+    ],
+    "correctIndex": 1,
+    "category": "Geography",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geography_wd_ed8e21e317",
+    "question": "What is the capital of Indonesia?",
+    "answers": [
+      "Banjul",
+      "St. John's",
+      "Jakarta",
+      "Funafuti"
+    ],
+    "correctIndex": 2,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_ee0050aa71",
+    "question": "On which continent is Bulgaria located?",
+    "answers": [
+      "Europe",
+      "Africa",
+      "Eurasia",
+      "Insular Oceania"
+    ],
+    "correctIndex": 0,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_efdaa1bdc1",
+    "question": "What is the capital of Nauru?",
+    "answers": [
+      "Ouagadougou",
+      "Dodoma",
+      "Ljubljana",
+      "Yaren District"
+    ],
+    "correctIndex": 3,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_f0376b8323",
+    "question": "On which continent is Colombia located?",
+    "answers": [
+      "Europe",
+      "Oceania",
+      "Africa",
+      "South America"
+    ],
+    "correctIndex": 3,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_f0485cd14a",
+    "question": "What is the capital of Papua New Guinea?",
+    "answers": [
+      "Djibouti",
+      "Kabul",
+      "Port Moresby",
+      "Ouagadougou"
+    ],
+    "correctIndex": 2,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_f0518ae3d1",
+    "question": "What currency is used in Netherlands?",
+    "answers": [
+      "euro",
+      "Namibian dollar",
+      "Mauritian rupee",
+      "Solomon Islands dollar"
+    ],
+    "correctIndex": 0,
+    "category": "Geography",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geography_wd_f0cd14e9c7",
+    "question": "What is the capital of Eswatini?",
+    "answers": [
+      "Abu Dhabi",
+      "Mbabane",
+      "St. John's",
+      "Monrovia"
+    ],
+    "correctIndex": 1,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_f0e31b147f",
+    "question": "What currency is used in Malta?",
+    "answers": [
+      "Pakistani rupee",
+      "Canadian dollar",
+      "Fijian dollar",
+      "euro"
+    ],
+    "correctIndex": 3,
+    "category": "Geography",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geography_wd_f0e9c52699",
+    "question": "What is the capital of Burundi?",
+    "answers": [
+      "Nukuʻalofa",
+      "Athens",
+      "Gitega",
+      "La Paz"
+    ],
+    "correctIndex": 2,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_f0fb8dfe9b",
+    "question": "On which continent is Cuba located?",
+    "answers": [
+      "North America",
+      "Africa",
+      "Eurasia",
+      "Insular Oceania"
+    ],
+    "correctIndex": 0,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_f16cd1eaa9",
+    "question": "On which continent is Tonga located?",
+    "answers": [
+      "Oceania",
+      "South America",
+      "Europe",
+      "Eurasia"
+    ],
+    "correctIndex": 0,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_f182b7ce2c",
+    "question": "What is the capital of Jordan?",
+    "answers": [
+      "Madrid",
+      "Castries",
+      "Ulaanbaatar",
+      "Amman"
+    ],
+    "correctIndex": 3,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_f1d0812e9c",
+    "question": "What currency is used in Egypt?",
+    "answers": [
+      "Uzbek som",
+      "Egyptian pound",
+      "Liberian dollar",
+      "Djiboutian franc"
+    ],
+    "correctIndex": 1,
+    "category": "Geography",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geography_wd_f2fbb93eba",
+    "question": "What currency is used in Slovenia?",
+    "answers": [
+      "Romanian Leu",
+      "euro",
+      "Fijian dollar",
+      "Nuevo sol"
+    ],
+    "correctIndex": 1,
+    "category": "Geography",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geography_wd_f366945126",
+    "question": "What currency is used in Kiribati?",
+    "answers": [
+      "Saudi riyal",
+      "yen",
+      "Australian dollar",
+      "Brazilian real"
+    ],
+    "correctIndex": 2,
+    "category": "Geography",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geography_wd_f49ce61a7e",
+    "question": "What is the capital of Turkey?",
+    "answers": [
+      "Ottawa",
+      "Ankara",
+      "Guatemala City",
+      "Tokyo"
+    ],
+    "correctIndex": 1,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_f4f72c5813",
+    "question": "What is the capital of Bahrain?",
+    "answers": [
+      "Stockholm",
+      "Manama",
+      "Dushanbe",
+      "Port Moresby"
+    ],
+    "correctIndex": 1,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_f5ab271bb4",
+    "question": "What is the capital of Djibouti?",
+    "answers": [
+      "Bangkok",
+      "Wellington",
+      "Djibouti",
+      "Nouakchott"
+    ],
+    "correctIndex": 2,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_f6e1d02bae",
+    "question": "What is the capital of South Sudan?",
+    "answers": [
+      "Kigali",
+      "Chișinău",
+      "Juba",
+      "Yerevan"
+    ],
+    "correctIndex": 2,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_f71b3d3ddf",
+    "question": "What currency is used in Saint Kitts and Nevis?",
+    "answers": [
+      "Eastern Caribbean dollar",
+      "Colombian peso",
+      "Malaysian ringgit",
+      "Liberian dollar"
+    ],
+    "correctIndex": 0,
+    "category": "Geography",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geography_wd_f746805f02",
+    "question": "On which continent is El Salvador located?",
+    "answers": [
+      "Eurasia",
+      "Asia",
+      "North America",
+      "Insular Oceania"
+    ],
+    "correctIndex": 2,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_f792dff202",
+    "question": "On which continent is Denmark located?",
+    "answers": [
+      "Asia",
+      "Oceania",
+      "Insular Oceania",
+      "Europe"
+    ],
+    "correctIndex": 3,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_f7948e3f15",
+    "question": "What is the capital of Burkina Faso?",
+    "answers": [
+      "Ouagadougou",
+      "Helsinki",
+      "Bloemfontein",
+      "Nairobi"
+    ],
+    "correctIndex": 0,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_f87fc99be1",
+    "question": "What is the capital of France?",
+    "answers": [
+      "Sri Jayawardenepura Kotte",
+      "Pyongyang",
+      "Bangkok",
+      "Paris"
+    ],
+    "correctIndex": 3,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_f88b90cbb9",
+    "question": "What currency is used in Armenia?",
+    "answers": [
+      "Ugandan shilling",
+      "Uruguayan peso",
+      "Armenian dram",
+      "Ghana cedi"
+    ],
+    "correctIndex": 2,
+    "category": "Geography",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geography_wd_f906783f3c",
+    "question": "What is the capital of Togo?",
+    "answers": [
+      "Kathmandu",
+      "Lomé",
+      "Pristina",
+      "Athens"
+    ],
+    "correctIndex": 1,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_fa39c63830",
+    "question": "What currency is used in Saint Vincent and the Grenadines?",
+    "answers": [
+      "Iranian rial",
+      "São Tomé and Príncipe dobra",
+      "Guyanese dollar",
+      "Eastern Caribbean dollar"
+    ],
+    "correctIndex": 3,
+    "category": "Geography",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geography_wd_fb1ec08ee6",
+    "question": "On which continent is Aruba located?",
+    "answers": [
+      "North America",
+      "Europe",
+      "Africa",
+      "Insular Oceania"
+    ],
+    "correctIndex": 0,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_fb1fb1a011",
+    "question": "What is the capital of Dominican Republic?",
+    "answers": [
+      "Singapore",
+      "Maputo",
+      "Santo Domingo",
+      "Hanoi"
+    ],
+    "correctIndex": 2,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_fb598b4d6b",
+    "question": "What currency is used in South Sudan?",
+    "answers": [
+      "South Sudanese pound",
+      "rand",
+      "Georgian lari",
+      "Comorian franc"
+    ],
+    "correctIndex": 0,
+    "category": "Geography",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geography_wd_fb6dbb2a9a",
+    "question": "What is the capital of Ukraine?",
+    "answers": [
+      "Windhoek",
+      "Accra",
+      "Santiago",
+      "Kyiv"
+    ],
+    "correctIndex": 3,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_fd0d3d5e85",
+    "question": "On which continent is Burundi located?",
+    "answers": [
+      "Eurasia",
+      "Oceania",
+      "Europe",
+      "Africa"
+    ],
+    "correctIndex": 3,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_fd36ad3b27",
+    "question": "What currency is used in Colombia?",
+    "answers": [
+      "convertible mark",
+      "Colombian peso",
+      "kina",
+      "Omani rial"
+    ],
+    "correctIndex": 1,
+    "category": "Geography",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geography_wd_fdcf207f5a",
+    "question": "On which continent is Romania located?",
+    "answers": [
+      "Europe",
+      "North America",
+      "Asia",
+      "Oceania"
+    ],
+    "correctIndex": 0,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_febb2129c4",
+    "question": "On which continent is Namibia located?",
+    "answers": [
+      "Africa",
+      "North America",
+      "Europe",
+      "Asia"
+    ],
+    "correctIndex": 0,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_ff7cf7a162",
+    "question": "What is the capital of Kazakhstan?",
+    "answers": [
+      "North Nicosia",
+      "Astana",
+      "Dushanbe",
+      "Oranjestad"
+    ],
+    "correctIndex": 1,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_ffa9d23be5",
+    "question": "On which continent is Canada located?",
+    "answers": [
+      "North America",
+      "South America",
+      "Oceania",
+      "Insular Oceania"
+    ],
+    "correctIndex": 0,
+    "category": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "geography_wd_ffbc741ce4",
+    "question": "What currency is used in Georgia?",
+    "answers": [
+      "Somaliland shilling",
+      "Georgian lari",
+      "West African CFA franc",
+      "Said rial"
+    ],
+    "correctIndex": 1,
+    "category": "Geography",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geography_wd_ffe65f69b2",
+    "question": "What is the capital of Mauritius?",
+    "answers": [
+      "Cape Town",
+      "Port Louis",
+      "Jakarta",
+      "Yaren District"
+    ],
+    "correctIndex": 1,
+    "category": "Geography",
+    "difficulty": "Easy"
+  }
+]
