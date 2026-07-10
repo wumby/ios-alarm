@@ -13,15 +13,19 @@ struct AlarmFormView: View {
     @AppStorage("defaultTriviaCategoryIDs") private var defaultCategoryIDs = TriviaCategory.defaultEnabled.map(\.id).joined(separator: ",")
 
     let mode: AlarmFormMode
+    let onSaved: ((AlarmItem) -> Void)?
     @State private var state: AlarmFormState
 
-    init(mode: AlarmFormMode) {
+    init(mode: AlarmFormMode, onSaved: ((AlarmItem) -> Void)? = nil) {
         self.mode = mode
+        self.onSaved = onSaved
         switch mode {
         case .create:
             var form = AlarmFormState()
             let defaults = Set(UserDefaults.standard.string(forKey: "defaultTriviaCategoryIDs")?.split(separator: ",").map(String.init) ?? TriviaCategory.defaultEnabled.map(\.id))
             form.categoryIDs = defaults
+            form.difficulty = TriviaDifficulty(rawValue: UserDefaults.standard.string(forKey: "defaultTriviaDifficulty") ?? TriviaDifficulty.mixed.rawValue) ?? .mixed
+            form.sound = AlarmSoundChoice(rawValue: UserDefaults.standard.string(forKey: "defaultAlarmSound") ?? "default") ?? .systemDefault
             _state = State(initialValue: form)
         case .edit(let alarm):
             _state = State(initialValue: AlarmFormState(alarm: alarm))
@@ -72,34 +76,68 @@ struct AlarmFormView: View {
                                         .stroke(AppTheme.cardBorder, lineWidth: 1)
                                 )
 
-                            Toggle("Enabled", isOn: $state.isEnabled)
-                                .tint(AppTheme.accent)
+                            if case .edit = mode {
+                                Toggle("Enabled", isOn: $state.isEnabled)
+                                    .tint(AppTheme.accent)
+                            }
 
-                            DifficultyChips(selection: $state.difficulty)
                         }
                         .padding(18)
                         .floatingCard()
 
-                        VStack(alignment: .leading, spacing: 14) {
+                        HStack(alignment: .top, spacing: 12) {
+                            VStack(alignment: .leading, spacing: 14) {
                             Text("Repeat")
                                 .font(.headline.weight(.black))
                                 .foregroundStyle(AppTheme.textPrimary)
 
-                            DayPicker(selectedDays: $state.repeatDays)
+                            RepeatMenu(selection: repeatModeBinding)
+
+                            }
+                            .padding(14)
+                            .frame(maxWidth: .infinity, alignment: .topLeading)
+                            .floatingCard()
+
+                            VStack(alignment: .leading, spacing: 14) {
+                                Text("Sound")
+                                    .font(.headline.weight(.black))
+                                    .foregroundStyle(AppTheme.textPrimary)
+
+                                SoundMenu(selection: $state.sound)
+                            }
+                            .padding(14)
+                            .frame(maxWidth: .infinity, alignment: .topLeading)
+                            .floatingCard()
                         }
-                        .padding(18)
-                        .floatingCard()
+
+                        if !state.repeatDays.isEmpty {
+                            VStack(alignment: .leading, spacing: 10) {
+                                Text("Days")
+                                    .font(.subheadline.weight(.bold))
+                                    .foregroundStyle(AppTheme.textPrimary)
+
+                                DayPicker(selectedDays: $state.repeatDays)
+                            }
+                            .padding(14)
+                            .frame(maxWidth: .infinity, alignment: .leading)
+                            .floatingCard()
+                        }
 
                         VStack(alignment: .leading, spacing: 14) {
                             Text("Trivia")
                                 .font(.headline.weight(.black))
                                 .foregroundStyle(AppTheme.textPrimary)
 
+                            TriviaToggle(isOn: $state.isTriviaEnabled)
+
+                            DifficultyMenu(selection: $state.difficulty, isEnabled: $state.isTriviaEnabled)
+
                             VStack(spacing: 0) {
                                 ForEach(TriviaCategory.allCases) { category in
                                     Toggle(category.title, isOn: categoryBinding(category))
                                         .tint(AppTheme.accent)
                                         .padding(.vertical, 14)
+                                        .disabled(!state.isTriviaEnabled)
 
                                     if category != TriviaCategory.allCases.last {
                                         Divider().opacity(0.35)
@@ -109,6 +147,7 @@ struct AlarmFormView: View {
                         }
                         .padding(18)
                         .floatingCard()
+
                     }
                     .padding(24)
                 }
@@ -121,7 +160,7 @@ struct AlarmFormView: View {
                 }
                 ToolbarItem(placement: .confirmationAction) {
                     Button("Save", action: save)
-                        .disabled(state.categoryIDs.isEmpty)
+                        .disabled(state.isTriviaEnabled && state.categoryIDs.isEmpty)
                 }
             }
         }
@@ -149,6 +188,19 @@ struct AlarmFormView: View {
         )
     }
 
+    private var repeatModeBinding: Binding<RepeatMode> {
+        Binding(
+            get: { state.repeatDays.isEmpty ? .once : .weekly },
+            set: { mode in
+                if mode == .once {
+                    state.repeatDays = []
+                } else if state.repeatDays.isEmpty {
+                    state.repeatDays = Set(RepeatDay.allCases)
+                }
+            }
+        )
+    }
+
     private func save() {
         let alarm: AlarmItem
         switch mode {
@@ -162,6 +214,7 @@ struct AlarmFormView: View {
         }
 
         try? modelContext.save()
+        onSaved?(alarm)
         Task {
             await scheduler.schedule(alarm: alarm)
         }
@@ -169,33 +222,202 @@ struct AlarmFormView: View {
     }
 }
 
-private struct DifficultyChips: View {
-    @Binding var selection: TriviaDifficulty
+private enum RepeatMode: String, CaseIterable, Identifiable {
+    case once
+    case weekly
+
+    var id: String { rawValue }
+
+    var title: String {
+        switch self {
+        case .once: "Once"
+        case .weekly: "Weekly"
+        }
+    }
+}
+
+private struct RepeatMenu: View {
+    @Binding var selection: RepeatMode
 
     var body: some View {
-        HStack(spacing: 8) {
+        Menu {
+            ForEach(RepeatMode.allCases) { mode in
+                Button {
+                    selection = mode
+                } label: {
+                    Label(mode.title, systemImage: selection == mode ? "checkmark" : "")
+                }
+            }
+        } label: {
+            ThemedMenuLabel(title: "Repeat", value: selection.title, systemName: "arrow.clockwise", compact: true)
+        }
+        .accessibilityLabel("Repeat")
+        .accessibilityValue(selection.title)
+    }
+}
+
+private struct SoundMenu: View {
+    @Binding var selection: AlarmSoundChoice
+
+    var body: some View {
+        Menu {
+            ForEach(AlarmSoundChoice.allCases) { sound in
+                Button {
+                    selection = sound
+                } label: {
+                    Label(sound.title, systemImage: selection == sound ? "checkmark" : "")
+                }
+            }
+        } label: {
+            ThemedMenuLabel(title: "Sound", value: selection.title, systemName: "speaker.wave.2.fill", compact: true)
+        }
+        .accessibilityLabel("Sound")
+        .accessibilityValue(selection.title)
+    }
+}
+
+private struct ThemedMenuLabel: View {
+    let title: String
+    let value: String
+    let systemName: String
+    var compact: Bool = false
+
+    var body: some View {
+        Group {
+            if compact {
+                VStack(alignment: .leading, spacing: 5) {
+                    HStack(spacing: 5) {
+                        Text(value)
+                            .font(.subheadline.weight(.bold))
+                            .foregroundStyle(AppTheme.textSecondary)
+                            .lineLimit(1)
+
+                        Spacer(minLength: 0)
+
+                        Image(systemName: "chevron.up.chevron.down")
+                            .font(.caption2.weight(.bold))
+                            .foregroundStyle(AppTheme.accent)
+                    }
+                }
+            } else {
+                HStack {
+                    Label(title, systemImage: systemName)
+                        .font(.subheadline.weight(.bold))
+                        .foregroundStyle(AppTheme.textPrimary)
+
+                    Spacer()
+
+                    Text(value)
+                        .font(.subheadline.weight(.bold))
+                        .foregroundStyle(AppTheme.textSecondary)
+                        .lineLimit(1)
+
+                    Image(systemName: "chevron.up.chevron.down")
+                        .font(.caption.weight(.bold))
+                        .foregroundStyle(AppTheme.accent)
+                }
+            }
+        }
+        .padding(.horizontal, 14)
+        .padding(.vertical, 0)
+        .frame(minHeight: 46)
+        .background(AppTheme.cardSurface, in: RoundedRectangle(cornerRadius: 14, style: .continuous))
+        .overlay {
+            RoundedRectangle(cornerRadius: 14, style: .continuous)
+                .stroke(AppTheme.cardBorder, lineWidth: 1)
+        }
+    }
+}
+
+private struct TriviaToggle: View {
+    @Binding var isOn: Bool
+
+    var body: some View {
+        Button {
+            isOn.toggle()
+        } label: {
+            HStack(spacing: 12) {
+                Image(systemName: "questionmark.bubble.fill")
+                    .font(.headline.weight(.bold))
+                    .foregroundStyle(AppTheme.accent)
+                    .frame(width: 38, height: 38)
+                    .background(AppTheme.accent.opacity(0.14), in: Circle())
+
+                VStack(alignment: .leading, spacing: 2) {
+                    Text(isOn ? "Trivia challenge on" : "Trivia challenge off")
+                        .font(.subheadline.weight(.bold))
+                        .foregroundStyle(AppTheme.textPrimary)
+
+                    Text(isOn ? "Answer a question to dismiss" : "Dismiss without a question")
+                        .font(.caption)
+                        .foregroundStyle(AppTheme.textSecondary)
+                }
+
+                Spacer()
+
+                Image(systemName: isOn ? "checkmark.circle.fill" : "circle")
+                    .font(.title3.weight(.bold))
+                    .foregroundStyle(isOn ? AppTheme.accent : AppTheme.textSecondary.opacity(0.45))
+            }
+            .padding(12)
+            .background(
+                LinearGradient(
+                    colors: [AppTheme.skyBlue.opacity(0.28), AppTheme.peach.opacity(0.30)],
+                    startPoint: .leading,
+                    endPoint: .trailing
+                ),
+                in: RoundedRectangle(cornerRadius: 16, style: .continuous)
+            )
+            .overlay {
+                RoundedRectangle(cornerRadius: 16, style: .continuous)
+                    .stroke(AppTheme.cardBorder, lineWidth: 1)
+            }
+        }
+        .buttonStyle(.plain)
+        .accessibilityLabel("Trivia")
+        .accessibilityValue(isOn ? "On" : "Off")
+    }
+}
+
+private struct DifficultyMenu: View {
+    @Binding var selection: TriviaDifficulty
+    @Binding var isEnabled: Bool
+
+    var body: some View {
+        Menu {
             ForEach(TriviaDifficulty.allCases) { difficulty in
                 Button {
                     selection = difficulty
                 } label: {
-                    Text(difficulty.rawValue)
-                        .font(.caption.weight(.bold))
-                        .lineLimit(1)
-                        .minimumScaleFactor(0.78)
-                        .foregroundStyle(selection == difficulty ? .white : AppTheme.textPrimary)
-                        .frame(maxWidth: .infinity, minHeight: 42)
-                        .background(
-                            RoundedRectangle(cornerRadius: 14, style: .continuous)
-                                .fill(selection == difficulty ? AppTheme.accent : Color.white.opacity(0.58))
-                        )
-                        .overlay(
-                            RoundedRectangle(cornerRadius: 14, style: .continuous)
-                                .stroke(selection == difficulty ? AppTheme.accent.opacity(0.25) : AppTheme.cardBorder, lineWidth: 1)
-                        )
+                    Label(difficulty.rawValue, systemImage: selection == difficulty ? "checkmark" : "")
                 }
-                .buttonStyle(.plain)
+            }
+        } label: {
+            HStack {
+                Label("Difficulty", systemImage: "gauge.with.dots.needle.67percent")
+                    .font(.subheadline.weight(.bold))
+                    .foregroundStyle(AppTheme.textPrimary)
+
+                Spacer()
+
+                Text(selection.rawValue)
+                    .font(.subheadline.weight(.bold))
+                    .foregroundStyle(AppTheme.textSecondary)
+
+                Image(systemName: "chevron.up.chevron.down")
+                    .font(.caption.weight(.bold))
+                    .foregroundStyle(AppTheme.accent)
+            }
+            .padding(.horizontal, 14)
+            .frame(minHeight: 46)
+            .background(AppTheme.cardSurface, in: RoundedRectangle(cornerRadius: 14, style: .continuous))
+            .overlay {
+                RoundedRectangle(cornerRadius: 14, style: .continuous)
+                    .stroke(AppTheme.cardBorder, lineWidth: 1)
             }
         }
-        .accessibilityElement(children: .contain)
+        .disabled(!isEnabled)
+        .accessibilityLabel("Difficulty")
+        .accessibilityValue(selection.rawValue)
     }
 }

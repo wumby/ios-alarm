@@ -35,6 +35,9 @@
 		100000000000000000000019 /* trivia_geography.json in Resources */ = {isa = PBXBuildFile; fileRef = 20000000000000000000001B /* trivia_geography.json */; };
 		10000000000000000000001A /* trivia_entertainment.json in Resources */ = {isa = PBXBuildFile; fileRef = 20000000000000000000001C /* trivia_entertainment.json */; };
 		10000000000000000000001B /* trivia_sports.json in Resources */ = {isa = PBXBuildFile; fileRef = 20000000000000000000001D /* trivia_sports.json */; };
+		100000000000000000000021 /* alarm_glass.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000021 /* alarm_glass.aiff */; };
+		100000000000000000000022 /* alarm_ping.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000022 /* alarm_ping.aiff */; };
+		100000000000000000000023 /* alarm_hero.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000023 /* alarm_hero.aiff */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -68,6 +71,9 @@
 		20000000000000000000001B /* trivia_geography.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = trivia_geography.json; sourceTree = "<group>"; };
 		20000000000000000000001C /* trivia_entertainment.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = trivia_entertainment.json; sourceTree = "<group>"; };
 		20000000000000000000001D /* trivia_sports.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = trivia_sports.json; sourceTree = "<group>"; };
+		200000000000000000000021 /* alarm_glass.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = alarm_glass.aiff; sourceTree = "<group>"; };
+		200000000000000000000022 /* alarm_ping.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = alarm_ping.aiff; sourceTree = "<group>"; };
+		200000000000000000000023 /* alarm_hero.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = alarm_hero.aiff; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -169,6 +175,9 @@
 				20000000000000000000001A /* trivia_history.json */,
 				200000000000000000000019 /* trivia_science.json */,
 				20000000000000000000001D /* trivia_sports.json */,
+				200000000000000000000021 /* alarm_glass.aiff */,
+				200000000000000000000022 /* alarm_ping.aiff */,
+				200000000000000000000023 /* alarm_hero.aiff */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -272,6 +281,9 @@
 				100000000000000000000018 /* trivia_history.json in Resources */,
 				100000000000000000000017 /* trivia_science.json in Resources */,
 				10000000000000000000001B /* trivia_sports.json in Resources */,
+				100000000000000000000021 /* alarm_glass.aiff in Resources */,
+				100000000000000000000022 /* alarm_ping.aiff in Resources */,
+				100000000000000000000023 /* alarm_hero.aiff in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

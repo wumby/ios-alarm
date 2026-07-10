@@ -1,5 +1,32 @@
 import Foundation
 
+enum AlarmSoundChoice: String, CaseIterable, Identifiable, Codable {
+    case systemDefault = "default"
+    case glass
+    case ping
+    case hero
+
+    var id: String { rawValue }
+
+    var title: String {
+        switch self {
+        case .systemDefault: "Default"
+        case .glass: "Glass"
+        case .ping: "Ping"
+        case .hero: "Hero"
+        }
+    }
+
+    var fileName: String? {
+        switch self {
+        case .systemDefault: nil
+        case .glass: "alarm_glass.aiff"
+        case .ping: "alarm_ping.aiff"
+        case .hero: "alarm_hero.aiff"
+        }
+    }
+}
+
 enum TriviaDifficulty: String, CaseIterable, Identifiable, Codable {
     case mixed = "Mixed"
     case easy = "Easy"

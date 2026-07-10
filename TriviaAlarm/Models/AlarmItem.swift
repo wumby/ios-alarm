@@ -8,6 +8,12 @@ final class AlarmItem {
     var label: String
     var repeatDaysRaw: String
     var isEnabled: Bool
+    // Optional keeps existing SwiftData stores migratable; missing values mean enabled.
+    var isTriviaEnabled: Bool?
+    // Optional so existing SwiftData stores can add the field without a destructive migration.
+    var isFavorite: Bool?
+    // Optional so existing alarms retain the system default sound after migration.
+    var soundRaw: String?
     var categoryIDsRaw: String
     var difficultyRaw: String
     var createdAt: Date
@@ -18,6 +24,9 @@ final class AlarmItem {
         label: String = "Alarm",
         repeatDays: Set<RepeatDay> = [],
         isEnabled: Bool = true,
+        isTriviaEnabled: Bool? = true,
+        isFavorite: Bool? = false,
+        sound: AlarmSoundChoice = .systemDefault,
         categoryIDs: Set<String> = Set(TriviaCategory.defaultEnabled.map(\.id)),
         difficulty: TriviaDifficulty = .mixed,
         createdAt: Date = Date()
@@ -27,6 +36,9 @@ final class AlarmItem {
         self.label = label
         self.repeatDaysRaw = repeatDays.map { String($0.rawValue) }.sorted().joined(separator: ",")
         self.isEnabled = isEnabled
+        self.isTriviaEnabled = isTriviaEnabled
+        self.isFavorite = isFavorite
+        self.soundRaw = sound.rawValue
         self.categoryIDsRaw = categoryIDs.sorted().joined(separator: ",")
         self.difficultyRaw = difficulty.rawValue
         self.createdAt = createdAt
@@ -73,9 +85,15 @@ final class AlarmItem {
         set { difficultyRaw = newValue.rawValue }
     }
 
+    var triviaEnabled: Bool { isTriviaEnabled ?? true }
+
+    var sound: AlarmSoundChoice {
+        get { AlarmSoundChoice(rawValue: soundRaw ?? "default") ?? .systemDefault }
+        set { soundRaw = newValue.rawValue }
+    }
+
     static func minutes(from date: Date) -> Int {
         let components = Calendar.current.dateComponents([.hour, .minute], from: date)
         return (components.hour ?? 7) * 60 + (components.minute ?? 0)
     }
 }
-

@@ -93,6 +93,10 @@ struct TriviaService {
                         continue
                     }
 
+                    guard !Self.isLowQualityGeneratedQuestion(question) else {
+                        continue
+                    }
+
                     guard seenIDs.insert(question.id).inserted else {
                         debugLog("Skipping duplicate trivia id '\(question.id)' in \(fileURL.lastPathComponent).")
                         continue
@@ -110,6 +114,21 @@ struct TriviaService {
 
         debugLog("Loaded \(questions.count) total bundled trivia questions.")
         return questions
+    }
+
+    private static func isLowQualityGeneratedQuestion(_ question: TriviaQuestion) -> Bool {
+        guard question.id.contains("_wd_") else { return false }
+
+        if question.difficulty == .hard {
+            return true
+        }
+
+        return question.prompt.hasPrefix("What was ")
+            || question.prompt.hasPrefix("Which country is ")
+            || question.prompt.hasPrefix("Which sport is ")
+            || question.prompt.hasPrefix("Which country did ")
+            || question.prompt.hasPrefix("In what year was ")
+            || question.prompt.hasPrefix("In what year did ")
     }
 
     private static func triviaJSONFileURLs(in resourceURL: URL) -> [URL] {

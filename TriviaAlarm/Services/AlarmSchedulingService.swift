@@ -2,6 +2,8 @@ import Foundation
 import SwiftUI
 import UserNotifications
 
+import ActivityKit
+
 #if canImport(AlarmKit)
 import AlarmKit
 #endif
@@ -99,7 +101,9 @@ final class AlarmSchedulingService: ObservableObject {
         let triviaButton = AlarmButton(text: "Trivia", textColor: .white, systemImageName: "questionmark.circle.fill")
         let stopButton = AlarmButton(text: "Stop", textColor: .white, systemImageName: "xmark.circle.fill")
         let alert: AlarmPresentation.Alert
-        if #available(iOS 26.1, *) {
+        if !alarm.triviaEnabled {
+            alert = AlarmPresentation.Alert(title: title, stopButton: stopButton)
+        } else if #available(iOS 26.1, *) {
             alert = AlarmPresentation.Alert(
                 title: title,
                 secondaryButton: triviaButton,
@@ -117,14 +121,14 @@ final class AlarmSchedulingService: ObservableObject {
         let attributes = AlarmAttributes(
             presentation: presentation,
             metadata: TriviaAlarmMetadata(appAlarmID: alarm.id.uuidString),
-            tintColor: .teal
+            tintColor: .orange
         )
         let configuration = AlarmManager.AlarmConfiguration(
             countdownDuration: nil,
             schedule: schedule,
             attributes: attributes,
             secondaryIntent: OpenTriviaIntent(alarmID: alarm.id),
-            sound: .default
+            sound: alarm.sound.fileName.map { ActivityKit.AlertConfiguration.AlertSound.named($0) } ?? .default
         )
 
         _ = try await AlarmManager.shared.schedule(id: alarm.id, configuration: configuration)
@@ -161,9 +165,12 @@ final class AlarmSchedulingService: ObservableObject {
     private func addNotification(alarm: AlarmItem, weekday: Int?) async {
         let content = UNMutableNotificationContent()
         content.title = alarm.label.isEmpty ? "Alarm: Trivia" : alarm.label
-        content.body = "Answer a trivia question to dismiss."
-        content.sound = .default
-        content.userInfo = ["alarmID": alarm.id.uuidString]
+        content.body = alarm.triviaEnabled ? "Answer a trivia question to dismiss." : "Your alarm is going off."
+        content.sound = alarm.sound.fileName.map { UNNotificationSound(named: UNNotificationSoundName(rawValue: $0)) } ?? .default
+        content.userInfo = [
+            "alarmID": alarm.id.uuidString,
+            "triviaEnabled": alarm.triviaEnabled
+        ]
 
         var components = DateComponents()
         components.hour = alarm.hour

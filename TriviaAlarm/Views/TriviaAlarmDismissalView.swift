@@ -6,6 +6,8 @@ struct TriviaAlarmDismissalView: View {
 
     @State private var question: TriviaQuestion
     @State private var wrongAnswer: String?
+    @State private var showingSuccess = false
+    @State private var wasAlreadyCompletedToday = false
 
     init(alarm: AlarmItem) {
         self.alarm = alarm
@@ -16,7 +18,13 @@ struct TriviaAlarmDismissalView: View {
         ZStack {
             AppTheme.sunriseBackground
 
-            VStack(alignment: .leading, spacing: 24) {
+            if showingSuccess {
+                CorrectAnswerView(
+                    streak: StreakStore.shared.currentStreak,
+                    isContinuing: wasAlreadyCompletedToday
+                )
+            } else {
+                VStack(alignment: .leading, spacing: 24) {
                 VStack(alignment: .leading, spacing: 8) {
                     Text(alarm.label.isEmpty ? "Alarm: Trivia" : alarm.label)
                         .font(.title2.weight(.black))
@@ -75,18 +83,25 @@ struct TriviaAlarmDismissalView: View {
                 }
 
                 Spacer(minLength: 0)
+                }
+                .padding(24)
             }
-            .padding(24)
         }
         .interactiveDismissDisabled(true)
     }
 
     private func choose(_ answer: String) {
         if answer == question.correctAnswer {
+            wasAlreadyCompletedToday = StreakStore.shared.isCompleted(Date())
             StreakStore.shared.recordCompletion()
-            scheduler.dismiss(alarm: alarm)
             if alarm.repeatDays.isEmpty {
                 alarm.isEnabled = false
+            }
+            showingSuccess = true
+
+            Task {
+                try? await Task.sleep(nanoseconds: 1_200_000_000)
+                scheduler.dismiss(alarm: alarm)
             }
         } else {
             wrongAnswer = answer
@@ -104,6 +119,66 @@ struct TriviaAlarmDismissalView: View {
 
     private func answerBorder(for answer: String) -> Color {
         wrongAnswer == answer ? AppTheme.accent.opacity(0.28) : AppTheme.cardBorder
+    }
+}
+
+private struct CorrectAnswerView: View {
+    let streak: Int
+    let isContinuing: Bool
+    @State private var checkmarkScale = 0.4
+    @State private var contentOpacity = 0.0
+
+    var body: some View {
+        VStack(spacing: 22) {
+            ZStack {
+                Circle()
+                    .fill(AppTheme.warmOrange.opacity(0.20))
+                    .frame(width: 150, height: 150)
+
+                Circle()
+                    .fill(AppTheme.cardSurface)
+                    .frame(width: 112, height: 112)
+                    .overlay {
+                        Circle()
+                            .stroke(AppTheme.cardBorder, lineWidth: 1)
+                    }
+
+                Image(systemName: "checkmark")
+                    .font(.system(size: 48, weight: .black))
+                    .foregroundStyle(AppTheme.accent)
+                    .scaleEffect(checkmarkScale)
+            }
+
+            VStack(spacing: 8) {
+                Text("Correct answer")
+                    .font(.largeTitle.weight(.black))
+                    .foregroundStyle(AppTheme.textPrimary)
+
+                Text(successMessage)
+                    .font(.headline.weight(.semibold))
+                    .foregroundStyle(AppTheme.textSecondary)
+            }
+            .multilineTextAlignment(.center)
+            .opacity(contentOpacity)
+        }
+        .padding(24)
+        .frame(maxWidth: .infinity, maxHeight: .infinity)
+        .onAppear {
+            withAnimation(.spring(response: 0.55, dampingFraction: 0.68)) {
+                checkmarkScale = 1
+            }
+            withAnimation(.easeOut(duration: 0.35).delay(0.18)) {
+                contentOpacity = 1
+            }
+        }
+    }
+
+    private var successMessage: String {
+        if isContinuing {
+            return streak == 1 ? "Streak is still 1 day." : "Streak is still \(streak) days."
+        }
+
+        return streak == 1 ? "Your streak is now 1 day." : "Your streak is now \(streak) days."
     }
 }
 

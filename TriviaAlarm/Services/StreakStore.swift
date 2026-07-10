@@ -35,8 +35,12 @@ final class StreakStore: ObservableObject {
 
     func recentDays(count: Int = 7) -> [Date] {
         let today = calendar.startOfDay(for: Date())
+        var weekCalendar = calendar
+        weekCalendar.firstWeekday = 1
+        let weekStart = weekCalendar.dateInterval(of: .weekOfYear, for: today)?.start ?? today
+
         return (0..<count).compactMap { offset in
-            calendar.date(byAdding: .day, value: -(count - 1 - offset), to: today)
+            weekCalendar.date(byAdding: .day, value: offset, to: weekStart)
         }
     }
 
@@ -85,4 +89,3 @@ final class StreakStore: ObservableObject {
         UserDefaults.standard.set(completionDays.sorted(), forKey: Self.completionDaysKey)
     }
 }
-
