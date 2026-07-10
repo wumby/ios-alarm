@@ -25,19 +25,6 @@ struct TriviaAlarmDismissalView: View {
                 )
             } else {
                 VStack(alignment: .leading, spacing: 24) {
-                VStack(alignment: .leading, spacing: 8) {
-                    Text(alarm.label.isEmpty ? "Alarm: Trivia" : alarm.label)
-                        .font(.title2.weight(.black))
-                        .foregroundStyle(AppTheme.textPrimary)
-
-                    Text(DateFormatter.alarmHeader.string(from: alarm.timeDate))
-                        .font(.largeTitle.weight(.black))
-                        .monospacedDigit()
-                        .foregroundStyle(AppTheme.textPrimary)
-                }
-                .padding(18)
-                .floatingCard()
-
                 VStack(alignment: .leading, spacing: 14) {
                     Text(question.category.title.uppercased())
                         .font(.caption.weight(.black))
@@ -49,6 +36,7 @@ struct TriviaAlarmDismissalView: View {
                         .fixedSize(horizontal: false, vertical: true)
                 }
                 .padding(18)
+                .frame(maxWidth: .infinity, alignment: .leading)
                 .floatingCard()
 
                 VStack(spacing: 12) {
@@ -100,7 +88,7 @@ struct TriviaAlarmDismissalView: View {
             showingSuccess = true
 
             Task {
-                try? await Task.sleep(nanoseconds: 1_200_000_000)
+                try? await Task.sleep(nanoseconds: 4_000_000_000)
                 scheduler.dismiss(alarm: alarm)
             }
         } else {
@@ -129,37 +117,41 @@ private struct CorrectAnswerView: View {
     @State private var contentOpacity = 0.0
 
     var body: some View {
-        VStack(spacing: 22) {
-            ZStack {
-                Circle()
-                    .fill(AppTheme.warmOrange.opacity(0.20))
-                    .frame(width: 150, height: 150)
+        ZStack {
+            SuccessSunriseBackground()
 
-                Circle()
-                    .fill(AppTheme.cardSurface)
-                    .frame(width: 112, height: 112)
-                    .overlay {
-                        Circle()
-                            .stroke(AppTheme.cardBorder, lineWidth: 1)
-                    }
+            VStack(spacing: 22) {
+                ZStack {
+                    Circle()
+                        .fill(AppTheme.warmOrange.opacity(0.20))
+                        .frame(width: 150, height: 150)
 
-                Image(systemName: "checkmark")
-                    .font(.system(size: 48, weight: .black))
-                    .foregroundStyle(AppTheme.accent)
-                    .scaleEffect(checkmarkScale)
+                    Circle()
+                        .fill(AppTheme.cardSurface)
+                        .frame(width: 112, height: 112)
+                        .overlay {
+                            Circle()
+                                .stroke(AppTheme.cardBorder, lineWidth: 1)
+                        }
+
+                    Image(systemName: "checkmark")
+                        .font(.system(size: 48, weight: .black))
+                        .foregroundStyle(AppTheme.accent)
+                        .scaleEffect(checkmarkScale)
+                }
+
+                VStack(spacing: 8) {
+                    Text("Correct answer")
+                        .font(.largeTitle.weight(.black))
+                        .foregroundStyle(AppTheme.textPrimary)
+
+                    Text(successMessage)
+                        .font(.headline.weight(.semibold))
+                        .foregroundStyle(AppTheme.textSecondary)
+                }
+                .multilineTextAlignment(.center)
+                .opacity(contentOpacity)
             }
-
-            VStack(spacing: 8) {
-                Text("Correct answer")
-                    .font(.largeTitle.weight(.black))
-                    .foregroundStyle(AppTheme.textPrimary)
-
-                Text(successMessage)
-                    .font(.headline.weight(.semibold))
-                    .foregroundStyle(AppTheme.textSecondary)
-            }
-            .multilineTextAlignment(.center)
-            .opacity(contentOpacity)
         }
         .padding(24)
         .frame(maxWidth: .infinity, maxHeight: .infinity)
@@ -182,10 +174,45 @@ private struct CorrectAnswerView: View {
     }
 }
 
-private extension DateFormatter {
-    static let alarmHeader: DateFormatter = {
-        let formatter = DateFormatter()
-        formatter.timeStyle = .short
-        return formatter
-    }()
+private struct SuccessSunriseBackground: View {
+    @State private var sunRise = 0.0
+
+    var body: some View {
+        GeometryReader { proxy in
+            ZStack {
+                AppTheme.sunriseBackground
+
+                Circle()
+                    .fill(
+                        RadialGradient(
+                            colors: [AppTheme.warmOrange.opacity(0.95), AppTheme.accent.opacity(0.45), .clear],
+                            center: .center,
+                            startRadius: 12,
+                            endRadius: 145
+                        )
+                    )
+                    .frame(width: 250, height: 250)
+                    .position(
+                        x: proxy.size.width * 0.5,
+                        y: proxy.size.height * (0.88 - (0.38 * sunRise))
+                    )
+
+                Circle()
+                    .fill(AppTheme.warmOrange)
+                    .frame(width: 88, height: 88)
+                    .shadow(color: AppTheme.warmOrange.opacity(0.65), radius: 26)
+                    .position(
+                        x: proxy.size.width * 0.5,
+                        y: proxy.size.height * (0.88 - (0.38 * sunRise))
+                    )
+            }
+        }
+        .ignoresSafeArea()
+        .allowsHitTesting(false)
+        .onAppear {
+            withAnimation(.easeInOut(duration: 3.2)) {
+                sunRise = 1
+            }
+        }
+    }
 }

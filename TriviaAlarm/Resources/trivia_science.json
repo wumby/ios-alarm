@@ -1,5 +1,165 @@
 [
   {
+    "id": "science_fun_0001",
+    "question": "Which animal can sleep while standing up?",
+    "answers": ["Horse", "Dolphin", "Penguin", "Rabbit"],
+    "correctIndex": 0,
+    "category": "Science",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "science_fun_0002",
+    "question": "What is the only mammal capable of true flight?",
+    "answers": ["Flying squirrel", "Bat", "Sugar glider", "Lemur"],
+    "correctIndex": 1,
+    "category": "Science",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "science_fun_0003",
+    "question": "Which planet has the most prominent ring system?",
+    "answers": ["Mars", "Saturn", "Neptune", "Venus"],
+    "correctIndex": 1,
+    "category": "Science",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "science_fun_0004",
+    "question": "What do bees collect from flowers to make honey?",
+    "answers": ["Nectar", "Sap", "Dew", "Pollen only"],
+    "correctIndex": 0,
+    "category": "Science",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "science_fun_0005",
+    "question": "Which part of the human body contains the smallest bones?",
+    "answers": ["Hand", "Foot", "Ear", "Nose"],
+    "correctIndex": 2,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_fun_0006",
+    "question": "What is the fastest land animal?",
+    "answers": ["Cheetah", "Horse", "Ostrich", "Gazelle"],
+    "correctIndex": 0,
+    "category": "Science",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "science_fun_0007",
+    "question": "Which fruit is technically a berry?",
+    "answers": ["Apple", "Strawberry", "Banana", "Peach"],
+    "correctIndex": 2,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_fun_0008",
+    "question": "What causes the sound of thunder?",
+    "answers": ["Rain hitting the ground", "Rapidly expanding heated air", "Clouds colliding", "Wind in the clouds"],
+    "correctIndex": 1,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_fun_0009",
+    "question": "Which animal is famous for changing its color to blend in?",
+    "answers": ["Chameleon", "Elephant", "Giraffe", "Penguin"],
+    "correctIndex": 0,
+    "category": "Science",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "science_fun_0010",
+    "question": "What is the largest organ of the human body?",
+    "answers": ["Heart", "Liver", "Skin", "Lungs"],
+    "correctIndex": 2,
+    "category": "Science",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "science_fun_0011",
+    "question": "Which ocean animal has three hearts?",
+    "answers": ["Shark", "Octopus", "Dolphin", "Sea turtle"],
+    "correctIndex": 1,
+    "category": "Science",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "science_fun_0012",
+    "question": "What is the name of a baby kangaroo?",
+    "answers": ["Cub", "Joey", "Calf", "Pup"],
+    "correctIndex": 1,
+    "category": "Science",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "science_fun_0013",
+    "question": "Which force keeps us on the ground?",
+    "answers": ["Magnetism", "Friction", "Gravity", "Electricity"],
+    "correctIndex": 2,
+    "category": "Science",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "science_fun_0014",
+    "question": "Why do popcorn kernels pop?",
+    "answers": ["Sugar melts", "Water inside turns to steam", "Air freezes", "The shell dissolves"],
+    "correctIndex": 1,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_fun_0015",
+    "question": "Which bird can fly backward?",
+    "answers": ["Eagle", "Hummingbird", "Owl", "Pigeon"],
+    "correctIndex": 1,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_fun_0016",
+    "question": "What is the hottest planet in our solar system?",
+    "answers": ["Mercury", "Venus", "Mars", "Jupiter"],
+    "correctIndex": 1,
+    "category": "Science",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "science_fun_0017",
+    "question": "Which animal has fingerprints so similar to humans that they can be confused?",
+    "answers": ["Koala", "Tiger", "Gorilla", "Penguin"],
+    "correctIndex": 0,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_fun_0018",
+    "question": "What do you call molten rock after it reaches Earth's surface?",
+    "answers": ["Magma", "Lava", "Basalt", "Ash"],
+    "correctIndex": 1,
+    "category": "Science",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "science_fun_0019",
+    "question": "Which sense is most closely linked to memory?",
+    "answers": ["Sight", "Touch", "Smell", "Balance"],
+    "correctIndex": 2,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "science_fun_0020",
+    "question": "What kind of animal is a komodo dragon?",
+    "answers": ["Mammal", "Bird", "Reptile", "Amphibian"],
+    "correctIndex": 2,
+    "category": "Science",
+    "difficulty": "Easy"
+  },
+  {
     "id": "science_0001",
     "question": "What planet is known as the Red Planet?",
     "answers": [

@@ -1,3 +1,4 @@
+import AVFoundation
 import SwiftData
 import SwiftUI
 
@@ -15,6 +16,7 @@ struct AlarmFormView: View {
     let mode: AlarmFormMode
     let onSaved: ((AlarmItem) -> Void)?
     @State private var state: AlarmFormState
+    @State private var previewPlayer: AVAudioPlayer?
 
     init(mode: AlarmFormMode, onSaved: ((AlarmItem) -> Void)? = nil) {
         self.mode = mode
@@ -104,6 +106,22 @@ struct AlarmFormView: View {
                                     .foregroundStyle(AppTheme.textPrimary)
 
                                 SoundMenu(selection: $state.sound)
+
+                                Button(action: previewSound) {
+                                    Label("Test sound", systemImage: "play.circle.fill")
+                                        .font(.subheadline.weight(.bold))
+                                        .frame(maxWidth: .infinity)
+                                }
+                                .buttonStyle(.borderedProminent)
+                                .tint(AppTheme.accent)
+                                .disabled(state.sound.fileName == nil)
+                                .accessibilityHint(state.sound.fileName == nil ? "The system default sound cannot be previewed here." : "Plays the selected alarm sound.")
+
+                                if state.sound.fileName == nil {
+                                    Text("The system default sound cannot be previewed here.")
+                                        .font(.caption)
+                                        .foregroundStyle(AppTheme.textSecondary)
+                                }
                             }
                             .padding(14)
                             .frame(maxWidth: .infinity, alignment: .topLeading)
@@ -166,6 +184,10 @@ struct AlarmFormView: View {
         }
         .presentationBackground(.clear)
         .preferredColorScheme(.light)
+        .onDisappear {
+            previewPlayer?.stop()
+            previewPlayer = nil
+        }
     }
 
     private var title: String {
@@ -219,6 +241,26 @@ struct AlarmFormView: View {
             await scheduler.schedule(alarm: alarm)
         }
         dismiss()
+    }
+
+    private func previewSound() {
+        guard let fileName = state.sound.fileName,
+              let url = Bundle.main.url(forResource: fileName.replacingOccurrences(of: ".aiff", with: ""), withExtension: "aiff") else {
+            return
+        }
+
+        previewPlayer?.stop()
+
+        do {
+            try AVAudioSession.sharedInstance().setCategory(.playback, mode: .default, options: [.mixWithOthers])
+            try AVAudioSession.sharedInstance().setActive(true)
+            let player = try AVAudioPlayer(contentsOf: url)
+            player.prepareToPlay()
+            player.play()
+            previewPlayer = player
+        } catch {
+            previewPlayer = nil
+        }
     }
 }
 

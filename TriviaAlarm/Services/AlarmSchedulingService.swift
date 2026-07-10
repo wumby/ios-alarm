@@ -90,7 +90,8 @@ final class AlarmSchedulingService: ObservableObject {
     private func scheduleWithAlarmKit(_ alarm: AlarmItem) async throws {
         // AlarmKit scheduling: system alarms are scheduled here for reliability.
         // The secondary button is backed by OpenTriviaIntent, which opens the app
-        // and presents the in-app trivia gate for this alarm.
+        // and presents the configured challenge for this alarm. The generic label
+        // leaves room for future challenge types beyond trivia.
         let time = Alarm.Schedule.Relative.Time(hour: alarm.hour, minute: alarm.minute)
         let recurrence: Alarm.Schedule.Relative.Recurrence = alarm.repeatDays.isEmpty
             ? .never
@@ -98,7 +99,7 @@ final class AlarmSchedulingService: ObservableObject {
         let schedule = Alarm.Schedule.relative(.init(time: time, repeats: recurrence))
 
         let title = LocalizedStringResource(stringLiteral: alarm.label.isEmpty ? "Alarm: Trivia" : alarm.label)
-        let triviaButton = AlarmButton(text: "Trivia", textColor: .white, systemImageName: "questionmark.circle.fill")
+        let challengeButton = AlarmButton(text: "CLICK TO STOP", textColor: .white, systemImageName: "sparkles")
         let stopButton = AlarmButton(text: "Stop", textColor: .white, systemImageName: "xmark.circle.fill")
         let alert: AlarmPresentation.Alert
         if !alarm.triviaEnabled {
@@ -106,14 +107,14 @@ final class AlarmSchedulingService: ObservableObject {
         } else if #available(iOS 26.1, *) {
             alert = AlarmPresentation.Alert(
                 title: title,
-                secondaryButton: triviaButton,
+                secondaryButton: challengeButton,
                 secondaryButtonBehavior: .custom
             )
         } else {
             alert = AlarmPresentation.Alert(
                 title: title,
                 stopButton: stopButton,
-                secondaryButton: triviaButton,
+                secondaryButton: challengeButton,
                 secondaryButtonBehavior: .custom
             )
         }

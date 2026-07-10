@@ -119,6 +119,13 @@ struct TriviaService {
     private static func isLowQualityGeneratedQuestion(_ question: TriviaQuestion) -> Bool {
         guard question.id.contains("_wd_") else { return false }
 
+        // The Wikidata science import is dominated by chemistry lookups and
+        // placeholder element names. Keep Science focused on approachable,
+        // interesting facts instead of periodic-table recall.
+        if question.category == .science {
+            return true
+        }
+
         if question.difficulty == .hard {
             return true
         }

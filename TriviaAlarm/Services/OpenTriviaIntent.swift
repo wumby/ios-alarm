@@ -3,7 +3,7 @@ import Foundation
 
 @available(iOS 17.0, *)
 struct OpenTriviaIntent: LiveActivityIntent {
-    static let title: LocalizedStringResource = "Open Trivia"
+    static let title: LocalizedStringResource = "Open Challenge"
     static let openAppWhenRun = true
     static let isDiscoverable = false
 
@@ -32,4 +32,3 @@ struct OpenTriviaIntent: LiveActivityIntent {
         return .result()
     }
 }
-
