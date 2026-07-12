@@ -14,6 +14,7 @@ struct AlarmFormView: View {
     let mode: AlarmFormMode
     let onSaved: ((AlarmItem) -> Void)?
     @State private var state: AlarmFormState
+    @State private var repeatMode: RepeatMode
     @State private var previewPlayer: AVAudioPlayer?
 
     init(mode: AlarmFormMode, onSaved: ((AlarmItem) -> Void)? = nil) {
@@ -28,11 +29,21 @@ struct AlarmFormView: View {
             form.categoryIDs = Set(userDefaults.string(forKey: "defaultTriviaCategoryIDs")?.split(separator: ",").map(String.init) ?? TriviaCategory.defaultEnabled.map(\.id))
             form.difficulty = TriviaDifficulty(rawValue: userDefaults.string(forKey: "defaultTriviaDifficulty") ?? TriviaDifficulty.mixed.rawValue) ?? .mixed
             form.sound = AlarmSoundChoice(rawValue: userDefaults.string(forKey: "defaultAlarmSound") ?? "default") ?? .systemDefault
-            form.repeatDays = Self.defaultRepeatDays(from: userDefaults.string(forKey: "defaultAlarmRepeatMode") ?? DefaultRepeatMode.once.rawValue)
+            let defaultRepeatMode = DefaultRepeatMode(rawValue: userDefaults.string(forKey: "defaultAlarmRepeatMode") ?? DefaultRepeatMode.once.rawValue) ?? .once
+            form.repeatDays = Self.defaultRepeatDays(from: defaultRepeatMode.rawValue)
             _state = State(initialValue: form)
+            _repeatMode = State(initialValue: RepeatMode(rawValue: defaultRepeatMode.rawValue) ?? .once)
         case .edit(let alarm):
             _state = State(initialValue: AlarmFormState(alarm: alarm))
+            _repeatMode = State(initialValue: Self.repeatMode(for: alarm.repeatDays))
         }
+    }
+
+    private static func repeatMode(for days: Set<RepeatDay>) -> RepeatMode {
+        if days.isEmpty { return .once }
+        if days == Set(RepeatDay.allCases) { return .everyDay }
+        if days == Set([.monday, .tuesday, .wednesday, .thursday, .friday]) { return .weekdays }
+        return .custom
     }
 
     private static func defaultRepeatDays(from mode: String) -> Set<RepeatDay> {
@@ -145,7 +156,7 @@ struct AlarmFormView: View {
                                     .font(.subheadline.weight(.bold))
                                     .foregroundStyle(AppTheme.textPrimary)
 
-                                DayPicker(selectedDays: $state.repeatDays)
+                                DayPicker(selectedDays: repeatDaysBinding)
                             }
                             .padding(14)
                             .frame(maxWidth: .infinity, alignment: .leading)
@@ -223,14 +234,9 @@ struct AlarmFormView: View {
 
     private var repeatModeBinding: Binding<RepeatMode> {
         Binding(
-            get: {
-                let days = state.repeatDays
-                if days.isEmpty { return .once }
-                if days == Set(RepeatDay.allCases) { return .everyDay }
-                if days == Set([.monday, .tuesday, .wednesday, .thursday, .friday]) { return .weekdays }
-                return .custom
-            },
+            get: { repeatMode },
             set: { mode in
+                repeatMode = mode
                 switch mode {
                 case .once:
                     state.repeatDays = []
@@ -243,6 +249,16 @@ struct AlarmFormView: View {
                         state.repeatDays = Set(RepeatDay.allCases)
                     }
                 }
+            }
+        )
+    }
+
+    private var repeatDaysBinding: Binding<Set<RepeatDay>> {
+        Binding(
+            get: { state.repeatDays },
+            set: { days in
+                state.repeatDays = days
+                repeatMode = Self.repeatMode(for: days)
             }
         )
     }
