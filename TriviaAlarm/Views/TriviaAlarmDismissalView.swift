@@ -1,4 +1,5 @@
 import SwiftUI
+import AVFoundation
 
 struct TriviaAlarmDismissalView: View {
     @EnvironmentObject private var scheduler: AlarmSchedulingService
@@ -8,6 +9,7 @@ struct TriviaAlarmDismissalView: View {
     @State private var wrongAnswer: String?
     @State private var showingSuccess = false
     @State private var wasAlreadyCompletedToday = false
+    @StateObject private var successSoundPlayer = SuccessSoundPlayer()
 
     init(alarm: AlarmItem) {
         self.alarm = alarm
@@ -76,6 +78,9 @@ struct TriviaAlarmDismissalView: View {
             }
         }
         .interactiveDismissDisabled(true)
+        .onDisappear {
+            successSoundPlayer.stop()
+        }
     }
 
     private func choose(_ answer: String) {
@@ -85,6 +90,8 @@ struct TriviaAlarmDismissalView: View {
             if alarm.repeatDays.isEmpty {
                 alarm.isEnabled = false
             }
+            scheduler.stopSound(alarm: alarm)
+            successSoundPlayer.play()
             showingSuccess = true
 
             Task {
@@ -107,6 +114,81 @@ struct TriviaAlarmDismissalView: View {
 
     private func answerBorder(for answer: String) -> Color {
         wrongAnswer == answer ? AppTheme.accent.opacity(0.28) : AppTheme.cardBorder
+    }
+}
+
+@MainActor
+private final class SuccessSoundPlayer: ObservableObject {
+    private var player: AVAudioPlayer?
+
+    func play() {
+        stop()
+
+        do {
+            let session = AVAudioSession.sharedInstance()
+            try session.setCategory(.playback, mode: .default, options: [.mixWithOthers])
+            try session.setActive(true)
+            player = try AVAudioPlayer(data: Self.chimeData())
+            player?.volume = 0.7
+            player?.prepareToPlay()
+            player?.play()
+        } catch {
+            player = nil
+        }
+    }
+
+    func stop() {
+        player?.stop()
+        player = nil
+    }
+
+    private static func chimeData() -> Data {
+        let sampleRate = 44_100
+        let duration = 3.8
+        let frameCount = Int(Double(sampleRate) * duration)
+        var samples = Data(capacity: frameCount * 2)
+        let notes: [(frequency: Double, start: Double, end: Double)] = [
+            (523.25, 0.00, 1.55),
+            (659.25, 0.72, 2.65),
+            (783.99, 1.65, 3.80)
+        ]
+
+        for frame in 0..<frameCount {
+            let time = Double(frame) / Double(sampleRate)
+            var value = 0.0
+            for note in notes where time >= note.start && time < note.end {
+                let noteTime = time - note.start
+                let noteDuration = note.end - note.start
+                let attack = min(noteTime / 0.18, 1.0)
+                let release = min((noteDuration - noteTime) / 0.55, 1.0)
+                let envelope = max(0, min(attack, release))
+                value += sin(2.0 * .pi * note.frequency * noteTime) * envelope
+            }
+
+            let fadeOut = min((duration - time) / 0.7, 1.0)
+            let sample = Int16(max(-1.0, min(1.0, value * 0.13 * fadeOut)) * Double(Int16.max))
+            samples.append(contentsOf: withUnsafeBytes(of: sample.littleEndian) { Data($0) })
+        }
+
+        var wav = Data()
+        wav.append(contentsOf: Array("RIFF".utf8))
+        wav.append(contentsOf: littleEndianBytes(UInt32(36 + samples.count)))
+        wav.append(contentsOf: Array("WAVEfmt ".utf8))
+        wav.append(contentsOf: littleEndianBytes(UInt32(16)))
+        wav.append(contentsOf: littleEndianBytes(UInt16(1)))
+        wav.append(contentsOf: littleEndianBytes(UInt16(1)))
+        wav.append(contentsOf: littleEndianBytes(UInt32(sampleRate)))
+        wav.append(contentsOf: littleEndianBytes(UInt32(sampleRate * 2)))
+        wav.append(contentsOf: littleEndianBytes(UInt16(2)))
+        wav.append(contentsOf: littleEndianBytes(UInt16(16)))
+        wav.append(contentsOf: Array("data".utf8))
+        wav.append(contentsOf: littleEndianBytes(UInt32(samples.count)))
+        wav.append(samples)
+        return wav
+    }
+
+    private static func littleEndianBytes<T: FixedWidthInteger>(_ value: T) -> [UInt8] {
+        withUnsafeBytes(of: value.littleEndian) { Array($0) }
     }
 }
 

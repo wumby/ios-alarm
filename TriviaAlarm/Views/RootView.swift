@@ -14,6 +14,9 @@ struct RootView: View {
             .environmentObject(runtime)
             .task {
                 await scheduler.requestAuthorization()
+                if #available(iOS 26.0, *) {
+                    await scheduler.synchronize(alarmItems: alarms)
+                }
                 runtime.presentPendingAlarmIfNeeded()
             }
             .onChange(of: scenePhase) { _, phase in

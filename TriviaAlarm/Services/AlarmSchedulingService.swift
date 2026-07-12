@@ -11,8 +11,13 @@ import AlarmKit
 @MainActor
 final class AlarmSchedulingService: ObservableObject {
     static let shared = AlarmSchedulingService()
+    private static let scheduledAlarmIDsKey = "alarmKitScheduledAlarmIDs"
 
     @Published var authorizationMessage: String?
+
+    #if canImport(AlarmKit)
+    private var scheduledAlarmItems: [UUID: AlarmItem] = [:]
+    #endif
 
     private init() {
         observeAlarmKitUpdates()
@@ -48,10 +53,12 @@ final class AlarmSchedulingService: ObservableObject {
             return
         }
 
-        #if canImport(AlarmKit)
+    #if canImport(AlarmKit)
         if #available(iOS 26.0, *) {
             do {
                 try await scheduleWithAlarmKit(alarm)
+                scheduledAlarmItems[alarm.id] = alarm
+                persistAlarmKitSchedule(alarm.id, isScheduled: true)
                 return
             } catch {
                 authorizationMessage = "AlarmKit scheduling failed. Using notifications instead."
@@ -71,18 +78,57 @@ final class AlarmSchedulingService: ObservableObject {
 
         let identifiers = notificationIdentifiers(for: alarm)
         UNUserNotificationCenter.current().removePendingNotificationRequests(withIdentifiers: identifiers)
+        persistAlarmKitSchedule(alarm.id, isScheduled: false)
     }
+
+    #if canImport(AlarmKit)
+    @available(iOS 26.0, *)
+    func synchronize(alarmItems: [AlarmItem]) async {
+        guard let alarms = try? AlarmManager.shared.alarms else { return }
+        let localItems = Dictionary(uniqueKeysWithValues: alarmItems.map { ($0.id, $0) })
+        let currentIDs = Set(alarms.map(\.id))
+        let previouslyScheduledIDs = UserDefaults.standard.stringArray(forKey: Self.scheduledAlarmIDsKey) ?? []
+
+        // If the app was not running when AlarmKit stopped a one-shot alarm, the
+        // update stream cannot be observed. The persisted hand-off lets us detect
+        // that case on the next launch.
+        for rawID in previouslyScheduledIDs {
+            guard let id = UUID(uuidString: rawID), !currentIDs.contains(id) else { continue }
+            if let item = localItems[id], item.repeatDays.isEmpty {
+                item.isEnabled = false
+            }
+            persistAlarmKitSchedule(id, isScheduled: false)
+        }
+
+        // Reconnect the in-memory reconciliation table after the app is relaunched.
+        // AlarmKit owns the schedule, while SwiftData owns the user's enabled state.
+        scheduledAlarmItems = Dictionary(
+            uniqueKeysWithValues: alarms.compactMap { alarm in
+                guard let item = localItems[alarm.id] else { return nil }
+                return (alarm.id, item)
+            }
+        )
+    }
+    #else
+    func synchronize(alarmItems: [AlarmItem]) async {}
+    #endif
 
     func dismiss(alarm: AlarmItem) {
         // Alarm dismissal: this is intentionally called only after TriviaAlarmDismissalView
         // receives a correct answer. Wrong answers replace the question and never reach here.
+        stopSound(alarm: alarm)
+        AlarmRuntimeStore.shared.clear()
+    }
+
+    func stopSound(alarm: AlarmItem) {
+        // Stop the system alarm as soon as the user answers correctly. The trivia success
+        // animation stays visible briefly afterward, so stopping the sound is separate from
+        // clearing the runtime state and dismissing the trivia view.
         #if canImport(AlarmKit)
         if #available(iOS 26.0, *) {
             try? AlarmManager.shared.stop(id: alarm.id)
         }
         #endif
-
-        AlarmRuntimeStore.shared.clear()
     }
 
     #if canImport(AlarmKit)
@@ -140,6 +186,22 @@ final class AlarmSchedulingService: ObservableObject {
 
         Task { @MainActor in
             for await alarms in AlarmManager.shared.alarmUpdates {
+                let currentIDs = Set(alarms.map(\.id))
+
+                // AlarmKit removes a one-shot alarm from its daemon store after the
+                // system Stop action (including the Lock Screen slide-to-stop) completes.
+                // That action does not pass through the app's trivia view, so mirror the
+                // removal in SwiftData for one-time alarms. Repeating alarms remain armed.
+                let stoppedOneShotIDs = scheduledAlarmItems.compactMap { id, alarm in
+                    !currentIDs.contains(id) && alarm.repeatDays.isEmpty ? id : nil
+                }
+                for id in stoppedOneShotIDs {
+                    guard let alarm = scheduledAlarmItems[id] else { continue }
+                    alarm.isEnabled = false
+                    scheduledAlarmItems.removeValue(forKey: id)
+                    persistAlarmKitSchedule(id, isScheduled: false)
+                }
+
                 if let alerting = alarms.first(where: { $0.state == .alerting }) {
                     AlarmRuntimeStore.shared.present(alarmID: alerting.id)
                 }
@@ -161,6 +223,16 @@ final class AlarmSchedulingService: ObservableObject {
                 await addNotification(alarm: alarm, weekday: day.rawValue)
             }
         }
+    }
+
+    private func persistAlarmKitSchedule(_ id: UUID, isScheduled: Bool) {
+        var ids = Set(UserDefaults.standard.stringArray(forKey: Self.scheduledAlarmIDsKey) ?? [])
+        if isScheduled {
+            ids.insert(id.uuidString)
+        } else {
+            ids.remove(id.uuidString)
+        }
+        UserDefaults.standard.set(Array(ids), forKey: Self.scheduledAlarmIDsKey)
     }
 
     private func addNotification(alarm: AlarmItem, weekday: Int?) async {
