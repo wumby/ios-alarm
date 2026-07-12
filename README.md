@@ -1,4 +1,4 @@
-# Alarm: Trivia
+# Sunrise: Alarm
 
 A SwiftUI MVP for an alarm app that requires a correct multiple-choice trivia answer before the in-app alarm dismissal flow completes.
 

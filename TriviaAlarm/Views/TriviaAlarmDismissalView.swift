@@ -23,9 +23,11 @@ struct TriviaAlarmDismissalView: View {
             if showingSuccess {
                 CorrectAnswerView(
                     streak: StreakStore.shared.currentStreak,
-                    isContinuing: wasAlreadyCompletedToday
+                    isContinuing: wasAlreadyCompletedToday,
+                    title: alarm.triviaEnabled ? "Correct answer" : "Good morning",
+                    showsStreak: alarm.triviaEnabled
                 )
-            } else {
+            } else if alarm.triviaEnabled {
                 VStack(alignment: .leading, spacing: 24) {
                 VStack(alignment: .leading, spacing: 14) {
                     Text(question.category.title.uppercased())
@@ -75,9 +77,16 @@ struct TriviaAlarmDismissalView: View {
                 Spacer(minLength: 0)
                 }
                 .padding(24)
+            } else {
+                Color.clear
             }
         }
         .interactiveDismissDisabled(true)
+        .onAppear {
+            if !alarm.triviaEnabled {
+                completeWithoutTrivia()
+            }
+        }
         .onDisappear {
             successSoundPlayer.stop()
         }
@@ -105,6 +114,22 @@ struct TriviaAlarmDismissalView: View {
                 difficulty: alarm.difficulty,
                 excluding: question.id
             )
+        }
+    }
+
+    private func completeWithoutTrivia() {
+        guard !showingSuccess else { return }
+
+        if alarm.repeatDays.isEmpty {
+            alarm.isEnabled = false
+        }
+        scheduler.stopSound(alarm: alarm)
+        successSoundPlayer.play()
+        showingSuccess = true
+
+        Task {
+            try? await Task.sleep(nanoseconds: 4_000_000_000)
+            scheduler.dismiss(alarm: alarm)
         }
     }
 
@@ -195,6 +220,8 @@ private final class SuccessSoundPlayer: ObservableObject {
 private struct CorrectAnswerView: View {
     let streak: Int
     let isContinuing: Bool
+    let title: String
+    let showsStreak: Bool
     @State private var checkmarkScale = 0.4
     @State private var contentOpacity = 0.0
 
@@ -223,7 +250,7 @@ private struct CorrectAnswerView: View {
                 }
 
                 VStack(spacing: 8) {
-                    Text("Correct answer")
+                    Text(title)
                         .font(.largeTitle.weight(.black))
                         .foregroundStyle(AppTheme.textPrimary)
 
@@ -248,6 +275,10 @@ private struct CorrectAnswerView: View {
     }
 
     private var successMessage: String {
+        if !showsStreak {
+            return "Your alarm is dismissed. Have a great morning."
+        }
+
         if isContinuing {
             return streak == 1 ? "Streak is still 1 day." : "Streak is still \(streak) days."
         }
@@ -276,7 +307,7 @@ private struct SuccessSunriseBackground: View {
                     .frame(width: 250, height: 250)
                     .position(
                         x: proxy.size.width * 0.5,
-                        y: proxy.size.height * (0.88 - (0.38 * sunRise))
+                        y: proxy.size.height * (0.88 - (0.44 * sunRise))
                     )
 
                 Circle()
@@ -285,7 +316,7 @@ private struct SuccessSunriseBackground: View {
                     .shadow(color: AppTheme.warmOrange.opacity(0.65), radius: 26)
                     .position(
                         x: proxy.size.width * 0.5,
-                        y: proxy.size.height * (0.88 - (0.38 * sunRise))
+                        y: proxy.size.height * (0.88 - (0.44 * sunRise))
                     )
             }
         }

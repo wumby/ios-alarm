@@ -1,6 +1,10 @@
 import SwiftUI
 
 struct SettingsView: View {
+    @AppStorage("defaultAlarmLabel") private var defaultAlarmLabel = ""
+    @AppStorage("defaultAlarmRepeatMode") private var defaultAlarmRepeatMode = DefaultRepeatMode.once.rawValue
+    @AppStorage("defaultAlarmRepeatDays") private var defaultAlarmRepeatDays = ""
+    @AppStorage("defaultTriviaEnabled") private var defaultTriviaEnabled = true
     @AppStorage("defaultTriviaCategoryIDs") private var defaultCategoryIDs = TriviaCategory.defaultEnabled.map(\.id).joined(separator: ",")
     @AppStorage("defaultAlarmSound") private var defaultAlarmSound = AlarmSoundChoice.systemDefault.rawValue
     @AppStorage("defaultTriviaDifficulty") private var defaultTriviaDifficulty = TriviaDifficulty.mixed.rawValue
@@ -16,25 +20,46 @@ struct SettingsView: View {
                             .font(.headline.weight(.black))
                             .foregroundStyle(AppTheme.textPrimary)
 
-                        Text("Trivia Categories")
-                            .font(.subheadline.weight(.bold))
-                            .foregroundStyle(AppTheme.textSecondary)
+                        VStack(alignment: .leading, spacing: 14) {
+                            Text("Alarm")
+                                .font(.headline.weight(.black))
+                                .foregroundStyle(AppTheme.textPrimary)
 
-                        VStack(spacing: 0) {
-                            ForEach(TriviaCategory.allCases) { category in
-                                Toggle(category.title, isOn: binding(for: category))
-                                    .tint(AppTheme.accent)
-                                    .padding(.vertical, 14)
-                                    .padding(.horizontal, 18)
-
-                                if category != TriviaCategory.allCases.last {
-                                    Divider().opacity(0.35)
+                            TextField("Label", text: $defaultAlarmLabel)
+                                .textInputAutocapitalization(.words)
+                                .padding(14)
+                                .background(Color.white.opacity(0.56), in: RoundedRectangle(cornerRadius: 14, style: .continuous))
+                                .overlay {
+                                    RoundedRectangle(cornerRadius: 14, style: .continuous)
+                                        .stroke(AppTheme.cardBorder, lineWidth: 1)
                                 }
+
+                            DefaultMenu(
+                                title: "Repeat",
+                                value: DefaultRepeatMode(rawValue: defaultAlarmRepeatMode)?.title ?? DefaultRepeatMode.once.title,
+                                systemName: "arrow.clockwise",
+                                options: DefaultRepeatMode.allCases.map(\.rawValue),
+                                displayValues: DefaultRepeatMode.allCases.map(\.title),
+                                selection: $defaultAlarmRepeatMode
+                            )
+
+                            if defaultAlarmRepeatMode == DefaultRepeatMode.custom.rawValue {
+                                DayPicker(selectedDays: repeatDaysBinding)
+                                    .padding(.horizontal, 4)
                             }
+
                         }
+                        .padding(18)
                         .floatingCard()
 
-                        VStack(alignment: .leading, spacing: 0) {
+                        VStack(alignment: .leading, spacing: 14) {
+                            Text("Trivia")
+                                .font(.headline.weight(.black))
+                                .foregroundStyle(AppTheme.textPrimary)
+
+                            Toggle("Trivia challenge on", isOn: $defaultTriviaEnabled)
+                                .tint(AppTheme.accent)
+
                             DefaultMenu(
                                 title: "Difficulty",
                                 value: defaultTriviaDifficulty,
@@ -42,11 +67,28 @@ struct SettingsView: View {
                                 options: TriviaDifficulty.allCases.map(\.rawValue),
                                 selection: $defaultTriviaDifficulty
                             )
-                            .padding(.horizontal, 18)
-                            .padding(.vertical, 12)
 
-                            Divider().opacity(0.35)
+                            Text("Categories")
+                                .font(.subheadline.weight(.bold))
+                                .foregroundStyle(AppTheme.textSecondary)
 
+                            VStack(spacing: 0) {
+                                ForEach(TriviaCategory.allCases) { category in
+                                    Toggle(category.title, isOn: binding(for: category))
+                                        .tint(AppTheme.accent)
+                                        .padding(.vertical, 10)
+                                        .disabled(!defaultTriviaEnabled)
+
+                                    if category != TriviaCategory.allCases.last {
+                                        Divider().opacity(0.35)
+                                    }
+                                }
+                            }
+                        }
+                        .padding(18)
+                        .floatingCard()
+
+                        VStack(alignment: .leading, spacing: 0) {
                             DefaultMenu(
                                 title: "Sound",
                                 value: AlarmSoundChoice(rawValue: defaultAlarmSound)?.title ?? AlarmSoundChoice.systemDefault.title,
@@ -60,7 +102,7 @@ struct SettingsView: View {
                         }
                         .floatingCard()
 
-                        Text("These defaults apply to new alarms. Existing alarms keep their own categories, difficulty, and sound.")
+                        Text("These defaults apply only to new alarms. Existing alarms keep their own settings.")
                             .font(.footnote)
                             .foregroundStyle(AppTheme.textSecondary)
                             .padding(.horizontal, 4)
@@ -85,6 +127,17 @@ struct SettingsView: View {
         }
     }
 
+    private var repeatDaysBinding: Binding<Set<RepeatDay>> {
+        Binding(
+            get: {
+                Set(defaultAlarmRepeatDays.split(separator: ",").compactMap { RepeatDay(rawValue: Int($0) ?? -1) })
+            },
+            set: { days in
+                defaultAlarmRepeatDays = days.map { String($0.rawValue) }.sorted().joined(separator: ",")
+            }
+        )
+    }
+
     private func binding(for category: TriviaCategory) -> Binding<Bool> {
         Binding(
             get: { selectedIDs.contains(category.id) },
@@ -100,6 +153,24 @@ struct SettingsView: View {
                 }
             }
         )
+    }
+}
+
+enum DefaultRepeatMode: String, CaseIterable, Identifiable {
+    case once
+    case everyDay
+    case weekdays
+    case custom
+
+    var id: String { rawValue }
+
+    var title: String {
+        switch self {
+        case .once: "Once"
+        case .everyDay: "Every day"
+        case .weekdays: "Weekdays"
+        case .custom: "Custom"
+        }
     }
 }
 

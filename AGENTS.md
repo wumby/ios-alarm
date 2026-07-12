@@ -1,13 +1,13 @@
-# Alarm: Trivia Agent Context
+# Sunrise: Alarm Agent Context
 
 This is a native iOS SwiftUI project, not a Next.js project.
 
 ## Project Identity
 
-- User-facing app brand: `Alarm: Trivia`
+- User-facing app brand: `Sunrise: Alarm`
 - Xcode project: `TriviaAlarm.xcodeproj`
 - Current Xcode scheme/target: `Trivia Alarm`
-- Product/display name: `Alarm: Trivia`
+- Product/display name: `Sunrise: Alarm`
 - Bundle identifier currently uses the sample value `com.example.TriviaAlarm`; change this before production.
 
 ## Build And Verification

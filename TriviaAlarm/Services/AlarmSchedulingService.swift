@@ -144,13 +144,11 @@ final class AlarmSchedulingService: ObservableObject {
             : .weekly(alarm.repeatDays.sorted { $0.rawValue < $1.rawValue }.map(\.alarmKitWeekday))
         let schedule = Alarm.Schedule.relative(.init(time: time, repeats: recurrence))
 
-        let title = LocalizedStringResource(stringLiteral: alarm.label.isEmpty ? "Alarm: Trivia" : alarm.label)
+        let title = LocalizedStringResource(stringLiteral: alarm.label.isEmpty ? "Sunrise: Alarm" : alarm.label)
         let challengeButton = AlarmButton(text: "CLICK TO STOP", textColor: .white, systemImageName: "sparkles")
         let stopButton = AlarmButton(text: "Stop", textColor: .white, systemImageName: "xmark.circle.fill")
         let alert: AlarmPresentation.Alert
-        if !alarm.triviaEnabled {
-            alert = AlarmPresentation.Alert(title: title, stopButton: stopButton)
-        } else if #available(iOS 26.1, *) {
+        if #available(iOS 26.1, *) {
             alert = AlarmPresentation.Alert(
                 title: title,
                 secondaryButton: challengeButton,
@@ -237,7 +235,7 @@ final class AlarmSchedulingService: ObservableObject {
 
     private func addNotification(alarm: AlarmItem, weekday: Int?) async {
         let content = UNMutableNotificationContent()
-        content.title = alarm.label.isEmpty ? "Alarm: Trivia" : alarm.label
+        content.title = alarm.label.isEmpty ? "Sunrise: Alarm" : alarm.label
         content.body = alarm.triviaEnabled ? "Answer a trivia question to dismiss." : "Your alarm is going off."
         content.sound = alarm.sound.fileName.map { UNNotificationSound(named: UNNotificationSoundName(rawValue: $0)) } ?? .default
         content.userInfo = [

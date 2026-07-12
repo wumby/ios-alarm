@@ -11,8 +11,6 @@ struct AlarmFormView: View {
     @Environment(\.dismiss) private var dismiss
     @Environment(\.modelContext) private var modelContext
     @EnvironmentObject private var scheduler: AlarmSchedulingService
-    @AppStorage("defaultTriviaCategoryIDs") private var defaultCategoryIDs = TriviaCategory.defaultEnabled.map(\.id).joined(separator: ",")
-
     let mode: AlarmFormMode
     let onSaved: ((AlarmItem) -> Void)?
     @State private var state: AlarmFormState
@@ -24,13 +22,26 @@ struct AlarmFormView: View {
         switch mode {
         case .create:
             var form = AlarmFormState()
-            let defaults = Set(UserDefaults.standard.string(forKey: "defaultTriviaCategoryIDs")?.split(separator: ",").map(String.init) ?? TriviaCategory.defaultEnabled.map(\.id))
-            form.categoryIDs = defaults
-            form.difficulty = TriviaDifficulty(rawValue: UserDefaults.standard.string(forKey: "defaultTriviaDifficulty") ?? TriviaDifficulty.mixed.rawValue) ?? .mixed
-            form.sound = AlarmSoundChoice(rawValue: UserDefaults.standard.string(forKey: "defaultAlarmSound") ?? "default") ?? .systemDefault
+            let userDefaults = UserDefaults.standard
+            form.label = userDefaults.string(forKey: "defaultAlarmLabel") ?? ""
+            form.isTriviaEnabled = userDefaults.object(forKey: "defaultTriviaEnabled") as? Bool ?? true
+            form.categoryIDs = Set(userDefaults.string(forKey: "defaultTriviaCategoryIDs")?.split(separator: ",").map(String.init) ?? TriviaCategory.defaultEnabled.map(\.id))
+            form.difficulty = TriviaDifficulty(rawValue: userDefaults.string(forKey: "defaultTriviaDifficulty") ?? TriviaDifficulty.mixed.rawValue) ?? .mixed
+            form.sound = AlarmSoundChoice(rawValue: userDefaults.string(forKey: "defaultAlarmSound") ?? "default") ?? .systemDefault
+            form.repeatDays = Self.defaultRepeatDays(from: userDefaults.string(forKey: "defaultAlarmRepeatMode") ?? DefaultRepeatMode.once.rawValue)
             _state = State(initialValue: form)
         case .edit(let alarm):
             _state = State(initialValue: AlarmFormState(alarm: alarm))
+        }
+    }
+
+    private static func defaultRepeatDays(from mode: String) -> Set<RepeatDay> {
+        switch DefaultRepeatMode(rawValue: mode) ?? .once {
+        case .once: []
+        case .everyDay: Set(RepeatDay.allCases)
+        case .weekdays: Set([.monday, .tuesday, .wednesday, .thursday, .friday])
+        case .custom:
+            Set(UserDefaults.standard.string(forKey: "defaultAlarmRepeatDays")?.split(separator: ",").compactMap { RepeatDay(rawValue: Int($0) ?? -1) } ?? [])
         }
     }
 
@@ -212,12 +223,25 @@ struct AlarmFormView: View {
 
     private var repeatModeBinding: Binding<RepeatMode> {
         Binding(
-            get: { state.repeatDays.isEmpty ? .once : .weekly },
+            get: {
+                let days = state.repeatDays
+                if days.isEmpty { return .once }
+                if days == Set(RepeatDay.allCases) { return .everyDay }
+                if days == Set([.monday, .tuesday, .wednesday, .thursday, .friday]) { return .weekdays }
+                return .custom
+            },
             set: { mode in
-                if mode == .once {
+                switch mode {
+                case .once:
                     state.repeatDays = []
-                } else if state.repeatDays.isEmpty {
+                case .everyDay:
                     state.repeatDays = Set(RepeatDay.allCases)
+                case .weekdays:
+                    state.repeatDays = Set([.monday, .tuesday, .wednesday, .thursday, .friday])
+                case .custom:
+                    if state.repeatDays.isEmpty {
+                        state.repeatDays = Set(RepeatDay.allCases)
+                    }
                 }
             }
         )
@@ -266,14 +290,18 @@ struct AlarmFormView: View {
 
 private enum RepeatMode: String, CaseIterable, Identifiable {
     case once
-    case weekly
+    case everyDay
+    case weekdays
+    case custom
 
     var id: String { rawValue }
 
     var title: String {
         switch self {
         case .once: "Once"
-        case .weekly: "Weekly"
+        case .everyDay: "Every day"
+        case .weekdays: "Weekdays"
+        case .custom: "Custom"
         }
     }
 }

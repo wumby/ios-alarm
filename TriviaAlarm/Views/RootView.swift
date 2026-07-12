@@ -41,7 +41,7 @@ struct RootView: View {
 
     private var activeAlarmBinding: Binding<Bool> {
         Binding(
-            get: { runtime.activeAlarmID != nil && activeAlarm?.triviaEnabled == true },
+            get: { runtime.activeAlarmID != nil && activeAlarm != nil },
             set: { isPresented in
                 if !isPresented {
                     runtime.clear()

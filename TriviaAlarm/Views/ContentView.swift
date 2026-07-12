@@ -7,6 +7,7 @@ struct ContentView: View {
     @Query(sort: \AlarmItem.timeMinutes) private var alarms: [AlarmItem]
     @StateObject private var streakStore = StreakStore.shared
 
+    @State private var selectedTab: AppTab = .home
     @State private var showingNewAlarm = false
     @State private var editingAlarm: AlarmItem?
     @State private var expandedHours: Set<Int> = []
@@ -18,17 +19,20 @@ struct ContentView: View {
     @State private var showingDeleteConfirmation = false
 
     var body: some View {
-        TabView {
+        TabView(selection: $selectedTab) {
             homeView
                 .tabItem {
                     Label("Home", systemImage: "house")
                 }
+                .tag(AppTab.home)
 
             SettingsView()
                 .tabItem {
                     Label("Settings", systemImage: "gearshape")
                 }
+                .tag(AppTab.settings)
         }
+        .animation(.easeInOut(duration: 0.24), value: selectedTab)
         .tint(AppTheme.accent)
         .toolbarBackground(AppTheme.cream, for: .tabBar)
         .toolbarBackground(.visible, for: .tabBar)
@@ -69,7 +73,7 @@ struct ContentView: View {
                                     NextChallengeView(
                                         alarm: nextAlarm,
                                         fireDate: nextFireDate(for: nextAlarm),
-                                        title: alarmFilter == .favorites ? "Next favorite alarm" : "Next alarm"
+                                        title: nextAlarmTitle
                                     ) {
                                         expandedHours.insert(nextAlarm.hour)
                                         scrollToAlarm(nextAlarm.id, hour: nextAlarm.hour, using: proxy)
@@ -84,7 +88,7 @@ struct ContentView: View {
                                 }
                                 .padding(.horizontal, 24)
                             } else if filteredAlarms.isEmpty {
-                                EmptyFavoritesView()
+                                EmptyFilteredAlarmsView(filter: alarmFilter)
                                     .padding(.horizontal, 24)
                             } else if isEditingAlarms {
                                 LazyVGrid(
@@ -130,6 +134,7 @@ struct ContentView: View {
                             }
                             .padding(.top, 24)
                             .padding(.bottom, 24)
+                            .animation(.easeInOut(duration: 0.24), value: alarmFilter)
                         }
                         .onChange(of: scrollTargetAlarmID) { _, targetID in
                             guard let targetID else { return }
@@ -238,12 +243,25 @@ struct ContentView: View {
             }
     }
 
+    private var nextAlarmTitle: String {
+        switch alarmFilter {
+        case .all:
+            "Next alarm"
+        case .favorites:
+            "Next favorite alarm"
+        case .active:
+            "Next active alarm"
+        }
+    }
+
     private var filteredAlarms: [AlarmItem] {
         switch alarmFilter {
         case .all:
             alarms
         case .favorites:
             alarms.filter { $0.isFavorite == true }
+        case .active:
+            alarms.filter(\.isEnabled)
         }
     }
 
@@ -299,16 +317,23 @@ struct ContentView: View {
     }
 }
 
+private enum AppTab {
+    case home
+    case settings
+}
+
 private enum AlarmFilter: String, CaseIterable, Identifiable {
     case all
     case favorites
+    case active
 
     var id: String { rawValue }
 
     var title: String {
         switch self {
-        case .all: "All alarms"
+        case .all: "All"
         case .favorites: "Favorites"
+        case .active: "Active"
         }
     }
 }
@@ -321,6 +346,7 @@ private struct DashboardHeader: View {
     let hasSelection: Bool
     let onToggleEditing: () -> Void
     let onDeleteSelected: () -> Void
+    @Namespace private var filterAnimation
 
     var body: some View {
         VStack(alignment: .leading, spacing: 12) {
@@ -328,7 +354,7 @@ private struct DashboardHeader: View {
                 HStack {
                     Button("Cancel", action: onToggleEditing)
                         .font(.subheadline.weight(.bold))
-                        .foregroundStyle(.white)
+                        .foregroundStyle(AppTheme.textSecondary)
 
                     Spacer()
 
@@ -345,7 +371,7 @@ private struct DashboardHeader: View {
                     Spacer()
 
                     Button(action: onToggleEditing) {
-                        Image(systemName: "pencil")
+                        Image(systemName: "checklist")
                             .font(.headline.weight(.bold))
                             .foregroundStyle(AppTheme.textPrimary)
                             .frame(width: 42, height: 42)
@@ -386,24 +412,19 @@ private struct DashboardHeader: View {
         HStack(spacing: 4) {
             ForEach(AlarmFilter.allCases) { option in
                 Button {
-                    filter = option
-                } label: {
-                    HStack(spacing: 6) {
-                        if option == .favorites {
-                            Image(systemName: "star.fill")
-                                .font(.caption2.weight(.bold))
-                        }
-
-                        Text(option.title)
-                            .font(.caption.weight(.bold))
+                    withAnimation(.easeInOut(duration: 0.24)) {
+                        filter = option
                     }
+                } label: {
+                    Text(option.title)
+                        .font(.caption.weight(.bold))
                     .foregroundStyle(filter == option ? AppTheme.textPrimary : AppTheme.textSecondary)
                     .frame(minWidth: 88, minHeight: 36)
                     .background(
-                        RoundedRectangle(cornerRadius: 12, style: .continuous)
-                            .fill(
-                                filter == option
-                                    ? AnyShapeStyle(
+                        Group {
+                            if filter == option {
+                                RoundedRectangle(cornerRadius: 12, style: .continuous)
+                                    .fill(
                                         LinearGradient(
                                             colors: [
                                                 AppTheme.skyBlue.opacity(0.55),
@@ -414,8 +435,9 @@ private struct DashboardHeader: View {
                                             endPoint: .trailing
                                         )
                                     )
-                                    : AnyShapeStyle(Color.clear)
-                            )
+                                    .matchedGeometryEffect(id: "selected-filter", in: filterAnimation)
+                            }
+                        }
                     )
                 }
                 .buttonStyle(.plain)
@@ -725,24 +747,48 @@ private struct EmptyChallengeView: View {
     }
 }
 
-private struct EmptyFavoritesView: View {
+private struct EmptyFilteredAlarmsView: View {
+    let filter: AlarmFilter
+
     var body: some View {
         VStack(alignment: .leading, spacing: 12) {
-            Image(systemName: "star")
+            Image(systemName: filter == .favorites ? "star" : "alarm")
                 .font(.system(size: 34, weight: .bold))
                 .foregroundStyle(AppTheme.accent)
 
-            Text("No favorite alarms yet.")
+            Text(emptyTitle)
                 .font(.title3.weight(.black))
                 .foregroundStyle(AppTheme.textPrimary)
 
-            Text("Tap the star on an alarm to keep it here.")
+            Text(emptyMessage)
                 .font(.body)
                 .foregroundStyle(AppTheme.textSecondary)
         }
         .padding(24)
         .frame(maxWidth: .infinity, alignment: .leading)
         .floatingCard()
+    }
+
+    private var emptyTitle: String {
+        switch filter {
+        case .all:
+            "No alarms yet."
+        case .favorites:
+            "No favorite alarms yet."
+        case .active:
+            "No active alarms."
+        }
+    }
+
+    private var emptyMessage: String {
+        switch filter {
+        case .all:
+            "Add an alarm to start your wake-up challenges."
+        case .favorites:
+            "Tap the star on an alarm to keep it here."
+        case .active:
+            "Enable an alarm to see it here."
+        }
     }
 }
 
