@@ -2,6 +2,20 @@
 
 A SwiftUI MVP for an alarm app that requires a correct multiple-choice trivia answer before the in-app alarm dismissal flow completes.
 
+## Release Checklist
+
+- Replace `com.sunrisealarm.app` with the bundle identifier registered to the production Apple Developer team.
+- Enable and verify any Apple-required AlarmKit capability/entitlement for the release target.
+- Test one-time and repeating alarms on a physical iOS 26+ device, including relaunching after the alarm fires.
+- Test the local-notification fallback on an older supported iOS version and confirm the user-facing limitation around notification dismissal.
+- Verify the generated app icon in the Home Screen, Settings, and TestFlight builds.
+- Add automated coverage for alarm persistence, scheduling cancellation, trivia filtering, and streak rollover before broad release.
+
+Trivia content generation:
+
+- `python3 Scripts/validate_trivia_bank.py --per-category 300` must pass before bundling content.
+- Trivia content should be curated and generated locally in the app's playful “surprising fact” style; the app remains fully offline.
+
 ## Project Structure
 
 - `TriviaAlarm/App`: app entry point and notification delegate setup.

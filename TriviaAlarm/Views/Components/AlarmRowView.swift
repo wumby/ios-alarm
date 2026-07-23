@@ -4,6 +4,7 @@ struct AlarmRowView: View {
     @Environment(\.modelContext) private var modelContext
     @EnvironmentObject private var scheduler: AlarmSchedulingService
     @Bindable var alarm: AlarmItem
+    @State private var saveErrorMessage: String?
     var showsEnabledToggle = true
     var showsFavoriteButton = true
     var isFavoriteButtonInteractive = true
@@ -15,7 +16,7 @@ struct AlarmRowView: View {
                     if isFavoriteButtonInteractive {
                         Button {
                             alarm.isFavorite = !(alarm.isFavorite == true)
-                            try? modelContext.save()
+                            saveChanges()
                         } label: {
                             favoriteIcon
                         }
@@ -31,7 +32,7 @@ struct AlarmRowView: View {
                 if showsEnabledToggle {
                     ThemeToggle(isOn: $alarm.isEnabled)
                         .onChange(of: alarm.isEnabled) { _, _ in
-                            try? modelContext.save()
+                            saveChanges()
                             Task {
                                 await scheduler.schedule(alarm: alarm)
                             }
@@ -61,6 +62,28 @@ struct AlarmRowView: View {
         .padding(20)
         .frame(maxWidth: .infinity, minHeight: 162, alignment: .topLeading)
         .floatingCard()
+        .alert("Couldn’t Save Alarm", isPresented: saveErrorBinding) {
+            Button("OK", role: .cancel) {}
+        } message: {
+            Text(saveErrorMessage ?? "Please try again.")
+        }
+    }
+
+    private func saveChanges() {
+        do {
+            try modelContext.save()
+        } catch {
+            saveErrorMessage = error.localizedDescription
+        }
+    }
+
+    private var saveErrorBinding: Binding<Bool> {
+        Binding(
+            get: { saveErrorMessage != nil },
+            set: { isPresented in
+                if !isPresented { saveErrorMessage = nil }
+            }
+        )
     }
 
     private var favoriteIcon: some View {

@@ -16,6 +16,7 @@ struct AlarmFormView: View {
     @State private var state: AlarmFormState
     @State private var repeatMode: RepeatMode
     @State private var previewPlayer: AVAudioPlayer?
+    @State private var saveErrorMessage: String?
 
     init(mode: AlarmFormMode, onSaved: ((AlarmItem) -> Void)? = nil) {
         self.mode = mode
@@ -210,6 +211,11 @@ struct AlarmFormView: View {
             previewPlayer?.stop()
             previewPlayer = nil
         }
+        .alert("Couldn’t Save Alarm", isPresented: saveErrorBinding) {
+            Button("OK", role: .cancel) {}
+        } message: {
+            Text(saveErrorMessage ?? "Please try again.")
+        }
     }
 
     private var title: String {
@@ -275,12 +281,29 @@ struct AlarmFormView: View {
             state.apply(to: existing)
         }
 
-        try? modelContext.save()
+        do {
+            try modelContext.save()
+        } catch {
+            if case .create = mode {
+                modelContext.delete(alarm)
+            }
+            saveErrorMessage = error.localizedDescription
+            return
+        }
         onSaved?(alarm)
         Task {
             await scheduler.schedule(alarm: alarm)
         }
         dismiss()
+    }
+
+    private var saveErrorBinding: Binding<Bool> {
+        Binding(
+            get: { saveErrorMessage != nil },
+            set: { isPresented in
+                if !isPresented { saveErrorMessage = nil }
+            }
+        )
     }
 
     private func previewSound() {

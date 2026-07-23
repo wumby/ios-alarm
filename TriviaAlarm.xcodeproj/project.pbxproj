@@ -29,12 +29,7 @@
 		100000000000000000000013 /* AlarmKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 200000000000000000000014 /* AlarmKit.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		100000000000000000000014 /* OpenTriviaIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000016 /* OpenTriviaIntent.swift */; };
 		100000000000000000000015 /* StreakStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000017 /* StreakStore.swift */; };
-		100000000000000000000016 /* trivia_general.json in Resources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000018 /* trivia_general.json */; };
-		100000000000000000000017 /* trivia_science.json in Resources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000019 /* trivia_science.json */; };
-		100000000000000000000018 /* trivia_history.json in Resources */ = {isa = PBXBuildFile; fileRef = 20000000000000000000001A /* trivia_history.json */; };
-		100000000000000000000019 /* trivia_geography.json in Resources */ = {isa = PBXBuildFile; fileRef = 20000000000000000000001B /* trivia_geography.json */; };
-		10000000000000000000001A /* trivia_entertainment.json in Resources */ = {isa = PBXBuildFile; fileRef = 20000000000000000000001C /* trivia_entertainment.json */; };
-		10000000000000000000001B /* trivia_sports.json in Resources */ = {isa = PBXBuildFile; fileRef = 20000000000000000000001D /* trivia_sports.json */; };
+		100000000000000000000024 /* trivia_fun.json in Resources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000024 /* trivia_fun.json */; };
 		100000000000000000000021 /* alarm_glass.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000021 /* alarm_glass.aiff */; };
 		100000000000000000000022 /* alarm_ping.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000022 /* alarm_ping.aiff */; };
 		100000000000000000000023 /* alarm_hero.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000023 /* alarm_hero.aiff */; };
@@ -65,12 +60,7 @@
 		200000000000000000000015 /* Sunrise: Alarm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sunrise: Alarm.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		200000000000000000000016 /* OpenTriviaIntent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenTriviaIntent.swift; sourceTree = "<group>"; };
 		200000000000000000000017 /* StreakStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StreakStore.swift; sourceTree = "<group>"; };
-		200000000000000000000018 /* trivia_general.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = trivia_general.json; sourceTree = "<group>"; };
-		200000000000000000000019 /* trivia_science.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = trivia_science.json; sourceTree = "<group>"; };
-		20000000000000000000001A /* trivia_history.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = trivia_history.json; sourceTree = "<group>"; };
-		20000000000000000000001B /* trivia_geography.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = trivia_geography.json; sourceTree = "<group>"; };
-		20000000000000000000001C /* trivia_entertainment.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = trivia_entertainment.json; sourceTree = "<group>"; };
-		20000000000000000000001D /* trivia_sports.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = trivia_sports.json; sourceTree = "<group>"; };
+		200000000000000000000024 /* trivia_fun.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = trivia_fun.json; sourceTree = "<group>"; };
 		200000000000000000000021 /* alarm_glass.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = alarm_glass.aiff; sourceTree = "<group>"; };
 		200000000000000000000022 /* alarm_ping.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = alarm_ping.aiff; sourceTree = "<group>"; };
 		200000000000000000000023 /* alarm_hero.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = alarm_hero.aiff; sourceTree = "<group>"; };
@@ -169,12 +159,7 @@
 			isa = PBXGroup;
 			children = (
 				200000000000000000000012 /* Assets.xcassets */,
-				20000000000000000000001C /* trivia_entertainment.json */,
-				200000000000000000000018 /* trivia_general.json */,
-				20000000000000000000001B /* trivia_geography.json */,
-				20000000000000000000001A /* trivia_history.json */,
-				200000000000000000000019 /* trivia_science.json */,
-				20000000000000000000001D /* trivia_sports.json */,
+				200000000000000000000024 /* trivia_fun.json */,
 				200000000000000000000021 /* alarm_glass.aiff */,
 				200000000000000000000022 /* alarm_ping.aiff */,
 				200000000000000000000023 /* alarm_hero.aiff */,
@@ -275,12 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				100000000000000000000012 /* Assets.xcassets in Resources */,
-				10000000000000000000001A /* trivia_entertainment.json in Resources */,
-				100000000000000000000016 /* trivia_general.json in Resources */,
-				100000000000000000000019 /* trivia_geography.json in Resources */,
-				100000000000000000000018 /* trivia_history.json in Resources */,
-				100000000000000000000017 /* trivia_science.json in Resources */,
-				10000000000000000000001B /* trivia_sports.json in Resources */,
+				100000000000000000000024 /* trivia_fun.json in Resources */,
 				100000000000000000000021 /* alarm_glass.aiff in Resources */,
 				100000000000000000000022 /* alarm_ping.aiff in Resources */,
 				100000000000000000000023 /* alarm_hero.aiff in Resources */,
@@ -457,7 +437,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.example.TriviaAlarm;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sunrisealarm.app;
 				PRODUCT_NAME = "Sunrise: Alarm";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -483,7 +463,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.example.TriviaAlarm;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sunrisealarm.app;
 				PRODUCT_NAME = "Sunrise: Alarm";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;

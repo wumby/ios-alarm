@@ -17,6 +17,7 @@ struct ContentView: View {
     @State private var isEditingAlarms = false
     @State private var selectedAlarmIDs: Set<UUID> = []
     @State private var showingDeleteConfirmation = false
+    @State private var persistenceErrorMessage: String?
 
     var body: some View {
         TabView(selection: $selectedTab) {
@@ -185,6 +186,11 @@ struct ContentView: View {
             } message: {
                 Text("Are you sure you want to delete \(selectedAlarmIDs.count) alarms?")
             }
+            .alert("Couldn’t Update Alarms", isPresented: persistenceErrorBinding) {
+                Button("OK", role: .cancel) {}
+            } message: {
+                Text(persistenceErrorMessage ?? "Please try again.")
+            }
         }
         .sheet(isPresented: $showingNewAlarm) {
             AlarmFormView(mode: .create) { alarm in
@@ -201,7 +207,11 @@ struct ContentView: View {
     private func delete(_ alarm: AlarmItem) {
         scheduler.cancel(alarm: alarm)
         modelContext.delete(alarm)
-        try? modelContext.save()
+        do {
+            try modelContext.save()
+        } catch {
+            persistenceErrorMessage = error.localizedDescription
+        }
     }
 
     private func toggleSelection(_ alarm: AlarmItem) {
@@ -217,9 +227,22 @@ struct ContentView: View {
             scheduler.cancel(alarm: alarm)
             modelContext.delete(alarm)
         }
-        try? modelContext.save()
+        do {
+            try modelContext.save()
+        } catch {
+            persistenceErrorMessage = error.localizedDescription
+        }
         selectedAlarmIDs.removeAll()
         isEditingAlarms = false
+    }
+
+    private var persistenceErrorBinding: Binding<Bool> {
+        Binding(
+            get: { persistenceErrorMessage != nil },
+            set: { isPresented in
+                if !isPresented { persistenceErrorMessage = nil }
+            }
+        )
     }
 
     private func scrollToAlarm(_ id: UUID, hour: Int? = nil, using proxy: ScrollViewProxy) {
